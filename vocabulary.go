@@ -72,6 +72,9 @@ func removeDuplicates(fileName string) {
 			break
 		}
 
+		if s == ""{
+			continue
+		}
 		set[s] = true // Add
 	}
 
