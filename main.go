@@ -1,77 +1,76 @@
 package main
 
 import (
-	"bufio"
 	"flag"
-	"log"
-	"os"
-	"regexp"
+	"github.com/lingt-xyz/goTool/csv"
+	"github.com/lingt-xyz/goTool/csv/fn2fn"
+	shrink2 "github.com/lingt-xyz/goTool/csv/shrink"
+	matrix2 "github.com/lingt-xyz/goTool/matrix"
 )
 
-func main() {
-	f := flag.String("f", "", "input file name")
+var (
+	normalize   bool
+	voc         bool
+	removeEmpty bool
+	indices     string
+	merge       bool
+	f1          string
+	f2          string
+	shrink      bool
+	percentage  float64
+	keepHeader  bool
+	separate    bool
+	rotate      bool
+	matrix      bool
+	input       string
+)
+
+func init() {
+	// normalize ARM
+	flag.BoolVar(&normalize, "normalize", false, "normalize ARM instructions")
+	// remove duplicate words
+	flag.BoolVar(&voc, "voc", false, "remove duplicates from vocabulary file")
+
+	// remove rows containing empty fields
+	flag.BoolVar(&removeEmpty, "removeEmpty", false, "remove rows containing empty fields from a CSV file")
+	flag.StringVar(&indices, "indices", "", "Indices of fields need to be checked on emptiness; if this is not provided, all fields are going to be checked.")
+
+	// map ARM and X86 by merging them
+	flag.BoolVar(&merge, "removeEmpty", false, "remove rows containing empty fields from a CSV file")
+	flag.StringVar(&f1, "f1", "ARM.csv", "first file to be merged with the second file")
+	flag.StringVar(&f2, "f2", "X86.csv", "second file to be merged with the first file")
+
+	// shrink file
+	flag.BoolVar(&shrink, "shrink", false, "shrink file")
+	flag.Float64Var(&percentage, "p", 0.5, "percentage of the file to keep")
+	flag.BoolVar(&keepHeader, "h", false, "keep headers")
+	flag.BoolVar(&separate, "s", false, "keep both files")
+
+	// rotate dataset folder
+	flag.BoolVar(&rotate, "rotate", false, "rotate dataset folder")
+
+	// log matrix
+	flag.BoolVar(&matrix, "matrix", false, "log matrix")
+	flag.StringVar(&input, "input", "", "input file name")
 	flag.Parse()
-	normalized(*f)
-	//removeDuplicates(*f)
 }
 
-var reMem = regexp.MustCompile(`MEM\w+`)
-var reTmp = regexp.MustCompile(`t\d+`)
-func normalized(fileName string) {
-	sourceFile, err := os.Open(fileName)
-	if err != nil {
-		log.Fatalf("Cannot open file: %v, got error: %v", fileName, err)
-	}
-	defer sourceFile.Close()
-
-	targetFileName := fileName + ".normalized"
-	targetFile, err := os.Create(targetFileName)
-	if err != nil {
-		log.Fatalf("Failed to create target file: %v, got error: %v", targetFileName, err)
-	}
-	defer targetFile.Close()
-
-	reader := bufio.NewReader(sourceFile)
-
-	for {
-		s, err := reader.ReadString('\n')
-		if err != nil {
-			break
-		}
-
-		s = reMem.ReplaceAllString(s, "MEM")
-		s = reTmp.ReplaceAllString(s, "TMP")
-		_, _ = targetFile.WriteString(s)
-	}
-}
-
-func removeDuplicates(fileName string){
-	sourceFile, err := os.Open(fileName)
-	if err != nil {
-		log.Fatalf("Cannot open file: %v, got error: %v", fileName, err)
-	}
-	defer sourceFile.Close()
-
-	targetFileName := fileName + ".duplicatesRemoved"
-	targetFile, err := os.Create(targetFileName)
-	if err != nil {
-		log.Fatalf("Failed to create target file: %v, got error: %v", targetFileName, err)
-	}
-	defer targetFile.Close()
-
-	reader := bufio.NewReader(sourceFile)
-
-	set := make(map[string]bool) // New empty set
-	for {
-		s, err := reader.ReadString('\n')
-		if err != nil {
-			break
-		}
-
-		set[s] = true            // Add
+func main() {
+	if normalize {
+		normalizeARM(input)
+	} else if voc {
+		removeDuplicates(input)
+	} else if removeEmpty {
+		file, indices := csv.GetParameters(input, indices)
+		csv.UpdateCSV(file, indices)
+	} else if merge {
+		fn2fn.MapFunctionsX86AndArm(f1, f2)
+	} else if shrink {
+		shrink2.ShrinkFile(input, percentage, keepHeader, separate)
+	} else if rotate {
+		rotateFolder(input)
+	} else if matrix {
+		matrix2.Matrix(input)
 	}
 
-	for k := range set {         // Loop
-		_, _ = targetFile.WriteString(k)
-	}
 }
