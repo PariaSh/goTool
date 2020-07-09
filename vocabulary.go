@@ -37,7 +37,7 @@ func generateVocabulary(fileName string) {
 		}
 	}
 
-	targetFileName := fileName + ".duplicate"
+	targetFileName := fileName + ".voc"
 	targetFile, err := os.Create(targetFileName)
 	if err != nil {
 		log.Fatalf("Failed to create target file: %v, got error: %v", targetFileName, err)
@@ -45,7 +45,7 @@ func generateVocabulary(fileName string) {
 	defer targetFile.Close()
 
 	for k, _ := range vocabularyMap {
-		targetFile.WriteString(k)
+		targetFile.WriteString(k + "\n")
 	}
 }
 

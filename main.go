@@ -41,7 +41,7 @@ func init() {
 	flag.StringVar(&indices, "indices", "", "Indices of fields need to be checked on emptiness; if this is not provided, all fields are going to be checked.")
 
 	// map ARM and X86 by merging them
-	flag.BoolVar(&merge, "removeEmpty", false, "remove rows containing empty fields from a CSV file")
+	flag.BoolVar(&merge, "merge", false, "remove rows containing empty fields from a CSV file")
 	flag.StringVar(&f1, "f1", "ARM.csv", "first file to be merged with the second file")
 	flag.StringVar(&f2, "f2", "X86.csv", "second file to be merged with the first file")
 
