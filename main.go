@@ -11,6 +11,7 @@ import (
 var (
 	normalize   bool
 	voc         bool
+	duplicate   bool
 	removeEmpty bool
 	indices     string
 	merge       bool
@@ -28,8 +29,12 @@ var (
 func init() {
 	// normalize ARM
 	flag.BoolVar(&normalize, "normalize", false, "normalize ARM instructions")
+
+	// generate vocabulary
+	flag.BoolVar(&voc, "voc", false, "generate vocabulary")
+
 	// remove duplicate words
-	flag.BoolVar(&voc, "voc", false, "remove duplicates from vocabulary file")
+	flag.BoolVar(&duplicate, "duplicate", false, "remove duplicates from vocabulary file")
 
 	// remove rows containing empty fields
 	flag.BoolVar(&removeEmpty, "removeEmpty", false, "remove rows containing empty fields from a CSV file")
@@ -59,6 +64,8 @@ func main() {
 	if normalize {
 		normalizeARM(input)
 	} else if voc {
+		generateVocabulary(input)
+	} else if duplicate {
 		removeDuplicates(input)
 	} else if removeEmpty {
 		file, indices := csv.GetParameters(input, indices)
