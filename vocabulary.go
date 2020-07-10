@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func generateVocabulary(fileName string) {
+func generateVocabulary(fileName string, index int) {
 	sourceFile, err := os.Open(fileName)
 	if err != nil {
 		log.Fatalf("Cannot open file: %v, got error: %v", fileName, err)
@@ -27,7 +27,7 @@ func generateVocabulary(fileName string) {
 		if err != nil {
 			log.Fatal(err)
 		}
-		edgeCoverage := record[8]
+		edgeCoverage := record[index]
 		bb := strings.Split(edgeCoverage, "#")
 		for i := range bb {
 			token := strings.TrimSpace(bb[i])

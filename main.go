@@ -11,6 +11,7 @@ import (
 var (
 	normalize   bool
 	voc         bool
+	index	int
 	duplicate   bool
 	removeEmpty bool
 	indices     string
@@ -32,6 +33,7 @@ func init() {
 
 	// generate vocabulary
 	flag.BoolVar(&voc, "voc", false, "generate vocabulary")
+	flag.IntVar(&index, "index", -1, "column to generate vocabulary from")
 
 	// remove duplicate words
 	flag.BoolVar(&duplicate, "duplicate", false, "remove duplicates from vocabulary file")
@@ -64,7 +66,7 @@ func main() {
 	if normalize {
 		normalizeARM(input)
 	} else if voc {
-		generateVocabulary(input)
+		generateVocabulary(input, index)
 	} else if duplicate {
 		removeDuplicates(input)
 	} else if removeEmpty {
