@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func ShrinkFile(fileName string, percentage float64, keepHeader bool, separate bool){
+func ShrinkFile(fileName string, percentage float64, hasHeader bool, separate bool){
 	if fileName == "" {
 		log.Fatalf("No input fileName was given")
 	} else {
@@ -18,9 +18,9 @@ func ShrinkFile(fileName string, percentage float64, keepHeader bool, separate b
 		log.Fatalf("Invalid percentage: expecting (0, 1.0), got %v", percentage)
 	}
 
-	shrink(fileName, percentage, keepHeader, separate)
+	shrink(fileName, percentage, hasHeader, separate)
 }
-func shrink(fileName string, percentage float64, keepHeader, separate bool) {
+func shrink(fileName string, percentage float64, hasHeader, separate bool) {
 
 	sourceFile, err := os.Open(fileName)
 	if err != nil {
@@ -50,7 +50,7 @@ func shrink(fileName string, percentage float64, keepHeader, separate bool) {
 	//var header string
 	//var headerScanned bool
 	//for scanner.Scan() {
-	//	if keepHeader && !headerScanned {
+	//	if hasHeader && !headerScanned {
 	//		header = scanner.Text()
 	//		headerScanned = true
 	//		_, _ = targetFile.WriteString(header + "\n")
@@ -72,7 +72,7 @@ func shrink(fileName string, percentage float64, keepHeader, separate bool) {
 
 	reader := bufio.NewReader(sourceFile)
 
-	if keepHeader{
+	if hasHeader {
 		header, _ := reader.ReadString('\n')
 		_, _ = targetFile.WriteString(header)
 		_, _ = separateFile.WriteString(header)

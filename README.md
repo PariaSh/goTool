@@ -18,17 +18,45 @@ If the input file is test.csv The output files would be in the same folder with 
 2. test.csv-empty
 
 ### How to run it
-`./goTool -removeEmpty=true -input=test.csv -index="1,3,9"`
+`./goTool -removeEmpty=true -input=test.csv -indices="1,3,9" hasHeader=true`
 - Input file is test.csv
 - Indexes of fields to be checked are 1, 3 and 9.
 
-`./goTool -removeEmpty=true -input=test.csv -index="0"`
+`./goTool -removeEmpty=true -input=test.csv -indices="0"`
 - Input file is test.csv
 - Index of a field to be checked is 0.
 
 `./goTool -removeEmpty=true -input=test.csv`
 - Input file is test.csv
 - All fields are to be checked.
+
+## Remove rows with more tokens
+Remove rows that contain number of tokens out of limitation.
+
+### Output
+Two files to be expected.
+
+If the input file is test.csv The output files would be in the same folder with names 
+1. test.csv-non-qualified, and 
+2. test.csv-qualified
+
+### How to run it
+`./goTool -filter=true -input=test.csv -indices="1,3,9" -hasHeader=true -min=1 -max=512`
+- Input file is test.csv
+- Indexes of fields to be checked are 1, 3 and 9.
+- Minimum length is 1
+- Maximum length is 512
+
+`./goTool -filter=true -input=test.csv -indices="1,3,9" -hasHeader=true -min=1`
+- Input file is test.csv
+- Indexes of fields to be checked are 1, 3 and 9.
+- Minimum length is 1
+
+`./goTool -filter=true -input=test.csv -indices="1,3,9" -hasHeader=true`
+- Input file is test.csv
+- Indexes of fields to be checked are 1, 3 and 9.
+- Minimum length is 1
+
 
 ## Merge CSV
 
@@ -45,9 +73,9 @@ Randomly select a percentage of lines of a given file to generate a new file
 
 #### How to run
 
-`./goTool -shrink=true -i=fn2fn.csv -p=0.6 -h -s`
+`./goTool -shrink=true -input=fn2fn.csv -p=0.6 -hasHeader -s`
 
-- `i`: input file is "fn2fn.csv"
+- `input`: input file is "fn2fn.csv"
 - `p`: shrink percentage is 0.6
 - `h`: keep headers. If true, first line would be appeared in the generated file(s); otherwise, all lines are randomized into the generated file(s)
 - `s`: keep both files. If true, keep both fn2fn.csv.0.6 and fn2fn.csv.0.4 
