@@ -97,9 +97,9 @@ row:
 // printFiledIndices prints which fields has user chosen to check
 func printFiledIndices(header []string, indices []int) {
 	log.Printf("You checked the following fileds:")
-	fmt.Printf("-------------------\n")
+	fmt.Printf("------------------------\n")
 	for i, e := range header {
-		fmt.Printf("|%-15s|", e)
+		fmt.Printf("|%-20s|", e)
 		if len(indices) == 0 {
 			fmt.Print("Y")
 		} else {
@@ -111,7 +111,7 @@ func printFiledIndices(header []string, indices []int) {
 		}
 		fmt.Printf("\n")
 	}
-	fmt.Printf("-------------------\n")
+	fmt.Printf("------------------------\n")
 }
 
 // UpdateCSV removes rows that have empty fields at `indices`
