@@ -38,6 +38,9 @@ func shrink(fileName string, percentage float64, hasHeader, separate bool) {
 	var separateFile *os.File
 	if separate {
 		separateFileName := fileName + "." + strconv.FormatFloat(1-percentage, 'f', 2, 64)
+		if 1 - percentage == percentage{
+			separateFileName = separateFileName + ".separate"
+		}
 		separateFile, err = os.Create(separateFileName)
 		if err != nil {
 			log.Fatalf("Failed to create target file: %v, got error: %v", separateFile, err)
