@@ -27,6 +27,7 @@ var (
 	separate    bool
 	rotate      bool
 	matrix      bool
+	matrixLSTM  bool
 	input       string
 )
 
@@ -66,6 +67,7 @@ func init() {
 
 	// log matrix
 	flag.BoolVar(&matrix, "matrix", false, "log matrix")
+	flag.BoolVar(&matrixLSTM, "matrixLSTM", false, "log matrix")
 	flag.StringVar(&input, "input", "", "input file name")
 	flag.Parse()
 }
@@ -91,6 +93,8 @@ func main() {
 		rotateFolder(input)
 	} else if matrix {
 		matrix2.Matrix(input)
+	} else if matrixLSTM {
+		matrix2.MatrixLSTM(input)
 	}
 
 }
