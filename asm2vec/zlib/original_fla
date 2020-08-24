@@ -1,0 +1,107 @@
+did not find a match: 2
+matched expected: 6
+matched_more_than_05: 5
+matched unexpected: 86
+----------------------------------------------------------------did not find a match------------------------------------------------------------------
+inflate
+inflateEnd
+----------------------------------------------------------------matched expected------------------------------------------------------------------
+crc32_combine_ 0.8199090041438943
+inflateBack 0.6669623330672076
+inflate_fast 0.8558429498901934
+_tr_init 0.9135113785920397
+build_tree 0.9483383313621192
+pqdownheap 0.9614469310754337
+----------------------------------------------------------------number of blocks >= 1.5------------------------------------------------------------------
+crc32_combine_ 0.8199090041438943
+inflateBack 0.6669623330672076
+_tr_init 0.9135113785920397
+build_tree 0.9483383313621192
+pqdownheap 0.9614469310754337
+----------------------------------------------------------------matched unexpected------------------------------------------------------------------
+expected __do_global_dtors_aux, matched gz_error
+expected frame_dummy, matched inflateReset2
+expected adler32, matched fill_window
+expected adler32_combine_, matched adler32
+expected crc32, matched longest_match
+expected deflateInit2_, matched longest_match
+expected deflateEnd, matched pqdownheap
+expected deflateReset, matched deflateCopy
+expected deflateSetDictionary, matched deflate_slow
+expected fill_window, matched gzprintf
+expected deflateResetKeep, matched deflateCopy
+expected deflateSetHeader, matched crc32_combine_
+expected deflatePending, matched longest_match
+expected deflatePrime, matched _tr_flush_block
+expected deflateParams, matched pqdownheap
+expected deflate, matched inflate
+expected deflateTune, matched inflateSync
+expected deflateBound, matched longest_match
+expected flush_pending, matched gz_decomp
+expected deflateCopy, matched inflate
+expected deflate_stored, matched gzprintf
+expected deflate_fast, matched inflate_table
+expected deflate_slow, matched init_block
+expected longest_match, matched pqdownheap
+expected inflateBackInit_, matched compress2
+expected inflateBackEnd, matched gz_look
+expected inflateResetKeep, matched build_tree
+expected inflateReset, matched inflateBackInit_
+expected inflateReset2, matched compress2
+expected inflateInit2_, matched compress2
+expected inflatePrime, matched adler32
+expected updatewindow, matched pqdownheap
+expected inflateGetDictionary, matched gzgets
+expected inflateSetDictionary, matched pqdownheap
+expected inflateGetHeader, matched memset@@GLIBC_2.2.5
+expected inflateSync, matched inflate
+expected inflateSyncPoint, matched inflateSync
+expected inflateCopy, matched pqdownheap
+expected inflateUndermine, matched send_tree
+expected inflateMark, matched longest_match
+expected inflate_table, matched build_tree
+expected _tr_stored_block, matched longest_match
+expected _tr_flush_bits, matched _tr_align
+expected _tr_align, matched longest_match
+expected _tr_flush_block, matched longest_match
+expected compress_block, matched longest_match
+expected _tr_tally, matched compress_block
+expected scan_tree, matched build_tree
+expected send_tree, matched inflate_fast
+expected zcalloc, matched gzclose
+expected compress2, matched inflateBack
+expected uncompress, matched inflateBack
+expected gzclose, matched gz_fetch
+expected gz_open, matched gzgets
+expected gzdopen, matched gzread
+expected gzbuffer, matched .gzread
+expected gzrewind, matched gzoffset64
+expected gzseek64, matched inflateBack
+expected gz_error, matched inflateBackInit_
+expected gztell64, matched pqdownheap
+expected gztell, matched pqdownheap
+expected gzoffset64, matched memset@@GLIBC_2.2.5
+expected gzeof, matched inflateSync
+expected gzerror, matched pqdownheap
+expected gzclearerr, matched pqdownheap
+expected gzread, matched inflateBack
+expected gz_skip, matched pqdownheap
+expected gz_fetch, matched pqdownheap
+expected gz_load, matched build_tree
+expected gz_decomp, matched gzgets
+expected gzgetc, matched compress
+expected gzungetc, matched fill_window
+expected gzgets, matched deflate_slow
+expected gzdirect, matched pqdownheap
+expected gz_look, matched deflate_slow
+expected gzclose_r, matched inflateCopy
+expected gz_avail, matched pqdownheap
+expected gzwrite, matched gzprintf
+expected gz_init, matched pqdownheap
+expected gz_zero, matched compress2
+expected gz_comp, matched inflateBack
+expected gzputc, matched build_tree
+expected gzvprintf, matched pqdownheap
+expected gzflush, matched gzgets
+expected gzsetparams, matched gzgets
+expected gzclose_w, matched pqdownheap

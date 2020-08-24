@@ -1,0 +1,92 @@
+did not find a match: 1
+matched expected: 18
+matched_more_than_05: 0
+matched unexpected: 65
+----------------------------------------------------------------did not find a match------------------------------------------------------------------
+deflatePending
+----------------------------------------------------------------matched expected------------------------------------------------------------------
+adler32 0.8440381389606574
+fill_window 0.9652533979838964
+deflate 0.8618870482308749
+deflateCopy 0.9877504827130211
+deflate_stored 0.8477615043002467
+deflate_slow 0.7775800307917022
+longest_match 0.8228465369145783
+inflate_fast 0.8462091355005422
+inflate 0.8696389522225079
+inflate_table 0.9354166866548229
+_tr_stored_block 0.9671869348122173
+build_tree 0.9534011486064347
+compress2 0.9613520282250747
+gz_error 0.9795072796883099
+gzoffset64 0.9984790157872464
+gz_decomp 0.9757088428933456
+gz_look 0.9351460182881984
+gz_comp 0.9950617028834985
+----------------------------------------------------------------number of blocks >= 1.5------------------------------------------------------------------
+----------------------------------------------------------------matched unexpected------------------------------------------------------------------
+expected __do_global_dtors_aux, matched inflateInit_
+expected frame_dummy, matched gzseek64
+expected crc32, matched adler32
+expected crc32_combine_, matched gzprintf
+expected deflateInit2_, matched deflateResetKeep
+expected deflateEnd, matched gzrewind
+expected deflateSetDictionary, matched _tr_flush_block
+expected deflateResetKeep, matched zcfree
+expected deflateSetHeader, matched gzdopen
+expected deflatePrime, matched gzclose_r
+expected deflateParams, matched .lseek64
+expected deflateBound, matched memset@@GLIBC_2.2.5
+expected deflate_fast, matched deflate_slow
+expected inflateBackInit_, matched deflatePrime
+expected inflateBack, matched gzprintf
+expected inflateBackEnd, matched inflateReset2
+expected inflateResetKeep, matched gzclose
+expected inflateReset, matched gz_look
+expected inflateReset2, matched uncompress
+expected inflateInit2_, matched gz_error
+expected inflateInit_, matched inflateCopy
+expected inflatePrime, matched gzputs
+expected updatewindow, matched deflateBound
+expected inflateEnd, matched inflateReset2
+expected inflateGetDictionary, matched deflateEnd
+expected inflateSetDictionary, matched gz_open
+expected inflateGetHeader, matched zcfree
+expected inflateSync, matched adler32_combine64
+expected inflateSyncPoint, matched inflateResetKeep
+expected inflateCopy, matched gzread
+expected inflateMark, matched read
+expected _tr_flush_bits, matched _tr_stored_block
+expected _tr_align, matched _tr_stored_block
+expected _tr_flush_block, matched _tr_align
+expected compress_block, matched _tr_stored_block
+expected pqdownheap, matched build_tree
+expected send_tree, matched longest_match
+expected compress, matched compress2
+expected uncompress, matched crc32_combine_
+expected gzclose, matched zcfree
+expected gz_open, matched inflateCopy
+expected gzdopen, matched inflateReset2
+expected gzbuffer, matched gzoffset64
+expected gzrewind, matched gzseek64
+expected gzseek64, matched gz_error
+expected gztell64, matched gzrewind
+expected gztell, matched gzoffset64
+expected gzoffset, matched gz_error
+expected gzerror, matched gz_error
+expected gzclearerr, matched gzclose
+expected gzread, matched gzgets
+expected gz_fetch, matched memset@@GLIBC_2.2.5
+expected gzgetc, matched gzgetc_
+expected gzgetc_, matched gzrewind
+expected gzungetc, matched deflateEnd
+expected gzgets, matched deflateBound
+expected gzdirect, matched gzclose_r
+expected gzclose_r, matched gzrewind
+expected gzwrite, matched inflateReset2
+expected gz_init, matched gz_look
+expected gzputc, matched inflateSetDictionary
+expected gzvprintf, matched gzsetparams
+expected gzflush, matched deflateResetKeep
+expected gzsetparams, matched gz_open
+expected gzclose_w, matched inflateReset2

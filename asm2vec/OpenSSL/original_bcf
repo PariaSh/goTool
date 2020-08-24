@@ -1,0 +1,3288 @@
+did not find a match: 116
+matched expected: 478
+matched_more_than_05: 393
+matched unexpected: 2293
+----------------------------------------------------------------did not find a match------------------------------------------------------------------
+ssl2_connect
+ssl2_set_certificate
+ssl2_write
+ssl3_get_client_hello
+ssl3_send_server_key_exchange
+ssl3_send_certificate_request
+ssl3_get_client_key_exchange
+ssl3_get_key_exchange
+ssl3_get_record
+ssl3_get_message
+ssl23_get_server_method
+ssl23_connect
+ssl_fill_hello_random
+tls1_clear
+ssl_parse_clienthello_tlsext
+tls1_export_keying_material
+dtls1_send_client_key_exchange
+dtls1_get_record
+dtls1_read_bytes
+dtls1_write_message_header
+dtls1_retransmit_message
+ssl_add_serverhello_use_srtp_ext
+SSL_CTX_free
+SSL_set_fd
+SSL_copy_session_id
+SSL_get_default_timeout
+SSL_get_servername
+ssl_session_LHASH_COMP
+SSL_set_quiet_shutdown
+SSL_CIPHER_get_version
+SSL_CIPHER_get_name
+i2d_SSL_SESSION
+d2i_SSL_SESSION
+ssl_callback_ctrl
+CRYPTO_thread_id
+CRYPTO_strdup
+CRYPTO_pop_info
+app_info_free
+OPENSSL_init
+OBJ_NAME_cleanup
+md5_block_data_order
+sha1_block_data_order
+sha256_block_data_order
+sha512_block_data_order
+EC_GROUP_set_asn1_flag
+EC_GROUP_get_curve_GFp
+EC_POINT_set_affine_coordinates_GFp
+DH_free
+sk_zero
+ERR_error_string_n
+ERR_get_next_error_library
+EVP_CipherInit_ex
+des_ctrl
+EVP_PKEY_cmp_parameters
+EVP_PKEY_get_default_digest_nid
+ERR_load_EVP_strings
+EVP_PKEY_CTX_free
+EVP_PKEY_CTX_get_keygen_info
+a2d_ASN1_OBJECT
+ASN1_item_ex_d2i
+i2d_ASN1_VISIBLESTRING
+i2d_PBEPARAM
+PKCS5_pbe_set0_algor
+X509_STORE_CTX_get_ex_new_index
+get_crl_sk
+X509_LOOKUP_init
+X509_LOOKUP_by_issuer_serial
+d2i_EDIPARTYNAME
+X509_policy_tree_get0_policies
+PKCS7_SIGNER_INFO_get0_algs
+PKCS7_dataDecode
+do_pkcs7_signed_attrib
+PKCS12_key_gen_uni
+DES_ede3_cfb_encrypt
+BN_nnmod
+BN_GENCB_call
+BN_sqr
+ec_asn1_pkparameters2group
+ec_asn1_group2pkparameters
+d2i_ECPrivateKey
+i2d_ECPrivateKey
+ec_GF2m_simple_point_set_to_infinity
+pkey_ec_init
+dsa_pub_decode
+ecdsa_sign_setup
+pkey_dh_ctrl
+ecdh_compute_key
+DSO_new
+DSO_load
+engine_unregister_all_ECDSA
+crl_inf_cb
+NETSCAPE_CERT_SEQUENCE_new
+X509_signature_print
+ASN1_PCTX_set_flags
+PEM_X509_INFO_read_bio
+X509_NAME_ENTRY_get_data
+X509_NAME_add_entry_by_txt
+s2i_ASN1_INTEGER
+X509V3_add_value_int
+UI_get_string_type
+UI_get0_action_string
+UI_get_result_maxsize
+CMS_SignerInfo_get0_algs
+CMS_RecipientInfo_set0_key
+cms_EncryptedContent_init_bio
+cms_EncryptedData_init_bio
+CMS_add0_recipient_password
+Camellia_Ekeygen
+BN_mod_sqrt
+RSA_generate_key_ex
+DH_generate_parameters_ex
+RAND_egd
+ASN1_PRINTABLE_type
+ASN1_mbstring_ncopy
+X509_REQ_extension_nid
+X509_REQ_add1_attr_by_txt
+----------------------------------------------------------------matched expected------------------------------------------------------------------
+ssl2_get_cipher_by_char 0.8730445761276896
+ssl2_generate_key_material 0.8918220214039568
+ssl2_enc_init 0.7711484301314556
+ssl2_read_internal 0.7257748821038595
+ssl2_do_write 0.7853171145641735
+read_n 0.7846578285972824
+ssl3_accept 0.7170543519847714
+ssl3_send_server_hello 0.6656153414552388
+ssl3_get_client_certificate 0.8009534921959142
+ssl3_send_cert_status 0.8568058120543788
+ssl3_get_server_hello 0.8361397017424381
+ssl3_check_finished 0.7719234647681675
+ssl3_get_server_done 0.7740440361679815
+ssl3_send_client_certificate 0.783559223666181
+ssl3_send_client_verify 0.6477600346340027
+ssl3_send_next_proto 0.8086772337773716
+ssl3_get_cert_status 0.6763546997299108
+ssl3_clear 0.7348315335193801
+ssl3_ctrl 0.7028101382936749
+ssl3_callback_ctrl 0.7833628959328186
+ssl3_ctx_ctrl 0.7474955182718994
+ssl3_get_req_cert_type 0.684997645431948
+ssl3_change_cipher_state 0.6873663212568685
+ssl3_init_finished_mac 0.794293331201823
+ssl3_digest_cached_records 0.6109597818697488
+ssl3_write_bytes 0.7362940928396636
+ssl3_write_pending 0.8397743703551874
+ssl3_read_bytes 0.7036537286277079
+ssl3_dispatch_alert 0.9355811679956706
+ssl3_output_cert_chain 0.8549941378268026
+ssl3_setup_read_buffer 0.8096448237579494
+ssl3_cbc_remove_padding 0.8534428576078185
+tls1_sha512_final_raw 0.9278510574720176
+ssl23_read 0.8282561884154427
+ssl23_read_bytes 0.7760188514505267
+ssl_add_serverhello_tlsext 0.6173281281454723
+tls1_process_sigalgs 0.7767345241486533
+ssl_prepare_clienthello_tlsext 0.7919040998470076
+tls12_get_hash 0.8874825310289998
+tls1_PRF 0.7464707393997739
+tls1_cert_verify_mac 0.8932491586307482
+dtls1_accept 0.6307782288325795
+dtls1_send_hello_request 0.6164974352215737
+dtls1_send_server_hello 0.8639960590184497
+dtls1_send_server_key_exchange 0.6677476279413772
+dtls1_send_newsession_ticket 0.8176087594344577
+dtls1_client_hello 0.7289867113360312
+dtls1_send_client_verify 0.8702666357416268
+dtls1_get_timeout 0.815131740646432
+dtls1_process_record 0.8214484464220092
+dtls1_dispatch_alert 0.7270797162434891
+satsub64be 0.8538584714687389
+dtls1_do_write 0.6872017819637626
+dtls1_send_change_cipher_spec 0.718556396940539
+dtls1_retransmit_buffered_messages 0.7933956481846868
+dtls1_hm_fragment_new 0.8457633642179287
+dtls1_get_message_header 0.7602120636335117
+dtls1_heartbeat 0.7868383842472058
+dtls1_enc 0.8035080780551525
+ssl_parse_clienthello_use_srtp_ext 0.8140325332513767
+SSL_clear 0.7762791719610777
+SSL_has_matching_session_id 0.8687133715305327
+SSL_ctrl 0.8412169492277701
+SSL_CTX_ctrl 0.7802033151665588
+SSL_set_cipher_list 0.7559578956383185
+ssl_bytes_to_cipher_list 0.7371367832956355
+ssl_set_cert_masks 0.7827489413094143
+ssl_check_srvr_ecc_cert_and_alg 0.8151192962739222
+ssl_update_cache 0.8012005481136564
+SSL_get_version 0.9201365637190647
+SSL_dup 0.743774424606128
+ssl_init_wbio_buffer 0.8473235446091153
+SSL_get_ex_data_X509_STORE_CTX_idx 0.8961638092072133
+ssl_cert_new 0.8583263857085132
+ssl_cert_dup 0.7512965488448629
+ssl_sess_cert_new 0.7403370379809171
+SSL_load_client_CA_file 0.7491247726854616
+SSL_add_dir_cert_subjects_to_stack 0.851057672745525
+ssl_get_new_session 0.6755620279025552
+ssl_get_prev_session 0.7748792006629097
+SSL_CTX_add_session 0.8150118833579628
+SSL_set_session 0.7533931405996759
+ssl_clear_bad_session 0.7567997351975487
+ssl_load_ciphers 0.8363716484081972
+load_builtin_compressions 0.7846838963248011
+ssl_get_handshake_digest 0.8681432537799587
+ssl_cipher_process_rulestr 0.79094353222602
+SSL_CIPHER_description 0.7070561106903035
+SSL_state_string_long 0.8774159110570591
+SSL_state_string 0.8740254916781331
+SSL_alert_desc_string_long 0.8320209417625586
+SSL_use_certificate_file 0.8254015021606025
+SSL_use_RSAPrivateKey 0.9049394999167274
+SSL_CTX_use_certificate_file 0.8969036581669896
+SSL_SESSION_print 0.7728186577486348
+BIO_new_ssl_connect 0.9109729673029896
+ssl_write 0.8075989987231531
+ssl_ctrl 0.6888259879794059
+ssl_new 0.6945038756064694
+SSL_SRP_CTX_init 0.6833505662198649
+SSL_set_srp_server_param 0.6925767377096035
+SRP_Calc_A_param 0.8698016585071424
+ssl_parse_clienthello_renegotiate_ext 0.8545727110852385
+ssl_add_serverhello_renegotiate_ext 0.8616934046969632
+CRYPTO_get_new_lockid 0.9198487951100427
+CRYPTO_lock 0.8347938945038019
+CRYPTO_get_dynlock_value 0.8004394295031076
+CRYPTO_memcmp 0.8614129374291015
+CRYPTO_set_locked_mem_functions 0.8911495416388752
+CRYPTO_malloc 0.9327138646902033
+CRYPTO_mem_leaks 0.7701831868794751
+print_leak_LHASH_DOALL_ARG 0.8277429530533801
+CRYPTO_get_ex_new_index 0.872251429815813
+CRYPTO_new_ex_data 0.7242627143168696
+OPENSSL_cleanse 0.8007418205637326
+OBJ_NAME_new_index 0.7257363078228606
+OBJ_NAME_add 0.7914114057996952
+OBJ_NAME_do_all_sorted 0.7292180770960269
+OBJ_nid2obj 0.7828513253076529
+OBJ_nid2sn 0.8403651798211552
+OBJ_sn2nid 0.8624808741090033
+OBJ_add_sigid 0.7636596952023748
+MD5_Init 0.8058529672892429
+SHA224 0.7496831013754103
+SHA256_Update 0.7994287335523177
+SHA256_Final 0.7807575319567889
+SHA512_Final 0.8427408655968673
+HMAC_Init_ex 0.9140846640270459
+HMAC_Init 0.9331814420335276
+HMAC_Update 0.8807973908971556
+BN_set_params 0.869007730251888
+BN_get_params 0.9503700775948272
+bn_expand_internal 0.6968031049254846
+BN_bn2bin 0.924146368541908
+BN_CTX_init 0.8563085469297244
+BN_CTX_start 0.7524485064032596
+BN_CTX_end 0.8487084656028439
+BN_bn2hex 0.8444109383967624
+BN_bn2dec 0.8050290329464339
+BN_asc2bn 0.7650837317194152
+BN_lshift 0.8161962459319612
+BN_rshift 0.8964454243913874
+bn_add_words 0.8534969299400591
+bn_sub_words 0.7819618950527231
+EC_POINT_copy 0.6829501042302102
+EC_POINT_set_to_infinity 0.7647860819498388
+EC_POINT_add 0.6888627967416028
+EC_POINT_dbl 0.8147508761270117
+EC_POINT_invert 0.9205157362964266
+EC_POINT_mul 0.8755878208214644
+ec_wNAF_mul 0.6048302849859256
+compute_wNAF 0.798835503426947
+EC_GROUP_new_by_curve_name 0.7814849436678039
+EC_KEY_insert_key_method_data 0.8906758012370126
+EC_POINT_set_compressed_coordinates_GF2m 0.8568202630053294
+EC_POINT_oct2point 0.8724813865808984
+int_rsa_verify 0.7083616150942562
+RSA_setup_blinding 0.7643497249353798
+generate_key 0.8674615538812057
+dh_bn_mod_exp 0.9280768033410762
+engine_unlocked_finish 0.8283214901381863
+ENGINE_init 0.8862067412849767
+ENGINE_finish 0.9058043991530831
+ENGINE_load_private_key 0.8825126927484079
+ENGINE_register_all_DH 0.8906709287542995
+ENGINE_set_default_DH 0.8537785099125862
+BUF_MEM_grow_clean 0.7439245964686753
+BUF_strlcpy 0.9121507510604314
+BIO_read 0.8643722331545688
+BIO_indent 0.914149140522672
+BIO_get_retry_BIO 0.9051250882773346
+BIO_find_type 0.83102349513212
+BIO_new_mem_buf 0.9213512928000827
+mem_gets 0.8891272944595661
+BIO_new_fp 0.9157294826463173
+BIO_new_socket 0.8290987416698884
+BIO_sock_should_retry 0.8553335692551272
+BIO_sock_non_fatal_error 0.9285864312210784
+sock_write 0.7332383651415882
+conn_new 0.7893117349843244
+conn_state 0.6939678403044007
+buffer_ctrl 0.7605602859623034
+BIO_vprintf 0.6862188668456478
+fmtint 0.8002399544714418
+BIO_dump_indent_cb 0.768373407456056
+BIO_get_host_ip 0.7226730420539184
+BIO_get_port 0.717438978281381
+BIO_get_accept_socket 0.7743043584697991
+BIO_accept 0.8856880923796152
+lh_new 0.7526192303714706
+ERR_put_error 0.7452826016805794
+ERR_get_state 0.8349840097243453
+ERR_clear_error 0.7892654528041277
+ERR_remove_thread_state 0.8475950593890291
+ERR_add_error_vdata 0.7600367132674303
+int_err_set_item 0.8954276425970824
+int_err_del_item 0.9563144790688308
+int_thread_get 0.8261388113099452
+int_thread_get_item 0.901181466714161
+ERR_load_crypto_strings 0.8763985051439519
+des_cbc_cipher 0.925204351546365
+des_cfb64_cipher 0.8717627196847607
+des_cfb1_cipher 0.8442580026671157
+camellia_128_cfb128_cipher 0.8408212334946905
+aes_init_key 0.7263568923459273
+aes_cfb1_cipher 0.8372769184047945
+aes_gcm_ctrl 0.7156362476681257
+EVP_PKEY_save_parameters 0.953683847386058
+PKCS5_PBE_keyivgen 0.7988619858547338
+PKCS5_PBKDF2_HMAC 0.8496864191178896
+EVP_PKEY_CTX_dup 0.8595189733471099
+EVP_PKEY_meth_add0 0.9365668033692827
+EVP_PKEY_encrypt 0.937017383923689
+EVP_PKEY_decrypt 0.8717351248926489
+EVP_PKEY_derive_set_peer 0.7925046802228999
+rc4_hmac_md5_ctrl 0.8775929172126549
+ASN1_TYPE_set 0.8744102505548286
+ASN1_TYPE_set1 0.8544690164126674
+bn_i2c 0.8953048118329259
+x509_cb 0.9392971039864692
+ASN1_item_ex_i2d 0.7800762642849062
+asn1_template_ex_i2d 0.7700351660033448
+asn1_d2i_ex_primitive 0.9124515479172579
+asn1_check_tlen 0.6944912134010565
+asn1_ex_c2i 0.7237201010693955
+EVP_PKEY_asn1_find 0.9075337428220133
+EVP_PKEY_asn1_find_str 0.8199646399971374
+ASN1_object_size 0.870042693729291
+ASN1_TYPE_set_int_octetstring 0.9415618570545117
+PKCS5_pbe2_set_iv 0.67175829089006
+PKCS5_pbkdf2_set 0.7693719015427565
+PEM_proc_type 0.8123931415502272
+PEM_dek_info 0.9254840734099009
+PEM_read_bio 0.6044105748200109
+PEM_get_EVP_CIPHER_INFO 0.907616224199338
+PEM_ASN1_write 0.9464806152224972
+PEM_ASN1_write_bio 0.6782103235485877
+PEM_write_bio 0.873274881869003
+PEM_read_RSAPrivateKey 0.8097876180548685
+X509_NAME_cmp 0.9450969734070701
+X509_issuer_and_serial_hash 0.9338974916633973
+X509_NAME_hash_old 0.7784916081517079
+X509_verify_cert 0.7142805466146632
+internal_verify 0.7059943543658954
+X509_cmp_time 0.7454285866679412
+X509_STORE_CTX_get1_chain 0.9118276997399869
+X509_STORE_CTX_purpose_inherit 0.8222536181783683
+crl_extension_match 0.8981761241613044
+X509_add_ext 0.9619807746891248
+X509_STORE_get_by_subject 0.7352246571564947
+X509_OBJECT_retrieve_by_subject 0.8268094351287073
+X509_OBJECT_up_ref_count 0.8979038892888108
+X509_STORE_add_cert 0.8848884940341566
+X509_OBJECT_idx_by_subject 0.9091734782614888
+x509_object_idx_cnt 0.8556461812412798
+X509_STORE_get1_certs 0.9037968452242974
+X509_STORE_get1_crls 0.8574955436572934
+add_cert_dir 0.7310383887773189
+X509_VERIFY_PARAM_add0_policy 0.8780438594557661
+X509_VERIFY_PARAM_lookup 0.8519195713016751
+X509V3_EXT_add_list 0.9147372795305982
+X509V3_EXT_add_alias 0.7903112796098248
+GENERAL_NAME_print 0.9048815156030438
+a2i_GENERAL_NAME 0.8927429396148371
+s2i_skey_id 0.865621067855123
+v2i_AUTHORITY_KEYID 0.6935386307454506
+i2r_PKEY_USAGE_PERIOD 0.7470910383332813
+sxnet_i2r 0.8834991860400251
+SXNET_add_id_INTEGER 0.646457110848999
+r2i_certpol 0.691492730502783
+i2r_idp 0.7941978563494019
+X509_check_purpose 0.9369674171421895
+X509_PURPOSE_get_by_id 0.8577979922813244
+X509_PURPOSE_cleanup 0.8924256499384695
+i2v_AUTHORITY_INFO_ACCESS 0.8424523650223145
+i2v_POLICY_MAPPINGS 0.884895820163675
+v2i_POLICY_MAPPINGS 0.7263652022097663
+nc_match_single 0.8277121414911567
+i2r_pci 0.8523732086664396
+process_pci_value 0.7881095440123281
+policy_cache_set 0.7106432305171619
+PKCS7_ctrl 0.7532168458585259
+PKCS7_set_type 0.8256650907283275
+PKCS7_add_signer 0.8416753902295054
+PKCS7_RECIP_INFO_set 0.9318285635076721
+PKCS7_add_recipient_info 0.829204092361832
+PKCS7_stream 0.9397233041405089
+PKCS7_dataInit 0.6815301475481096
+pkcs7_decrypt_rinfo 0.7573106216879021
+PKCS7_find_digest 0.9073307515899738
+PKCS7_add_attrib_content_type 0.947343109312711
+PKCS12_PBE_keyivgen 0.9068704767972655
+PKCS12_key_gen_asc 0.7711398183622415
+OPENSSL_asc2uni 0.7797862541583159
+OPENSSL_uni2asc 0.8095621077984342
+COMP_expand_block 0.9244846872450134
+SRP_check_known_gN_param 0.9095896559684108
+SRP_get_default_gN 0.9291361083483806
+t_fromb64 0.8343728346469446
+SRP_create_verifier_BN 0.9515560674922149
+ERR_load_CRYPTO_strings 0.82435969816528
+hmac_signctx 0.8736336495409515
+DES_check_key_parity 0.9382420406299701
+DES_set_key_unchecked 0.8353925968729825
+DES_ede3_ofb64_encrypt 0.8844912319414067
+private_AES_set_encrypt_key 0.9194144816596354
+RC2_ecb_encrypt 0.8546627739973223
+RC2_encrypt 0.9425509574221139
+RC2_decrypt 0.8640272047155534
+RC4 0.6925734770581224
+idea_encrypt 0.8096450236107178
+idea_ofb64_encrypt 0.8972802022569712
+idea_set_encrypt_key 0.7086743538969577
+idea_set_decrypt_key 0.8045029327545228
+CRYPTO_gcm128_setiv 0.8171325187377312
+gcm_ghash_4bit 0.8468148273687673
+CRYPTO_gcm128_finish 0.835266497078484
+CRYPTO_ccm128_setiv 0.9343385368780595
+BN_mod_exp_mont_word 0.8111638907795171
+BN_mod_exp_recp 0.7742854149161185
+BN_mod_exp_simple 0.6974387877462215
+bn_mul_normal 0.8585819227944383
+BN_BLINDING_convert 0.9026278472904434
+BN_MONT_CTX_set_locked 0.8436461611334451
+pkey_ec_ctrl 0.9184321035458536
+pkey_ec_ctrl_str 0.9412369517098024
+ECPKParameters_print 0.6901543207472167
+ec_GFp_simple_point2oct 0.7383423259361391
+ec_GFp_simple_oct2point 0.8478321874700997
+ec_GF2m_simple_point2oct 0.6989594479435628
+ec_GF2m_simple_oct2point 0.8186058131144001
+RSA_eay_public_decrypt 0.7508220856023706
+RSA_eay_private_encrypt 0.8024018434830412
+RSA_eay_mod_exp 0.6462078041375312
+rsa_get_blinding 0.7362550626511014
+RSA_padding_check_PKCS1_type_1 0.9062235321172998
+RSA_padding_check_PKCS1_type_2 0.8576200950059215
+RSA_padding_add_SSLv23 0.8120866156764149
+RSA_padding_add_none 0.7194729663847215
+RSA_padding_add_PKCS1_OAEP 0.8988088845017008
+RSA_padding_check_PKCS1_OAEP 0.8008810359834606
+RSA_padding_check_X931 0.9166575613830974
+RSA_X931_hash_id 0.9366264408006472
+rsa_priv_encode 0.8156423791076057
+rsa_item_verify 0.7867649443511615
+DSA_new_method 0.8811750074538595
+dsa_do_sign 0.6487168154746727
+dsa_sign_setup 0.6536151489535378
+dsa_do_verify 0.6798485797828915
+do_dsa_print 0.7516778223641111
+pkey_dsa_paramgen 0.8502632829218171
+pkey_dsa_ctrl 0.8281557537737431
+pkey_dsa_ctrl_str 0.9582480383059173
+ecdsa_data_new 0.7818539847884571
+ecdsa_do_verify 0.7267893501829576
+ERR_load_DH_strings 0.7592537054586049
+pkey_dh_ctrl_str 0.7067945230062972
+DSO_new_method 0.7639431952778135
+DSO_free 0.7988088623241404
+DSO_set_filename 0.7679727545787788
+ENGINE_new 0.6849263022021904
+ENGINE_remove 0.8857254330462992
+ENGINE_ctrl 0.7946547050516718
+ENGINE_cmd_is_executable 0.8463983221510084
+ENGINE_ctrl_cmd_string 0.7109099511358948
+engine_table_unregister 0.7536674608346869
+ENGINE_register_all_ECDSA 0.8025241583065326
+ENGINE_set_default_RAND 0.9231388703431096
+ssleay_rand_add 0.7537161834222165
+ssleay_rand_status 0.9073425038547664
+RAND_poll 0.7456308006247044
+EVP_DecodeUpdate 0.7068132147808308
+EVP_DecodeBlock 0.9248456027405243
+EVP_read_pw_string_min 0.9128282410459143
+EVP_PKEY2PKCS8_broken 0.948674442642605
+ASN1_UTCTIME_cmp_time_t 0.8335751166975814
+ASN1_GENERALIZEDTIME_check 0.9068715528740883
+asn1_d2i_read_bio 0.8328407766124691
+ASN1_item_sign 0.8645552987201442
+ASN1_digest 0.6944653358696162
+ASN1_verify 0.6693998044999228
+ASN1_item_verify 0.8630408400381674
+do_name_ex 0.7156108689620126
+do_print_ex 0.7290601878868518
+do_esc_char 0.8382721748520118
+i2d_PrivateKey 0.8677895288863706
+X509_print_ex 0.635731009073818
+X509_ocspid_print 0.7768287932521626
+X509_signature_dump 0.9071979527048358
+ASN1_UTCTIME_print 0.7586173869120166
+ASN1_GENERALIZEDTIME_print 0.6776375710170759
+a2i_ASN1_INTEGER 0.7759394509633873
+a2i_ASN1_STRING 0.9045373603199103
+asn1_cb 0.7698606447296531
+ASN1_tag2str 0.838967812393787
+d2i_ASN1_type_bytes 0.8402125173646539
+ASN1_seq_pack 0.6749117963279597
+do_pk8pkey 0.7917418946387924
+X509_NAME_add_entry_by_OBJ 0.8441609497808307
+X509at_add1_attr 0.8494331534018592
+X509_ATTRIBUTE_create_by_NID 0.8805569364507421
+X509V3_EXT_nconf 0.803739301528242
+v3_generic_extension 0.7337290253455468
+do_ext_i2d 0.6937566392542208
+v2i_EXTENDED_KEY_USAGE 0.7291386246098219
+X509V3_extensions_print 0.9137744172113802
+i2s_ASN1_INTEGER 0.7838589375650343
+X509V3_get_value_bool 0.787039148181086
+string_to_hex 0.7728766723598296
+a2i_ipadd 0.7759934893464588
+CONF_dump_fp 0.8889238225547397
+_CONF_add_string 0.8699604350444774
+conf_value_LHASH_COMP 0.9195240173158824
+_CONF_free_data 0.9463652794019916
+def_load_bio 0.641344711435987
+def_load 0.8195594938231129
+CONF_modules_unload 0.7761421376550268
+TXT_DB_read 0.6793271959449152
+PKCS12_pbe_crypt 0.6139089795546705
+PKCS12_item_decrypt_d2i 0.902703000912038
+PKCS12_item_i2d_encrypt 0.8546255764394087
+print_error 0.8351572328336034
+UI_set_result 0.8394260882410866
+open_console 0.910308245450884
+close_console 0.9326942660580728
+read_string_inner 0.8625264974165882
+cms_set1_SignerIdentifier 0.8437521120116379
+CMS_add_standard_smimecap 0.6116607660328515
+CMS_SignerInfo_sign 0.7233714573660253
+CMS_EnvelopedData_create 0.9294742983496672
+CMS_add1_recipient_cert 0.7071381538618544
+CMAC_CTX_new 0.6579585156673627
+CMAC_resume 0.7249188237860678
+OPENSSL_gmtime_adj 0.8051261465639754
+AES_unwrap_key 0.8253696364618168
+private_RC4_set_key 0.8288453873086756
+Camellia_EncryptBlock_Rounds 0.7152509553263724
+BN_kronecker 0.6793115663363436
+BN_mod_exp2_mont 0.699281062128719
+BN_GF2m_mod_arr 0.8871231560512833
+BN_GF2m_mod_sqr_arr 0.8933610982472265
+BN_GF2m_mod_mul 0.84693072746667
+BN_GF2m_mod_inv 0.6462878188962732
+BN_GF2m_mod_div_arr 0.9531637214347048
+bn_GF2m_mul_1x1 0.8295956097229618
+ec_GFp_mont_group_copy 0.7321400587476429
+EC_POINT_point2bn 0.8559889947022731
+RSA_sign_ASN1_OCTET_STRING 0.8231618751069004
+RSA_verify_ASN1_OCTET_STRING 0.8023956981819944
+dsa_builtin_paramgen 0.7851439278468155
+DSA_generate_key 0.8597798010550785
+dlfcn_bind_var 0.7510276986324774
+dlfcn_bind_func 0.8095941708127152
+dlfcn_name_converter 0.8932059257576604
+i2d_ASN1_SET 0.7749636429873498
+d2i_ASN1_SET 0.7273789057956308
+UTF8_getc 0.8071024738095605
+type_str 0.8455931618246019
+ASN1_STRING_set_default_mask_asc 0.9339093222921075
+ASN1_STRING_set_by_NID 0.8142172955346363
+ASN1_STRING_TABLE_get 0.8725659153834496
+cms_DigestAlgorithm_set 0.8047573665707705
+cms_DigestAlgorithm_init_bio 0.7781990905387575
+CMS_add1_cert 0.8548722310281552
+cms_DigestedData_do_final 0.881785135634527
+BN_nist_mod_256 0.7372242201858845
+BN_nist_mod_384 0.7829356313906192
+BN_nist_mod_521 0.7824434022019098
+ec_GFp_simple_group_check_discriminant 0.7853128219172566
+ec_GFp_simple_point_set_affine_coordinates 0.9176698454275184
+SMIME_crlf_copy 0.7087321712061729
+SMIME_write_ASN1 0.7910984975324323
+mime_parse_hdr 0.7073037425820669
+b64_read_asn1 0.8408272022591626
+SMIME_text 0.7179519826807268
+mime_param_cmp 0.9708342604656189
+b64_write 0.7293138689175231
+b64_read 0.7978663476431176
+----------------------------------------------------------------number of blocks >= 1.5------------------------------------------------------------------
+ssl2_get_cipher_by_char 0.8730445761276896
+ssl2_generate_key_material 0.8918220214039568
+ssl2_enc_init 0.7711484301314556
+ssl2_read_internal 0.7257748821038595
+ssl2_do_write 0.7853171145641735
+read_n 0.7846578285972824
+ssl3_accept 0.7170543519847714
+ssl3_send_server_hello 0.6656153414552388
+ssl3_get_client_certificate 0.8009534921959142
+ssl3_send_cert_status 0.8568058120543788
+ssl3_get_server_hello 0.8361397017424381
+ssl3_check_finished 0.7719234647681675
+ssl3_get_server_done 0.7740440361679815
+ssl3_send_client_certificate 0.783559223666181
+ssl3_send_client_verify 0.6477600346340027
+ssl3_send_next_proto 0.8086772337773716
+ssl3_get_cert_status 0.6763546997299108
+ssl3_clear 0.7348315335193801
+ssl3_ctrl 0.7028101382936749
+ssl3_callback_ctrl 0.7833628959328186
+ssl3_ctx_ctrl 0.7474955182718994
+ssl3_get_req_cert_type 0.684997645431948
+ssl3_change_cipher_state 0.6873663212568685
+ssl3_init_finished_mac 0.794293331201823
+ssl3_digest_cached_records 0.6109597818697488
+ssl3_write_bytes 0.7362940928396636
+ssl3_write_pending 0.8397743703551874
+ssl3_dispatch_alert 0.9355811679956706
+ssl3_setup_read_buffer 0.8096448237579494
+ssl3_cbc_remove_padding 0.8534428576078185
+tls1_sha512_final_raw 0.9278510574720176
+ssl23_read 0.8282561884154427
+ssl23_read_bytes 0.7760188514505267
+ssl_add_serverhello_tlsext 0.6173281281454723
+tls1_process_sigalgs 0.7767345241486533
+tls12_get_hash 0.8874825310289998
+dtls1_accept 0.6307782288325795
+dtls1_send_hello_request 0.6164974352215737
+dtls1_send_server_hello 0.8639960590184497
+dtls1_send_server_key_exchange 0.6677476279413772
+dtls1_send_newsession_ticket 0.8176087594344577
+dtls1_client_hello 0.7289867113360312
+dtls1_send_client_verify 0.8702666357416268
+dtls1_process_record 0.8214484464220092
+dtls1_dispatch_alert 0.7270797162434891
+satsub64be 0.8538584714687389
+dtls1_do_write 0.6872017819637626
+dtls1_send_change_cipher_spec 0.718556396940539
+dtls1_retransmit_buffered_messages 0.7933956481846868
+dtls1_get_message_header 0.7602120636335117
+dtls1_heartbeat 0.7868383842472058
+dtls1_enc 0.8035080780551525
+ssl_parse_clienthello_use_srtp_ext 0.8140325332513767
+SSL_clear 0.7762791719610777
+SSL_has_matching_session_id 0.8687133715305327
+SSL_ctrl 0.8412169492277701
+SSL_CTX_ctrl 0.7802033151665588
+SSL_set_cipher_list 0.7559578956383185
+ssl_bytes_to_cipher_list 0.7371367832956355
+ssl_set_cert_masks 0.7827489413094143
+ssl_check_srvr_ecc_cert_and_alg 0.8151192962739222
+ssl_update_cache 0.8012005481136564
+SSL_get_version 0.9201365637190647
+SSL_dup 0.743774424606128
+ssl_init_wbio_buffer 0.8473235446091153
+SSL_get_ex_data_X509_STORE_CTX_idx 0.8961638092072133
+ssl_cert_new 0.8583263857085132
+ssl_cert_dup 0.7512965488448629
+ssl_sess_cert_new 0.7403370379809171
+SSL_load_client_CA_file 0.7491247726854616
+SSL_add_dir_cert_subjects_to_stack 0.851057672745525
+ssl_get_new_session 0.6755620279025552
+ssl_get_prev_session 0.7748792006629097
+SSL_CTX_add_session 0.8150118833579628
+SSL_set_session 0.7533931405996759
+ssl_clear_bad_session 0.7567997351975487
+ssl_load_ciphers 0.8363716484081972
+load_builtin_compressions 0.7846838963248011
+ssl_get_handshake_digest 0.8681432537799587
+SSL_alert_desc_string_long 0.8320209417625586
+SSL_use_certificate_file 0.8254015021606025
+SSL_use_RSAPrivateKey 0.9049394999167274
+SSL_SESSION_print 0.7728186577486348
+ssl_write 0.8075989987231531
+ssl_ctrl 0.6888259879794059
+ssl_new 0.6945038756064694
+SSL_SRP_CTX_init 0.6833505662198649
+SSL_set_srp_server_param 0.6925767377096035
+SRP_Calc_A_param 0.8698016585071424
+ssl_parse_clienthello_renegotiate_ext 0.8545727110852385
+ssl_add_serverhello_renegotiate_ext 0.8616934046969632
+CRYPTO_get_new_lockid 0.9198487951100427
+CRYPTO_get_dynlock_value 0.8004394295031076
+CRYPTO_set_locked_mem_functions 0.8911495416388752
+CRYPTO_mem_leaks 0.7701831868794751
+print_leak_LHASH_DOALL_ARG 0.8277429530533801
+CRYPTO_get_ex_new_index 0.872251429815813
+CRYPTO_new_ex_data 0.7242627143168696
+OBJ_NAME_new_index 0.7257363078228606
+OBJ_NAME_add 0.7914114057996952
+OBJ_NAME_do_all_sorted 0.7292180770960269
+OBJ_nid2obj 0.7828513253076529
+OBJ_nid2sn 0.8403651798211552
+OBJ_add_sigid 0.7636596952023748
+MD5_Init 0.8058529672892429
+SHA224 0.7496831013754103
+SHA256_Update 0.7994287335523177
+SHA256_Final 0.7807575319567889
+SHA512_Final 0.8427408655968673
+HMAC_Init_ex 0.9140846640270459
+HMAC_Update 0.8807973908971556
+BN_set_params 0.869007730251888
+bn_expand_internal 0.6968031049254846
+BN_bn2bin 0.924146368541908
+BN_CTX_start 0.7524485064032596
+BN_CTX_end 0.8487084656028439
+BN_bn2hex 0.8444109383967624
+BN_bn2dec 0.8050290329464339
+BN_asc2bn 0.7650837317194152
+bn_sub_words 0.7819618950527231
+EC_POINT_copy 0.6829501042302102
+EC_POINT_set_to_infinity 0.7647860819498388
+EC_POINT_add 0.6888627967416028
+EC_POINT_dbl 0.8147508761270117
+EC_POINT_mul 0.8755878208214644
+ec_wNAF_mul 0.6048302849859256
+compute_wNAF 0.798835503426947
+EC_GROUP_new_by_curve_name 0.7814849436678039
+EC_KEY_insert_key_method_data 0.8906758012370126
+EC_POINT_set_compressed_coordinates_GF2m 0.8568202630053294
+EC_POINT_oct2point 0.8724813865808984
+int_rsa_verify 0.7083616150942562
+RSA_setup_blinding 0.7643497249353798
+generate_key 0.8674615538812057
+dh_bn_mod_exp 0.9280768033410762
+engine_unlocked_finish 0.8283214901381863
+ENGINE_init 0.8862067412849767
+ENGINE_load_private_key 0.8825126927484079
+ENGINE_register_all_DH 0.8906709287542995
+ENGINE_set_default_DH 0.8537785099125862
+BUF_MEM_grow_clean 0.7439245964686753
+BIO_read 0.8643722331545688
+BIO_indent 0.914149140522672
+BIO_new_mem_buf 0.9213512928000827
+BIO_new_fp 0.9157294826463173
+BIO_new_socket 0.8290987416698884
+BIO_sock_should_retry 0.8553335692551272
+BIO_sock_non_fatal_error 0.9285864312210784
+sock_write 0.7332383651415882
+conn_new 0.7893117349843244
+conn_state 0.6939678403044007
+buffer_ctrl 0.7605602859623034
+BIO_vprintf 0.6862188668456478
+BIO_dump_indent_cb 0.768373407456056
+BIO_get_port 0.717438978281381
+BIO_get_accept_socket 0.7743043584697991
+lh_new 0.7526192303714706
+ERR_put_error 0.7452826016805794
+ERR_clear_error 0.7892654528041277
+ERR_remove_thread_state 0.8475950593890291
+ERR_add_error_vdata 0.7600367132674303
+int_err_set_item 0.8954276425970824
+int_err_del_item 0.9563144790688308
+int_thread_get_item 0.901181466714161
+ERR_load_crypto_strings 0.8763985051439519
+des_cbc_cipher 0.925204351546365
+des_cfb64_cipher 0.8717627196847607
+des_cfb1_cipher 0.8442580026671157
+camellia_128_cfb128_cipher 0.8408212334946905
+aes_init_key 0.7263568923459273
+aes_gcm_ctrl 0.7156362476681257
+EVP_PKEY_save_parameters 0.953683847386058
+PKCS5_PBE_keyivgen 0.7988619858547338
+EVP_PKEY_CTX_dup 0.8595189733471099
+EVP_PKEY_meth_add0 0.9365668033692827
+EVP_PKEY_encrypt 0.937017383923689
+EVP_PKEY_decrypt 0.8717351248926489
+EVP_PKEY_derive_set_peer 0.7925046802228999
+rc4_hmac_md5_ctrl 0.8775929172126549
+ASN1_TYPE_set 0.8744102505548286
+ASN1_TYPE_set1 0.8544690164126674
+bn_i2c 0.8953048118329259
+x509_cb 0.9392971039864692
+ASN1_item_ex_i2d 0.7800762642849062
+asn1_template_ex_i2d 0.7700351660033448
+asn1_check_tlen 0.6944912134010565
+asn1_ex_c2i 0.7237201010693955
+EVP_PKEY_asn1_find 0.9075337428220133
+EVP_PKEY_asn1_find_str 0.8199646399971374
+PKCS5_pbe2_set_iv 0.67175829089006
+PKCS5_pbkdf2_set 0.7693719015427565
+PEM_proc_type 0.8123931415502272
+PEM_read_bio 0.6044105748200109
+PEM_ASN1_write 0.9464806152224972
+PEM_ASN1_write_bio 0.6782103235485877
+PEM_write_bio 0.873274881869003
+PEM_read_RSAPrivateKey 0.8097876180548685
+X509_issuer_and_serial_hash 0.9338974916633973
+X509_NAME_hash_old 0.7784916081517079
+internal_verify 0.7059943543658954
+X509_cmp_time 0.7454285866679412
+X509_STORE_CTX_get1_chain 0.9118276997399869
+X509_STORE_CTX_purpose_inherit 0.8222536181783683
+crl_extension_match 0.8981761241613044
+X509_add_ext 0.9619807746891248
+X509_STORE_get_by_subject 0.7352246571564947
+X509_OBJECT_retrieve_by_subject 0.8268094351287073
+X509_OBJECT_up_ref_count 0.8979038892888108
+X509_OBJECT_idx_by_subject 0.9091734782614888
+x509_object_idx_cnt 0.8556461812412798
+X509_STORE_get1_certs 0.9037968452242974
+X509_STORE_get1_crls 0.8574955436572934
+add_cert_dir 0.7310383887773189
+X509_VERIFY_PARAM_add0_policy 0.8780438594557661
+X509_VERIFY_PARAM_lookup 0.8519195713016751
+X509V3_EXT_add_list 0.9147372795305982
+GENERAL_NAME_print 0.9048815156030438
+a2i_GENERAL_NAME 0.8927429396148371
+s2i_skey_id 0.865621067855123
+v2i_AUTHORITY_KEYID 0.6935386307454506
+i2r_PKEY_USAGE_PERIOD 0.7470910383332813
+sxnet_i2r 0.8834991860400251
+SXNET_add_id_INTEGER 0.646457110848999
+r2i_certpol 0.691492730502783
+i2r_idp 0.7941978563494019
+X509_PURPOSE_get_by_id 0.8577979922813244
+X509_PURPOSE_cleanup 0.8924256499384695
+i2v_AUTHORITY_INFO_ACCESS 0.8424523650223145
+v2i_POLICY_MAPPINGS 0.7263652022097663
+nc_match_single 0.8277121414911567
+i2r_pci 0.8523732086664396
+process_pci_value 0.7881095440123281
+policy_cache_set 0.7106432305171619
+PKCS7_ctrl 0.7532168458585259
+PKCS7_set_type 0.8256650907283275
+PKCS7_add_signer 0.8416753902295054
+PKCS7_RECIP_INFO_set 0.9318285635076721
+PKCS7_add_recipient_info 0.829204092361832
+PKCS7_stream 0.9397233041405089
+PKCS7_dataInit 0.6815301475481096
+pkcs7_decrypt_rinfo 0.7573106216879021
+PKCS7_find_digest 0.9073307515899738
+PKCS12_PBE_keyivgen 0.9068704767972655
+PKCS12_key_gen_asc 0.7711398183622415
+OPENSSL_asc2uni 0.7797862541583159
+COMP_expand_block 0.9244846872450134
+SRP_create_verifier_BN 0.9515560674922149
+ERR_load_CRYPTO_strings 0.82435969816528
+hmac_signctx 0.8736336495409515
+DES_set_key_unchecked 0.8353925968729825
+DES_ede3_ofb64_encrypt 0.8844912319414067
+private_AES_set_encrypt_key 0.9194144816596354
+RC2_ecb_encrypt 0.8546627739973223
+RC2_encrypt 0.9425509574221139
+RC2_decrypt 0.8640272047155534
+RC4 0.6925734770581224
+idea_set_encrypt_key 0.7086743538969577
+idea_set_decrypt_key 0.8045029327545228
+CRYPTO_gcm128_setiv 0.8171325187377312
+gcm_ghash_4bit 0.8468148273687673
+CRYPTO_gcm128_finish 0.835266497078484
+BN_mod_exp_mont_word 0.8111638907795171
+BN_mod_exp_recp 0.7742854149161185
+BN_mod_exp_simple 0.6974387877462215
+bn_mul_normal 0.8585819227944383
+BN_MONT_CTX_set_locked 0.8436461611334451
+pkey_ec_ctrl 0.9184321035458536
+ECPKParameters_print 0.6901543207472167
+ec_GFp_simple_point2oct 0.7383423259361391
+ec_GFp_simple_oct2point 0.8478321874700997
+ec_GF2m_simple_point2oct 0.6989594479435628
+ec_GF2m_simple_oct2point 0.8186058131144001
+RSA_eay_public_decrypt 0.7508220856023706
+RSA_eay_private_encrypt 0.8024018434830412
+RSA_eay_mod_exp 0.6462078041375312
+rsa_get_blinding 0.7362550626511014
+RSA_padding_add_SSLv23 0.8120866156764149
+RSA_padding_add_none 0.7194729663847215
+RSA_padding_add_PKCS1_OAEP 0.8988088845017008
+RSA_padding_check_PKCS1_OAEP 0.8008810359834606
+rsa_priv_encode 0.8156423791076057
+DSA_new_method 0.8811750074538595
+dsa_do_sign 0.6487168154746727
+dsa_sign_setup 0.6536151489535378
+dsa_do_verify 0.6798485797828915
+do_dsa_print 0.7516778223641111
+pkey_dsa_paramgen 0.8502632829218171
+pkey_dsa_ctrl 0.8281557537737431
+ecdsa_data_new 0.7818539847884571
+ecdsa_do_verify 0.7267893501829576
+ERR_load_DH_strings 0.7592537054586049
+pkey_dh_ctrl_str 0.7067945230062972
+DSO_new_method 0.7639431952778135
+DSO_free 0.7988088623241404
+DSO_set_filename 0.7679727545787788
+ENGINE_new 0.6849263022021904
+ENGINE_remove 0.8857254330462992
+ENGINE_ctrl 0.7946547050516718
+ENGINE_cmd_is_executable 0.8463983221510084
+ENGINE_ctrl_cmd_string 0.7109099511358948
+engine_table_unregister 0.7536674608346869
+ENGINE_register_all_ECDSA 0.8025241583065326
+ENGINE_set_default_RAND 0.9231388703431096
+ssleay_rand_add 0.7537161834222165
+ssleay_rand_status 0.9073425038547664
+RAND_poll 0.7456308006247044
+EVP_DecodeUpdate 0.7068132147808308
+EVP_read_pw_string_min 0.9128282410459143
+EVP_PKEY2PKCS8_broken 0.948674442642605
+ASN1_UTCTIME_cmp_time_t 0.8335751166975814
+ASN1_item_sign 0.8645552987201442
+ASN1_digest 0.6944653358696162
+ASN1_verify 0.6693998044999228
+ASN1_item_verify 0.8630408400381674
+do_name_ex 0.7156108689620126
+do_print_ex 0.7290601878868518
+do_esc_char 0.8382721748520118
+i2d_PrivateKey 0.8677895288863706
+X509_print_ex 0.635731009073818
+X509_ocspid_print 0.7768287932521626
+X509_signature_dump 0.9071979527048358
+a2i_ASN1_INTEGER 0.7759394509633873
+a2i_ASN1_STRING 0.9045373603199103
+asn1_cb 0.7698606447296531
+ASN1_tag2str 0.838967812393787
+d2i_ASN1_type_bytes 0.8402125173646539
+ASN1_seq_pack 0.6749117963279597
+do_pk8pkey 0.7917418946387924
+X509at_add1_attr 0.8494331534018592
+X509_ATTRIBUTE_create_by_NID 0.8805569364507421
+X509V3_EXT_nconf 0.803739301528242
+v3_generic_extension 0.7337290253455468
+do_ext_i2d 0.6937566392542208
+X509V3_extensions_print 0.9137744172113802
+i2s_ASN1_INTEGER 0.7838589375650343
+string_to_hex 0.7728766723598296
+a2i_ipadd 0.7759934893464588
+CONF_dump_fp 0.8889238225547397
+_CONF_free_data 0.9463652794019916
+def_load_bio 0.641344711435987
+def_load 0.8195594938231129
+CONF_modules_unload 0.7761421376550268
+TXT_DB_read 0.6793271959449152
+PKCS12_pbe_crypt 0.6139089795546705
+PKCS12_item_i2d_encrypt 0.8546255764394087
+print_error 0.8351572328336034
+UI_set_result 0.8394260882410866
+read_string_inner 0.8625264974165882
+cms_set1_SignerIdentifier 0.8437521120116379
+CMS_add_standard_smimecap 0.6116607660328515
+CMS_SignerInfo_sign 0.7233714573660253
+CMS_EnvelopedData_create 0.9294742983496672
+CMS_add1_recipient_cert 0.7071381538618544
+CMAC_CTX_new 0.6579585156673627
+CMAC_resume 0.7249188237860678
+OPENSSL_gmtime_adj 0.8051261465639754
+AES_unwrap_key 0.8253696364618168
+private_RC4_set_key 0.8288453873086756
+Camellia_EncryptBlock_Rounds 0.7152509553263724
+BN_kronecker 0.6793115663363436
+BN_mod_exp2_mont 0.699281062128719
+BN_GF2m_mod_arr 0.8871231560512833
+BN_GF2m_mod_sqr_arr 0.8933610982472265
+BN_GF2m_mod_div_arr 0.9531637214347048
+bn_GF2m_mul_1x1 0.8295956097229618
+ec_GFp_mont_group_copy 0.7321400587476429
+EC_POINT_point2bn 0.8559889947022731
+RSA_sign_ASN1_OCTET_STRING 0.8231618751069004
+RSA_verify_ASN1_OCTET_STRING 0.8023956981819944
+dsa_builtin_paramgen 0.7851439278468155
+DSA_generate_key 0.8597798010550785
+dlfcn_bind_var 0.7510276986324774
+dlfcn_bind_func 0.8095941708127152
+dlfcn_name_converter 0.8932059257576604
+i2d_ASN1_SET 0.7749636429873498
+d2i_ASN1_SET 0.7273789057956308
+ASN1_STRING_set_default_mask_asc 0.9339093222921075
+ASN1_STRING_set_by_NID 0.8142172955346363
+cms_DigestAlgorithm_set 0.8047573665707705
+cms_DigestAlgorithm_init_bio 0.7781990905387575
+CMS_add1_cert 0.8548722310281552
+cms_DigestedData_do_final 0.881785135634527
+BN_nist_mod_256 0.7372242201858845
+BN_nist_mod_384 0.7829356313906192
+BN_nist_mod_521 0.7824434022019098
+ec_GFp_simple_group_check_discriminant 0.7853128219172566
+SMIME_crlf_copy 0.7087321712061729
+SMIME_write_ASN1 0.7910984975324323
+mime_parse_hdr 0.7073037425820669
+b64_read_asn1 0.8408272022591626
+SMIME_text 0.7179519826807268
+b64_write 0.7293138689175231
+b64_read 0.7978663476431176
+----------------------------------------------------------------matched unexpected------------------------------------------------------------------
+expected __do_global_dtors_aux, matched UI_get_default_method
+expected ssl2_accept, matched ssl2_connect
+expected server_verify, matched ssl2_generate_key_material
+expected get_client_finished, matched ssl2_accept
+expected request_certificate, matched X509_verify_cert
+expected ssl_rsa_public_encrypt, matched ssl2_set_certificate
+expected ssl2_pending, matched BIO_sock_should_retry
+expected ssl2_new, matched ssl_cert_new
+expected ssl2_clear, matched ssl_cert_new
+expected ssl2_free, matched hmac_signctx
+expected ssl2_put_cipher_by_char, matched DES_ecb_encrypt
+expected ssl2_return_error, matched CRYPTO_get_dynlock_value
+expected ssl2_write_error, matched X509_NAME_cmp
+expected ssl2_enc, matched CRYPTO_ccm128_tag
+expected ssl2_mac, matched tls1_process_sigalgs
+expected ssl2_read, matched RAND_query_egd_bytes
+expected ssl2_peek, matched X509_NAME_add_entry
+expected ssl2_part_read, matched register_tm_clones
+expected ssl3_get_server_method, matched SSL_get_version
+expected ssl3_send_hello_request, matched SSL_get_version
+expected ssl3_send_server_certificate, matched asn1_Finish
+expected ssl3_check_client_hello, matched ssl3_get_client_certificate
+expected ssl3_get_cert_verify, matched ssl3_send_server_key_exchange
+expected ssl3_get_next_proto, matched ssl3_get_client_hello
+expected ssl3_send_newsession_ticket, matched BIO_dump_indent_cb
+expected ssl3_connect, matched SSL_get_client_CA_list
+expected ssl3_get_client_method, matched OPENSSL_init
+expected ssl3_client_hello, matched ssl3_send_server_hello
+expected ssl3_get_server_certificate, matched ssl3_get_client_certificate
+expected ssl3_check_cert_and_algorithm, matched ssl2_set_certificate
+expected ssl3_get_certificate_request, matched ssl3_get_server_hello
+expected ssl3_send_client_key_exchange, matched buffer_puts
+expected ssl3_get_new_session_ticket, matched ssl3_get_server_hello
+expected ssl_do_client_cert_cb, matched SSL_get_srp_g
+expected ssl3_get_cipher, matched BIO_socket_nbio
+expected ssl3_pending, matched CMS_RecipientInfo_set0_key
+expected ssl3_new, matched ssl3_ctx_ctrl
+expected ssl3_free, matched TXT_DB_insert
+expected srp_password_from_info_cb, matched rsa_get_blinding
+expected ssl3_ctx_callback_ctrl, matched ssl23_get_method
+expected ssl3_get_cipher_by_char, matched ssl3_get_server_done
+expected ssl3_put_cipher_by_char, matched CRYPTO_THREADID_set_callback
+expected ssl3_choose_cipher, matched ASN1_TYPE_set
+expected ssl3_shutdown, matched ssl_clear_bad_session
+expected ssl3_write, matched engine_table_select
+expected ssl3_renegotiate_check, matched engine_table_select
+expected ssl3_read_internal, matched ssl3_read
+expected ssl3_renegotiate, matched CRYPTO_THREADID_set_callback
+expected ssl3_setup_key_block, matched ssl3_change_cipher_state
+expected ssl3_cleanup_key_block, matched EVP_DigestSignFinal
+expected ssl3_enc, matched dtls1_enc
+expected ssl3_free_digest_list, matched ssl3_get_client_certificate
+expected ssl3_finish_mac, matched HMAC
+expected ssl3_handshake_mac, matched PKCS12_key_gen_uni
+expected ssl3_final_finish_mac, matched camellia_128_ecb_cipher
+expected n_ssl3_mac, matched PKCS12_key_gen_uni
+expected ssl3_record_sequence_update, matched OPENSSL_init
+expected ssl3_generate_master_secret, matched ssleay_rand_add
+expected ssl3_alert_code, matched EC_KEY_clear_flags
+expected ssl3_read_n, matched ssl3_setup_read_buffer
+expected ssl3_do_uncompress, matched ssl3_client_hello
+expected do_ssl3_write, matched ssl3_setup_write_buffer
+expected ssl3_send_alert, matched X509_policy_check
+expected ssl3_do_change_cipher_spec, matched tls1_process_sigalgs
+expected ssl3_do_write, matched ssl2_do_write
+expected ssl3_send_finished, matched RSA_padding_check_none
+expected ssl3_get_finished, matched EC_POINT_oct2point
+expected ssl3_send_change_cipher_spec, matched register_tm_clones
+expected ssl3_add_cert_to_buf, matched ssl3_output_cert_chain
+expected ssl_cert_type, matched SSL_get_error
+expected ssl_verify_alarm_type, matched asn1_template_clear
+expected freelist_extract, matched ssl3_setup_read_buffer
+expected ssl3_setup_write_buffer, matched ssl3_setup_read_buffer
+expected ssl3_setup_buffers, matched rc4_init_key
+expected freelist_insert, matched ssl3_setup_read_buffer
+expected ssl3_release_read_buffer, matched ssl3_get_key_exchange
+expected tls1_cbc_remove_padding, matched CRYPTO_get_dynlock_value
+expected ssl3_cbc_copy_mac, matched ssl_cipher_process_rulestr
+expected ssl3_cbc_record_digest_supported, matched SHA256_Transform
+expected ssl3_cbc_digest_record, matched ssl3_send_server_key_exchange
+expected tls1_sha1_final_raw, matched tls1_sha256_final_raw
+expected tls1_sha256_final_raw, matched OPENSSL_init
+expected ssl23_get_method, matched BN_get_params
+expected ssl23_accept, matched ssl2_accept
+expected ssl23_get_client_hello, matched ssl3_setup_read_buffer
+expected ssl23_get_client_method, matched .term_proc
+expected ssl23_get_server_hello, matched register_tm_clones
+expected ssl23_num_ciphers, matched register_tm_clones
+expected ssl23_get_cipher, matched EVP_CIPHER_CTX_key_length
+expected ssl23_peek, matched ssl23_read
+expected ssl23_write, matched ssl23_connect
+expected ssl23_write_bytes, matched RC4
+expected tls1_get_method, matched BN_get_params
+expected tls1_get_server_method, matched CRYPTO_THREADID_set_callback
+expected tls1_new, matched CRYPTO_mem_leaks_fp
+expected tls1_free, matched X509_REQ_extension_nid
+expected tls1_ec_nid2curve_id, matched SSL_get_version
+expected tls12_get_req_sig_algs, matched read_string_inner
+expected ssl_add_clienthello_tlsext, matched OPENSSL_uni2asc
+expected ssl_parse_serverhello_tlsext, matched ssl3_get_server_done
+expected ssl_prepare_serverhello_tlsext, matched check_crl
+expected ssl_check_clienthello_tlsext_early, matched ssl3_setup_read_buffer
+expected ssl_check_clienthello_tlsext_late, matched TXT_DB_insert
+expected ssl_check_serverhello_tlsext, matched ssl3_release_read_buffer
+expected tls1_process_ticket, matched ssleay_rand_bytes
+expected tls_decrypt_ticket, matched X509V3_EXT_get_nid
+expected tls12_get_sigandhash, matched register_tm_clones
+expected tls12_get_sigid, matched CRYPTO_THREADID_set_callback
+expected tls1_process_heartbeat, matched CRYPTO_gcm128_setiv
+expected tls1_heartbeat, matched ssl3_get_next_proto
+expected tls1_change_cipher_state, matched CMAC_CTX_new
+expected tls1_setup_key_block, matched tls1_change_cipher_state
+expected tls1_enc, matched tls1_process_sigalgs
+expected tls1_final_finish_mac, matched ssl3_get_key_exchange
+expected tls1_mac, matched PKCS12_key_gen_uni
+expected tls1_alert_code, matched UI_get_result_maxsize
+expected tls1_P_hash, matched PKCS12_key_gen_uni
+expected dtls1_get_method, matched BN_get_word
+expected dtls1_send_server_certificate, matched sock_ctrl
+expected dtls1_send_certificate_request, matched BN_copy
+expected dtls1_send_server_done, matched dtls1_send_hello_request
+expected dtls1_connect, matched ssl3_connect
+expected dtls1_get_client_method, matched CRYPTO_dbg_get_options
+expected dtls1_send_client_certificate, matched dtls1_retransmit_buffered_messages
+expected dtls1_new, matched register_tm_clones
+expected dtls1_clear_queues, matched CONF_modules_load
+expected dtls1_clear, matched ssl3_write_pending
+expected dtls1_ctrl, matched dtls1_handle_timeout
+expected dtls1_handle_timeout, matched ASN1_put_object
+expected dtls1_listen, matched dtls1_handle_timeout
+expected dtls1_get_cipher, matched BN_get_word
+expected dtls1_start_timer, matched dtls1_handle_timeout
+expected dtls1_is_timer_expired, matched dtls1_get_timeout
+expected dtls1_double_timeout, matched dtls1_handle_timeout
+expected dtls1_check_timeout_num, matched dtls1_handle_timeout
+expected dtls1_buffer_record, matched dtls1_read_bytes
+expected dtls1_reset_seq_numbers, matched ASN1_ENUMERATED_set
+expected dtls1_write_app_data_bytes, matched ssl2_read_internal
+expected dtls1_write_bytes, matched CRYPTO_get_lock_name
+expected do_dtls1_write, matched EVP_PKEY_asn1_find_str
+expected dtls1_get_message, matched SRP_create_verifier
+expected dtls1_get_message_fragment, matched OPENSSL_init
+expected dtls1_send_finished, matched ssl_bytes_to_cipher_list
+expected dtls1_set_message_header, matched EVP_CIPHER_do_all_sorted
+expected dtls1_buffer_message, matched check_revocation
+expected dtls1_output_cert_chain, matched ssl3_output_cert_chain
+expected dtls1_add_cert_to_buf, matched dtls1_retransmit_message
+expected dtls1_read_failed, matched register_tm_clones
+expected dtls1_clear_record_buffer, matched RSA_sign_ASN1_OCTET_STRING
+expected dtls1_shutdown, matched register_tm_clones
+expected dtls1_process_heartbeat, matched CRYPTO_ccm128_encrypt
+expected dtls1_process_out_of_seq_message, matched asn1_parse2
+expected dtls1_reassemble_fragment, matched i2d_ASN1_OBJECT
+expected dtls1_preprocess_fragment, matched ssl_cert_new
+expected ssl_ctx_make_profiles, matched X509_PURPOSE_get_by_id
+expected SSL_get_srtp_profiles, matched SSL_dup
+expected ssl_add_clienthello_use_srtp_ext, matched X509_STORE_get1_crls
+expected ssl_parse_serverhello_use_srtp_ext, matched ssl_parse_clienthello_use_srtp_ext
+expected ssl_clear_cipher_ctx, matched do_name_ex
+expected ssl_clear_hash_ctx, matched lh_doall
+expected SSL_new, matched OBJ_add_sigid
+expected SSL_CTX_set_session_id_context, matched ENGINE_set_pkey_meths
+expected SSL_set_session_id_context, matched CRYPTO_remalloc
+expected SSL_CTX_set_generate_session_id, matched X509_STORE_get1_certs
+expected SSL_CTX_set_purpose, matched ssleay_rand_bytes
+expected SSL_set_purpose, matched engine_unlocked_finish
+expected SSL_CTX_set1_param, matched SSL_has_matching_session_id
+expected SSL_free, matched ssl3_release_write_buffer
+expected SSL_set_bio, matched CRYPTO_mem_leaks_fp
+expected SSL_get_rfd, matched dtls1_retransmit_buffered_messages
+expected SSL_set_wfd, matched X509_OBJECT_retrieve_match
+expected SSL_set_rfd, matched BIO_new_socket
+expected SSL_get_finished, matched OPENSSL_uni2asc
+expected SSL_get_peer_finished, matched engine_table_select
+expected SSL_set_verify, matched BIO_find_type
+expected SSL_pending, matched ASN1_TYPE_set1
+expected SSL_get_peer_certificate, matched CRYPTO_THREADID_set_callback
+expected SSL_get_peer_cert_chain, matched register_tm_clones
+expected SSL_CTX_check_private_key, matched ssl2_set_certificate
+expected SSL_check_private_key, matched old_ec_priv_decode
+expected SSL_accept, matched BN_get_word
+expected SSL_set_accept_state, matched SSL_connect
+expected SSL_connect, matched dtls1_retransmit_buffered_messages
+expected SSL_set_connect_state, matched ssl_clear_bad_session
+expected SSL_read, matched TXT_DB_insert
+expected SSL_peek, matched ssl_clear_bad_session
+expected SSL_write, matched md_ctrl
+expected SSL_shutdown, matched TXT_DB_create_index
+expected SSL_renegotiate, matched ssl3_send_client_certificate
+expected ssl_cipher_id_cmp, matched register_tm_clones
+expected SSL_get_ciphers, matched register_tm_clones
+expected ssl_get_ciphers_by_id, matched ASN1_TYPE_set
+expected SSL_get_cipher_list, matched CRYPTO_remalloc
+expected SSL_get_shared_ciphers, matched __do_global_dtors_aux
+expected ssl_cipher_list_to_bytes, matched BN_clear_bit
+expected SSL_get_servername_type, matched register_tm_clones
+expected SSL_select_next_proto, matched X509V3_EXT_nconf_nid
+expected SSL_get0_next_proto_negotiated, matched BN_get_params
+expected SSL_export_keying_material, matched BN_get_word
+expected SSL_CTX_new, matched ssl2_generate_key_material
+expected SSL_CTX_set_default_passwd_cb_userdata, matched CRYPTO_THREADID_current
+expected ssl_get_server_send_pkey, matched ssl3_check_cert_and_algorithm
+expected ssl_get_sign_pkey, matched BIO_find_type
+expected SSL_set_ssl_method, matched SSL_get_error
+expected SSL_get_error, matched register_tm_clones
+expected SSL_do_handshake, matched dtls1_retransmit_buffered_messages
+expected SSL_get_privatekey, matched register_tm_clones
+expected SSL_get_current_cipher, matched ec_GFp_nist_group_copy
+expected ssl_free_wbio_buffer, matched X509_policy_node_get0_qualifiers
+expected SSL_set_SSL_CTX, matched SSL_get_srp_g
+expected SSL_CTX_load_verify_locations, matched CRYPTO_THREADID_set_callback
+expected SSL_set_state, matched register_tm_clones
+expected SSL_set_verify_result, matched app_info_LHASH_COMP
+expected SSL_get_ex_new_index, matched DH_get_ex_new_index
+expected SSL_get_ex_data, matched ssleay_rand_bytes
+expected SSL_CTX_get_ex_data, matched engine_table_unregister
+expected SSL_CTX_set_cert_store, matched CRYPTO_remove_all_info
+expected SSL_CTX_use_psk_identity_hint, matched X509_OBJECT_retrieve_by_subject
+expected SSL_use_psk_identity_hint, matched add_attribute
+expected SSL_get_psk_identity_hint, matched register_tm_clones
+expected SSL_get_psk_identity, matched BN_get_word
+expected SSL_set_psk_client_callback, matched register_tm_clones
+expected SSL_set_psk_server_callback, matched __do_global_dtors_aux
+expected SSL_CTX_set_msg_callback, matched DES_decrypt3
+expected ssl_replace_hash, matched BIO_clear_flags
+expected SSL_set_debug, matched register_tm_clones
+expected ssl_cipher_id_cmp_BSEARCH_CMP_FN, matched EVP_PKEY_add1_attr_by_NID
+expected SSL_load_error_strings, matched X509_PURPOSE_get0
+expected ssl_cert_free, matched BN_get_word
+expected ssl_cert_inst, matched ssl3_setup_read_buffer
+expected ssl_sess_cert_free, matched engine_table_register
+expected ssl_set_peer_cert_type, matched register_tm_clones
+expected ssl_verify_cert_chain, matched ssl3_setup_read_buffer
+expected SSL_dup_CA_list, matched CRYPTO_strdup
+expected SSL_set_client_CA_list, matched dtls1_retransmit_buffered_messages
+expected SSL_CTX_set_client_CA_list, matched int_thread_get_item
+expected SSL_get_client_CA_list, matched BN_get_word
+expected SSL_add_client_CA, matched CRYPTO_mem_leaks_fp
+expected add_client_CA, matched X509_VERIFY_PARAM_set1_policies
+expected SSL_add_file_cert_subjects_to_stack, matched ssl_init_wbio_buffer
+expected SSL_get1_session, matched ssl_get_new_session
+expected SSL_SESSION_get_ex_new_index, matched CRYPTO_remove_all_info
+expected SSL_SESSION_get_ex_data, matched SSL_set_ex_data
+expected SSL_SESSION_new, matched ssl_get_new_session
+expected SSL_SESSION_get_id, matched CRYPTO_THREADID_set_callback
+expected def_generate_session_id, matched X509_NAME_add_entry
+expected SSL_SESSION_free, matched ssl_get_new_session
+expected remove_session_lock, matched SSL_CTX_add_session
+expected SSL_SESSION_set_timeout, matched CRYPTO_THREADID_set_callback
+expected SSL_SESSION_get_timeout, matched CRYPTO_THREADID_set_callback
+expected SSL_SESSION_get_time, matched DES_set_key
+expected SSL_SESSION_set_time, matched BN_options
+expected SSL_SESSION_set1_id_context, matched CRYPTO_ccm128_tag
+expected SSL_CTX_set_timeout, matched tree_find_sk
+expected SSL_CTX_get_timeout, matched no_check
+expected SSL_set_session_ticket_ext, matched OPENSSL_asc2uni
+expected timeout_LHASH_DOALL_ARG, matched engine_table_select
+expected SSL_CTX_sess_set_remove_cb, matched register_tm_clones
+expected SSL_CTX_sess_set_get_cb, matched register_tm_clones
+expected SSL_CTX_set_info_callback, matched X509_PURPOSE_get_by_id
+expected SSL_CTX_set_client_cert_engine, matched ssl_get_new_session
+expected PEM_read_bio_SSL_SESSION, matched BIO_socket_ioctl
+expected ssl_cipher_get_evp, matched X509_PURPOSE_get_by_id
+expected ssl_create_cipher_list, matched ssl3_output_cert_chain
+expected ssl_cipher_apply_rule, matched OPENSSL_cleanse
+expected ssl_cipher_strength_sort, matched register_tm_clones
+expected SSL_CIPHER_get_bits, matched register_tm_clones
+expected ssl3_comp_find, matched CRYPTO_get_dynlock_value
+expected SSL_COMP_add_compression_method, matched X509_PURPOSE_get_by_sname
+expected SSL_COMP_get_name, matched CRYPTO_THREADID_set_callback
+expected ll_append_tail, matched X509_get_ex_new_index
+expected SSL_rstate_string_long, matched register_tm_clones
+expected SSL_alert_type_string_long, matched X509_PURPOSE_get_trust
+expected SSL_alert_type_string, matched register_tm_clones
+expected SSL_alert_desc_string, matched ssl_get_handshake_digest
+expected SSL_rstate_string, matched BIO_sock_should_retry
+expected SSL_use_certificate, matched CONF_get_number
+expected ssl_set_cert, matched SSL_use_PrivateKey_ASN1
+expected ssl_set_pkey, matched ec_GF2m_simple_group_copy
+expected SSL_use_RSAPrivateKey_file, matched SSL_use_certificate_file
+expected SSL_use_RSAPrivateKey_ASN1, matched int_thread_get_item
+expected SSL_use_PrivateKey, matched ssl_set_cert
+expected SSL_use_PrivateKey_file, matched BN_mod_exp_mont_consttime
+expected SSL_use_PrivateKey_ASN1, matched CRYPTO_strdup
+expected SSL_CTX_use_certificate, matched ssl_parse_clienthello_use_srtp_ext
+expected SSL_CTX_use_certificate_ASN1, matched int_thread_get_item
+expected SSL_CTX_use_RSAPrivateKey, matched ssl3_write_pending
+expected SSL_CTX_use_RSAPrivateKey_file, matched SSL_use_certificate_file
+expected SSL_CTX_use_RSAPrivateKey_ASN1, matched CRYPTO_malloc
+expected SSL_CTX_use_PrivateKey, matched X509_TRUST_set
+expected SSL_CTX_use_PrivateKey_file, matched SSL_use_certificate_file
+expected SSL_CTX_use_PrivateKey_ASN1, matched X509_PURPOSE_set
+expected SSL_CTX_use_certificate_chain_file, matched SSL_use_certificate_file
+expected SSL_SESSION_print_fp, matched ssl_init_wbio_buffer
+expected BIO_new_buffer_ssl_connect, matched BIO_new_socket
+expected BIO_new_ssl, matched X509_OBJECT_retrieve_match
+expected BIO_ssl_copy_session_id, matched BIO_new_connect
+expected BIO_ssl_shutdown, matched CRYPTO_THREADID_set_callback
+expected ssl_read, matched ssl_write
+expected ssl_free, matched policy_node_match
+expected SSL_CTX_SRP_CTX_init, matched read_string_inner
+expected SSL_srp_server_param_with_username, matched md_gets
+expected SSL_set_srp_server_param_pw, matched SSL_set_srp_server_param
+expected SRP_generate_server_master_secret, matched SRP_Calc_A_param
+expected SRP_generate_client_master_secret, matched SRP_Calc_A_param
+expected SSL_get_srp_g, matched engine_unregister_all_DH
+expected SSL_get_srp_username, matched time@@GLIBC_2.2.5
+expected SSL_CTX_set_srp_password, matched ASN1_object_size
+expected SSL_CTX_set_srp_cb_arg, matched DES_decrypt3
+expected SSL_CTX_set_srp_username_callback, matched OBJ_cleanup
+expected ssl_add_clienthello_renegotiate_ext, matched ssl_add_serverhello_renegotiate_ext
+expected ssl_parse_serverhello_renegotiate_ext, matched ssl_add_serverhello_renegotiate_ext
+expected CRYPTO_get_new_dynlockid, matched CRYPTO_destroy_dynlockid
+expected CRYPTO_destroy_dynlockid, matched CRYPTO_get_dynlock_value
+expected CRYPTO_set_add_lock_callback, matched register_tm_clones
+expected CRYPTO_THREADID_set_callback, matched register_tm_clones
+expected CRYPTO_THREADID_current, matched register_tm_clones
+expected CRYPTO_THREADID_cmp, matched OBJ_NAME_init
+expected CRYPTO_THREADID_cpy, matched BIO_dump_cb
+expected CRYPTO_add_lock, matched CRYPTO_dbg_malloc
+expected CRYPTO_get_lock_name, matched EVP_PKEY_CTX_get_keygen_info
+expected CRYPTO_set_mem_functions, matched CRYPTO_lock
+expected CRYPTO_set_mem_ex_functions, matched CRYPTO_set_mem_functions
+expected CRYPTO_set_locked_mem_ex_functions, matched EVP_DecodeBlock
+expected CRYPTO_set_mem_debug_functions, matched RAND_add
+expected CRYPTO_get_mem_functions, matched register_tm_clones
+expected CRYPTO_get_mem_ex_functions, matched register_tm_clones
+expected CRYPTO_get_locked_mem_functions, matched register_tm_clones
+expected CRYPTO_get_locked_mem_ex_functions, matched X509_REQ_extension_nid
+expected CRYPTO_get_mem_debug_functions, matched register_tm_clones
+expected CRYPTO_malloc_locked, matched CRYPTO_get_dynlock_value
+expected CRYPTO_free_locked, matched X509_PURPOSE_get_count
+expected CRYPTO_realloc, matched CRYPTO_malloc
+expected CRYPTO_realloc_clean, matched CRYPTO_malloc
+expected CRYPTO_free, matched CRYPTO_get_dynlock_value
+expected CRYPTO_remalloc, matched EVP_PKEY_asn1_add0
+expected CRYPTO_set_mem_debug_options, matched CRYPTO_thread_id
+expected CRYPTO_get_mem_debug_options, matched CRYPTO_THREADID_set_callback
+expected CRYPTO_mem_ctrl, matched CRYPTO_remove_all_info
+expected CRYPTO_is_mem_check_on, matched register_tm_clones
+expected CRYPTO_push_info_, matched register_tm_clones
+expected app_info_LHASH_COMP, matched register_tm_clones
+expected pop_info, matched CRYPTO_get_dynlock_value
+expected CRYPTO_remove_all_info, matched register_tm_clones
+expected CRYPTO_dbg_malloc, matched ASN1_ENUMERATED_set
+expected CRYPTO_dbg_free, matched register_tm_clones
+expected CRYPTO_dbg_realloc, matched d2i_ocsp_nonce
+expected CRYPTO_mem_leaks_fp, matched ec_GF2m_simple_point_get_affine_coordinates
+expected cb_leak_LHASH_DOALL_ARG, matched CRYPTO_mem_leaks_fp
+expected CRYPTO_get_ex_data_implementation, matched CRYPTO_new_ex_data
+expected CRYPTO_set_ex_data_implementation, matched rsa_get_blinding
+expected CRYPTO_ex_data_new_class, matched BIO_socket_nbio
+expected CRYPTO_cleanup_all_ex_data, matched CRYPTO_THREADID_set_callback
+expected CRYPTO_dup_ex_data, matched int_err_get
+expected CRYPTO_free_ex_data, matched CRYPTO_get_dynlock_value
+expected CRYPTO_set_ex_data, matched X509_TRUST_add
+expected CRYPTO_get_ex_data, matched PEM_write_bio_PUBKEY
+expected int_new_class, matched CRYPTO_set_ex_data_implementation
+expected int_cleanup, matched CRYPTO_THREADID_set_callback
+expected int_get_new_index, matched camellia_128_cfb8_cipher
+expected int_new_ex_data, matched EVP_PKEY_asn1_find_str
+expected int_dup_ex_data, matched def_crl_lookup
+expected int_free_ex_data, matched int_dup_ex_data
+expected ex_data_check, matched CRYPTO_new_ex_data
+expected def_cleanup_cb, matched engine_table_register
+expected def_get_class, matched X509_PURPOSE_get_by_sname
+expected OPENSSL_DIR_read, matched cms_SignedData_init_bio
+expected OPENSSL_DIR_end, matched cms_SignedData_init_bio
+expected OBJ_NAME_init, matched BN_set_params
+expected obj_name_LHASH_HASH, matched CONF_modules_unload
+expected obj_name_LHASH_COMP, matched register_tm_clones
+expected OBJ_NAME_get, matched X509_PURPOSE_get_by_sname
+expected OBJ_NAME_remove, matched CRYPTO_get_dynlock_value
+expected do_all_fn_LHASH_DOALL_ARG, matched CRYPTO_get_dynlock_value
+expected do_all_sorted_fn, matched sk_delete_ptr
+expected do_all_sorted_cmp, matched null_callback
+expected names_lh_free_LHASH_DOALL, matched CRYPTO_get_dynlock_value
+expected obj_name_cmp, matched CRYPTO_remalloc
+expected OBJ_cleanup, matched SSLv2_client_method
+expected cleanup2_LHASH_DOALL, matched register_tm_clones
+expected cleanup3_LHASH_DOALL, matched X509_PURPOSE_cleanup
+expected OBJ_add_object, matched TXT_DB_read
+expected OBJ_nid2ln, matched BIO_socket_ioctl
+expected OBJ_obj2nid, matched X509_PURPOSE_get0
+expected OBJ_txt2obj, matched bn_sub_words
+expected OBJ_ln2nid, matched X509_PURPOSE_get_by_sname
+expected OBJ_obj2txt, matched RSA_eay_private_decrypt
+expected OBJ_txt2nid, matched X509_NAME_add_entry_by_NID
+expected OBJ_bsearch_, matched CRYPTO_get_dynlock_value
+expected OBJ_bsearch_ex_, matched ASN1_BIT_STRING_set_bit
+expected OBJ_create_objects, matched mime_parse_hdr
+expected OBJ_create, matched CRYPTO_malloc_locked
+expected added_obj_LHASH_HASH, matched register_tm_clones
+expected added_obj_LHASH_COMP, matched BN_get_params
+expected OBJ_dup, matched OPENSSL_asc2uni
+expected OBJ_cmp, matched register_tm_clones
+expected OBJ_find_sigid_algs, matched CRYPTO_mem_leaks_cb
+expected OBJ_find_sigid_by_algs, matched CRYPTO_get_dynlock_value
+expected sigx_cmp, matched register_tm_clones
+expected OBJ_sigid_free, matched UI_get_result_minsize
+expected sigx_cmp_BSEARCH_CMP_FN, matched EVP_DecodeBlock
+expected MD5_Update, matched AES_wrap_key
+expected MD5_Transform, matched BIO_socket_ioctl
+expected SHA1_Update, matched MD5_Update
+expected SHA1_Transform, matched EVP_EncodeFinal
+expected SHA1_Final, matched SHA256_Final
+expected SHA1_Init, matched read_string_inner
+expected SHA256_Init, matched SHA384_Init
+expected SHA256, matched SHA224
+expected SHA224_Update, matched BN_get_params
+expected SHA224_Final, matched CRYPTO_THREADID_set_callback
+expected SHA512_Init, matched SHA384_Init
+expected SHA384_Final, matched CRYPTO_THREADID_set_callback
+expected SHA512_Update, matched SHA384_Update
+expected SHA512_Transform, matched BIO_socket_ioctl
+expected SHA384, matched X509_REQ_extension_nid
+expected SHA512, matched read_string_inner
+expected HMAC_CTX_init, matched PKCS12_key_gen_uni
+expected HMAC_Final, matched ssleay_rand_bytes
+expected HMAC_CTX_copy, matched engine_table_select
+expected HMAC, matched PKCS12_key_gen_uni
+expected BN_num_bits_word, matched register_tm_clones
+expected BN_num_bits, matched CRYPTO_THREADID_set_callback
+expected BN_clear_free, matched BIO_socket_ioctl
+expected BN_free, matched ASN1_TYPE_set1
+expected BN_init, matched read_string_inner
+expected BN_new, matched bn_expand_internal
+expected bn_dup_expand, matched SSL_get_error
+expected BN_dup, matched TXT_DB_insert
+expected bn_expand2, matched ASN1_BIT_STRING_set_bit
+expected BN_copy, matched OPENSSL_asc2uni
+expected BN_clear, matched register_tm_clones
+expected BN_get_word, matched pkey_dsa_ctrl
+expected BN_set_word, matched CRYPTO_get_dynlock_value
+expected BN_bin2bn, matched X509_PURPOSE_get_by_sname
+expected BN_ucmp, matched BN_get_word
+expected BN_cmp, matched CRYPTO_get_dynlock_value
+expected BN_set_bit, matched CRYPTO_get_dynlock_value
+expected BN_clear_bit, matched BN_mask_bits
+expected BN_is_bit_set, matched CRYPTO_get_lock_name
+expected BN_mask_bits, matched OPENSSL_init
+expected bn_cmp_words, matched register_tm_clones
+expected bn_cmp_part_words, matched bn_cmp_words
+expected BN_CTX_new, matched BN_GF2m_mod_mul
+expected BN_CTX_free, matched engine_table_select
+expected BN_CTX_get, matched BN_CTX_start
+expected BN_hex2bn, matched engine_table_register
+expected BN_dec2bn, matched ASN1_BIT_STRING_set_bit
+expected BN_print_fp, matched BIO_new_fp
+expected BN_print, matched CRYPTO_mem_leaks_cb
+expected BN_lshift1, matched SSL_ctrl
+expected BN_rshift1, matched CRYPTO_get_dynlock_value
+expected BN_mod_word, matched BN_get_word
+expected BN_div_word, matched engine_table_select
+expected BN_add_word, matched lh_doall_arg
+expected BN_sub_word, matched CRYPTO_THREADID_current
+expected BN_mul_word, matched CRYPTO_get_dynlock_value
+expected bn_mul_add_words, matched bn_mul_words
+expected bn_mul_words, matched CRYPTO_get_dynlock_value
+expected bn_sqr_words, matched bn_mul_add_words
+expected bn_div_words, matched idea_ecb_cipher
+expected bn_mul_comba8, matched bn_mul_words
+expected bn_mul_comba4, matched bn_mul_words
+expected bn_sqr_comba8, matched bn_mul_words
+expected bn_sqr_comba4, matched bn_mul_words
+expected EC_GROUP_new, matched ssl_cert_new
+expected EC_GROUP_free, matched CRYPTO_get_dynlock_value
+expected EC_EX_DATA_free_all_data, matched bn_sub_words
+expected EC_POINT_free, matched dtls1_retransmit_buffered_messages
+expected EC_GROUP_clear_free, matched sock_ctrl
+expected EC_EX_DATA_clear_free_all_data, matched CRYPTO_THREADID_set_callback
+expected EC_POINT_clear_free, matched ECDSA_size
+expected EC_GROUP_copy, matched engine_unlocked_finish
+expected EC_EX_DATA_set_data, matched seed_cfb128_cipher
+expected EC_POINT_new, matched ssl3_setup_read_buffer
+expected EC_GROUP_dup, matched register_tm_clones
+expected EC_GROUP_set_generator, matched CRYPTO_remalloc
+expected EC_GROUP_get_order, matched EVP_PKEY_asn1_get0
+expected EC_GROUP_get_cofactor, matched int_unregister_cb_LHASH_DOALL_ARG
+expected EC_GROUP_set_seed, matched ec_GF2m_simple_group_set_curve
+expected EC_GROUP_set_curve_GF2m, matched EC_GROUP_set_generator
+expected EC_GROUP_get_degree, matched CONF_get_number
+expected EC_GROUP_cmp, matched register_tm_clones
+expected EC_POINT_cmp, matched string_to_hex
+expected EC_EX_DATA_get_data, matched UI_get_result_minsize
+expected EC_EX_DATA_free_data, matched CMAC_Init
+expected EC_EX_DATA_clear_free_data, matched RC2_decrypt
+expected EC_POINT_dup, matched CRYPTO_get_dynlock_value
+expected EC_POINT_set_Jprojective_coordinates_GFp, matched X509_PURPOSE_get_by_id
+expected EC_POINT_get_Jprojective_coordinates_GFp, matched EC_POINT_set_Jprojective_coordinates_GFp
+expected EC_POINT_set_affine_coordinates_GF2m, matched BN_GF2m_mod
+expected EC_POINT_get_affine_coordinates_GFp, matched BN_BLINDING_update
+expected EC_POINT_get_affine_coordinates_GF2m, matched EC_POINT_set_Jprojective_coordinates_GFp
+expected EC_POINT_is_at_infinity, matched X509_verify_cert
+expected EC_POINT_is_on_curve, matched EC_POINT_set_affine_coordinates_GF2m
+expected EC_POINT_make_affine, matched EC_POINT_copy
+expected EC_POINTs_make_affine, matched CRYPTO_THREADID_current
+expected EC_POINTs_mul, matched bn_cmp_part_words
+expected EC_GROUP_precompute_mult, matched BN_BLINDING_convert_ex
+expected EC_GROUP_have_precompute_mult, matched EC_GROUP_precompute_mult
+expected ec_pre_comp_free, matched CRYPTO_THREADID_set_callback
+expected ec_pre_comp_clear_free, matched ASN1_TYPE_cmp
+expected ec_wNAF_precompute_mult, matched X509_NAME_oneline
+expected ec_pre_comp_new, matched ec_wNAF_precompute_mult
+expected ec_wNAF_have_precompute_mult, matched DES_set_key
+expected EC_get_builtin_curves, matched register_tm_clones
+expected EC_KEY_new, matched pkey_hmac_init
+expected EC_KEY_new_by_curve_name, matched CRYPTO_THREADID_set_callback
+expected EC_KEY_free, matched dtls1_retransmit_message
+expected EC_KEY_copy, matched X509_VERIFY_PARAM_add0_policy
+expected EC_KEY_dup, matched CONF_modules_unload
+expected EC_KEY_up_ref, matched X509_OBJECT_up_ref_count
+expected EC_KEY_generate_key, matched ssl_bytes_to_cipher_list
+expected EC_KEY_check_key, matched int_thread_get_item
+expected EC_KEY_set_public_key_affine_coordinates, matched COMP_expand_block
+expected EC_KEY_set_public_key, matched SSL_CTX_set_verify_depth
+expected EC_KEY_set_group, matched CRYPTO_mem_leaks_fp
+expected EC_KEY_set_private_key, matched SSL_set_ex_data
+expected EC_KEY_set_enc_flags, matched sk_set
+expected EC_KEY_precompute_mult, matched X509_PURPOSE_get_by_sname
+expected EC_POINT_set_compressed_coordinates_GFp, matched ERR_load_strings
+expected EC_POINT_point2oct, matched ssl_parse_serverhello_use_srtp_ext
+expected RSA_new, matched CRYPTO_THREADID_set_callback
+expected RSA_new_method, matched X509V3_EXT_add_list
+expected RSA_get_default_method, matched deregister_tm_clones
+expected RSA_set_method, matched dtls1_retransmit_buffered_messages
+expected RSA_free, matched dtls1_retransmit_buffered_messages
+expected RSA_set_ex_data, matched engine_table_select
+expected RSA_memory_lock, matched dtls1_retransmit_buffered_messages
+expected RSA_sign, matched ssl2_set_certificate
+expected RSA_verify, matched EC_POINT_get_affine_coordinates_GFp
+expected i2d_RSA_PSS_PARAMS, matched read_string
+expected RSA_PSS_PARAMS_free, matched SSL_CTX_set_ssl_version
+expected d2i_RSAPrivateKey, matched ENGINE_get_ex_new_index
+expected rsa_cb, matched mime_hdr_cmp
+expected RSA_public_decrypt, matched dtls1_check_timeout_num
+expected RSA_flags, matched asn1_template_clear
+expected RSA_blinding_on, matched CRYPTO_new_ex_data
+expected d2i_DSAPrivateKey, matched int_err_get_next_lib
+expected DSA_sign, matched CRYPTO_get_dynlock_value
+expected DSA_verify, matched OBJ_bsearch_ex_
+expected sig_cb, matched EVP_PKEY_CTX_new_id
+expected dsa_cb, matched dh_cb
+expected DSA_SIG_new, matched ssleay_rand_bytes
+expected DSA_SIG_free, matched register_tm_clones
+expected ECDSA_sign_ex, matched CRYPTO_malloc
+expected ECDSA_sign_setup, matched ec_GFp_simple_point_set_affine_coordinates
+expected ECDSA_verify, matched EVP_PKEY_asn1_find_str
+expected d2i_DHparams, matched X509_add_ext
+expected dh_cb, matched ASN1_TYPE_set
+expected DH_compute_key, matched conn_callback_ctrl
+expected compute_key, matched ec_GFp_simple_oct2point
+expected dh_finish, matched OBJ_cleanup
+expected DH_get_default_method, matched CRYPTO_get_dynlock_value
+expected DH_set_method, matched dtls1_retransmit_buffered_messages
+expected DH_new, matched sock_ctrl
+expected DH_new_method, matched X509_verify_cert
+expected DH_get_ex_data, matched ASN1_TYPE_set1
+expected DH_size, matched register_tm_clones
+expected DH_check, matched pem_check_suffix
+expected DH_check_pub_key, matched pem_check_suffix
+expected ECDH_compute_key, matched ec_GFp_simple_point_set_affine_coordinates
+expected engine_unlocked_init, matched CRYPTO_THREADID_current
+expected ENGINE_load_public_key, matched ENGINE_load_private_key
+expected ENGINE_load_ssl_client_cert, matched ENGINE_load_public_key
+expected ENGINE_register_RSA, matched CRYPTO_THREADID_set_callback
+expected ENGINE_register_all_RSA, matched SSL_CTX_set_ssl_version
+expected BUF_MEM_new, matched sig_cb
+expected BUF_MEM_free, matched UI_get_result_minsize
+expected BUF_MEM_grow, matched register_tm_clones
+expected BUF_reverse, matched sk_delete_ptr
+expected BUF_strndup, matched BN_GF2m_mod_sqr
+expected BUF_memdup, matched ssl_cipher_strength_sort
+expected BUF_strlcat, matched bn_add_words
+expected BIO_new, matched EC_GROUP_set_curve_GFp
+expected BIO_set, matched dtls1_get_timeout
+expected BIO_free, matched GENERAL_NAME_cmp
+expected BIO_set_flags, matched register_tm_clones
+expected BIO_write, matched file_read
+expected BIO_puts, matched ssl_parse_clienthello_use_srtp_ext
+expected BIO_gets, matched ssl_parse_clienthello_use_srtp_ext
+expected BIO_ctrl, matched BIO_ctrl_wpending
+expected BIO_ptr_ctrl, matched obj_name_LHASH_HASH
+expected BIO_callback_ctrl, matched int_thread_get_item
+expected BIO_push, matched TXT_DB_create_index
+expected BIO_pop, matched SSL_CTX_flush_sessions
+expected BIO_next, matched ri_cb
+expected BIO_free_all, matched BN_GF2m_arr2poly
+expected BIO_dup_chain, matched EVP_PKEY_get1_DH
+expected BIO_get_ex_new_index, matched X509_get_ex_new_index
+expected BIO_get_ex_data, matched engine_free_util
+expected BIO_number_read, matched register_tm_clones
+expected BIO_number_written, matched register_tm_clones
+expected mem_write, matched ssl_write
+expected mem_read, matched mem_gets
+expected mem_ctrl, matched SSL_ctrl
+expected mem_new, matched conn_ctrl
+expected mem_free, matched sock_ctrl
+expected BIO_new_file, matched SSL_add_dir_cert_subjects_to_stack
+expected file_write, matched sock_puts
+expected file_read, matched EVP_PKEY_assign
+expected file_gets, matched CRYPTO_mem_leaks_cb
+expected file_ctrl, matched ERR_release_err_state_table
+expected file_new, matched TXT_DB_insert
+expected file_free, matched X509_add_ext
+expected sock_read, matched traverse_string
+expected sock_ctrl, matched ssl_get_handshake_digest
+expected sock_free, matched sock_ctrl
+expected BIO_CONNECT_new, matched sig_cb
+expected BIO_CONNECT_free, matched CRYPTO_get_dynlock_value
+expected BIO_new_connect, matched BIO_new_fp
+expected conn_write, matched X509_check_trust
+expected conn_read, matched sock_write
+expected conn_ctrl, matched OPENSSL_cleanse
+expected conn_free, matched TXT_DB_insert
+expected conn_callback_ctrl, matched CRYPTO_remove_all_info
+expected buffer_write, matched ssl_write
+expected buffer_read, matched CRYPTO_get_lock_name
+expected buffer_puts, matched b64_puts
+expected buffer_gets, matched mem_gets
+expected buffer_new, matched sock_ctrl
+expected buffer_free, matched int_thread_del_item
+expected buffer_callback_ctrl, matched register_tm_clones
+expected _dopr, matched bn_sub_words
+expected BIO_snprintf, matched dh_bn_mod_exp
+expected BIO_vsnprintf, matched OPENSSL_cleanse
+expected doapr_outch, matched OPENSSL_asc2uni
+expected fmtfp, matched ssleay_rand_bytes
+expected BIO_dump_fp, matched CRYPTO_lock
+expected write_bio, matched ssl_puts
+expected get_ip, matched BN_GF2m_mod
+expected BIO_sock_error, matched X509V3_EXT_nconf_nid
+expected sk_set_cmp_func, matched CRYPTO_ccm128_setiv
+expected sk_dup, matched CRYPTO_lock
+expected sk_new, matched sk_dup
+expected sk_free, matched sock_ctrl
+expected sk_new_null, matched BN_get_params
+expected sk_insert, matched i2a_ASN1_INTEGER
+expected sk_delete_ptr, matched rc2_ecb_cipher
+expected sk_delete, matched BN_clear_bit
+expected internal_find, matched CRYPTO_get_dynlock_value
+expected sk_push, matched register_tm_clones
+expected sk_unshift, matched CRYPTO_mem_leaks_fp
+expected sk_shift, matched UI_get_result_minsize
+expected sk_pop, matched X509_REQ_set_version
+expected sk_pop_free, matched register_tm_clones
+expected sk_num, matched OBJ_NAME_init
+expected sk_value, matched CRYPTO_THREADID_set_callback
+expected sk_set, matched BIO_clear_flags
+expected sk_sort, matched BN_get_params
+expected sk_is_sorted, matched register_tm_clones
+expected lh_strhash, matched DES_ecb_encrypt
+expected lh_free, matched lh_doall_arg
+expected lh_insert, matched ASN1_ENUMERATED_set
+expected lh_delete, matched lh_insert
+expected lh_retrieve, matched lh_insert
+expected lh_doall, matched register_tm_clones
+expected doall_util_fn, matched register_tm_clones
+expected lh_num_items, matched .__ctype_b_loc
+expected RAND_set_rand_method, matched X509_PURPOSE_get_count
+expected RAND_get_rand_method, matched X509_PURPOSE_get_count
+expected RAND_set_rand_engine, matched X509_PURPOSE_get_by_sname
+expected RAND_cleanup, matched CRYPTO_get_dynlock_value
+expected RAND_seed, matched register_tm_clones
+expected RAND_add, matched ssleay_rand_add
+expected RAND_bytes, matched BN_mask_bits
+expected RAND_pseudo_bytes, matched CRYPTO_THREADID_set_callback
+expected RAND_status, matched register_tm_clones
+expected ERR_get_implementation, matched register_tm_clones
+expected ERR_set_implementation, matched CRYPTO_lock
+expected ERR_load_ERR_strings, matched register_tm_clones
+expected ERR_load_strings, matched register_tm_clones
+expected ERR_unload_strings, matched SetBlobCmp
+expected ERR_free_strings, matched ERR_reason_error_string
+expected get_error_values, matched ASN1_object_size
+expected ERR_peek_last_error_line_data, matched EVP_EncodeFinal
+expected ERR_lib_error_string, matched ERR_reason_error_string
+expected ERR_func_error_string, matched ERR_lib_error_string
+expected ERR_reason_error_string, matched X509_PURPOSE_get_by_id
+expected ERR_error_string, matched ERR_print_errors
+expected ERR_get_string_table, matched ERR_get_err_state_table
+expected ERR_get_err_state_table, matched deregister_tm_clones
+expected ERR_release_err_state_table, matched CRYPTO_THREADID_set_callback
+expected ERR_remove_state, matched CRYPTO_remalloc
+expected ERR_STATE_free, matched CRYPTO_get_dynlock_value
+expected ERR_add_error_data, matched RSA_padding_check_PKCS1_OAEP
+expected ERR_set_mark, matched EVP_PKEY_CTX_get_keygen_info
+expected ERR_pop_to_mark, matched sock_ctrl
+expected int_err_get, matched register_tm_clones
+expected int_err_del, matched register_tm_clones
+expected int_err_get_item, matched ERR_load_ERR_strings
+expected int_thread_release, matched register_tm_clones
+expected int_thread_set_item, matched ERR_reason_error_string
+expected int_thread_del_item, matched ERR_get_next_error_library
+expected err_state_LHASH_HASH, matched register_tm_clones
+expected EVP_MD_CTX_init, matched read_string_inner
+expected EVP_MD_CTX_create, matched read_string_inner
+expected EVP_DigestInit, matched read_string_inner
+expected EVP_DigestInit_ex, matched bn_expand_internal
+expected EVP_DigestUpdate, matched dtls1_retransmit_buffered_messages
+expected EVP_DigestFinal_ex, matched ASN1_STRING_set
+expected EVP_MD_CTX_cleanup, matched CRYPTO_THREADID_current
+expected EVP_MD_CTX_copy, matched read_string_inner
+expected EVP_MD_CTX_copy_ex, matched ssl3_ctx_ctrl
+expected EVP_Digest, matched ssleay_rand_bytes
+expected EVP_MD_CTX_destroy, matched register_tm_clones
+expected EVP_CipherInit, matched ssl_sess_cert_new
+expected EVP_CIPHER_CTX_cleanup, matched ssl_sess_cert_new
+expected EVP_CIPHER_CTX_ctrl, matched BN_GF2m_mod_sqr
+expected EVP_CipherUpdate, matched CRYPTO_mem_leaks_fp
+expected EVP_EncryptUpdate, matched mem_gets
+expected EVP_DecryptUpdate, matched bn_sub_words
+expected EVP_CipherFinal_ex, matched i2a_ASN1_STRING
+expected EVP_EncryptFinal_ex, matched register_tm_clones
+expected EVP_DecryptFinal_ex, matched dtls1_read_bytes
+expected EVP_CipherFinal, matched engine_table_register
+expected EVP_EncryptInit, matched ssl_sess_cert_new
+expected EVP_DecryptInit, matched MD5_Init
+expected EVP_CIPHER_CTX_set_key_length, matched ec_GF2m_simple_oct2point
+expected EVP_CIPHER_CTX_rand_key, matched OPENSSL_uni2asc
+expected EVP_CIPHER_CTX_copy, matched bn_expand_internal
+expected des_ofb_cipher, matched X509_PURPOSE_get_by_id
+expected des_ecb_cipher, matched idea_ecb_cipher
+expected des_cfb8_cipher, matched camellia_128_cbc_cipher
+expected idea_init_key, matched dtls1_retransmit_message
+expected idea_cbc_cipher, matched des_ede3_cfb8_cipher
+expected idea_cfb64_cipher, matched CRYPTO_mem_leaks_cb
+expected idea_ofb_cipher, matched CRYPTO_set_mem_debug_functions
+expected idea_ecb_cipher, matched SSL_ctrl
+expected des_ede_cbc_cipher, matched X509_PURPOSE_get_by_id
+expected des3_ctrl, matched register_tm_clones
+expected des_ede_cfb64_cipher, matched camellia_128_cbc_cipher
+expected des_ede_ofb_cipher, matched CRYPTO_mem_leaks_cb
+expected des_ede_ecb_cipher, matched dtls1_retransmit_buffered_messages
+expected des_ede3_cfb8_cipher, matched X509_PURPOSE_get_by_id
+expected camellia_init_key, matched BIO_socket_ioctl
+expected camellia_128_cbc_cipher, matched des_ede_cbc_cipher
+expected camellia_128_ofb_cipher, matched CRYPTO_mem_leaks_cb
+expected camellia_128_ecb_cipher, matched X509V3_EXT_nconf_nid
+expected camellia_192_cbc_cipher, matched camellia_128_cbc_cipher
+expected camellia_192_cfb128_cipher, matched X509V3_EXT_get_nid
+expected camellia_192_ofb_cipher, matched des_ofb_cipher
+expected camellia_192_ecb_cipher, matched AES_wrap_key
+expected camellia_256_cbc_cipher, matched camellia_128_cbc_cipher
+expected camellia_256_cfb128_cipher, matched CRYPTO_get_dynlock_value
+expected camellia_256_ofb_cipher, matched seed_ofb_cipher
+expected camellia_256_ecb_cipher, matched X509V3_EXT_nconf_nid
+expected camellia_128_cfb1_cipher, matched ssl_cipher_get_evp
+expected camellia_192_cfb1_cipher, matched CRYPTO_mem_leaks_cb
+expected camellia_256_cfb1_cipher, matched rc2_cbc_cipher
+expected camellia_128_cfb8_cipher, matched camellia_128_cfb128_cipher
+expected camellia_192_cfb8_cipher, matched CRYPTO_get_dynlock_value
+expected camellia_256_cfb8_cipher, matched ssl2_get_client_method
+expected rc4_init_key, matched CRYPTO_THREADID_set_callback
+expected aes_cbc_cipher, matched dtls1_retransmit_message
+expected aes_ecb_cipher, matched EC_POINT_mul
+expected aes_ctr_cipher, matched dtls1_retransmit_message
+expected aes_gcm_init_key, matched ERR_get_state
+expected aes_gcm_cipher, matched CRYPTO_get_lock_name
+expected aes_gcm_cleanup, matched dsa_sign_setup
+expected aes_gcm_tls_cipher, matched UI_construct_prompt
+expected aes_xts_init_key, matched i2a_ASN1_INTEGER
+expected aes_xts_cipher, matched dtls1_retransmit_buffered_messages
+expected aes_xts_ctrl, matched read_string_inner
+expected aes_ccm_init_key, matched TXT_DB_create_index
+expected aes_ccm_cipher, matched ssl3_output_cert_chain
+expected aes_ccm_ctrl, matched SSL_has_matching_session_id
+expected EVP_add_cipher, matched engine_table_cleanup
+expected EVP_add_digest, matched open_console
+expected EVP_get_cipherbyname, matched register_tm_clones
+expected EVP_cleanup, matched engine_table_cleanup
+expected do_all_cipher_fn, matched CRYPTO_get_dynlock_value
+expected do_all_md_fn, matched CRYPTO_mem_leaks_fp
+expected EVP_MD_do_all_sorted, matched check_defer
+expected seed_init_key, matched int_err_get_item
+expected seed_cbc_cipher, matched seed_ofb_cipher
+expected seed_cfb128_cipher, matched camellia_128_cfb128_cipher
+expected seed_ofb_cipher, matched camellia_128_cbc_cipher
+expected seed_ecb_cipher, matched OBJ_bsearch_ssl_cipher_id
+expected rc2_cbc_cipher, matched camellia_128_cbc_cipher
+expected rc2_set_asn1_type_and_iv, matched ASN1_TYPE_set
+expected rc2_get_asn1_type_and_iv, matched ASN1_item_ex_i2d
+expected rc2_ctrl, matched CRYPTO_get_dynlock_value
+expected rc2_ofb_cipher, matched SSL_CTX_ctrl
+expected rc2_ecb_cipher, matched dtls1_retransmit_buffered_messages
+expected init, matched register_tm_clones
+expected final, matched ssleay_rand_bytes
+expected init224, matched app_info_LHASH_HASH
+expected final256, matched BN_get_params
+expected EVP_SignFinal, matched ssleay_rand_add
+expected EVP_VerifyFinal, matched RSA_eay_private_decrypt
+expected EVP_PKEY_bits, matched register_tm_clones
+expected EVP_PKEY_size, matched CRYPTO_thread_id
+expected EVP_PKEY_copy_parameters, matched CONF_load_fp
+expected EVP_PKEY_cmp, matched X509_OBJECT_retrieve_match
+expected EVP_PKEY_new, matched EC_KEY_new
+expected EVP_PKEY_set_type, matched DES_decrypt3
+expected pkey_set_type, matched CRYPTO_THREADID_current
+expected EVP_PKEY_assign, matched X509_check_trust
+expected EVP_PKEY_set1_RSA, matched CRYPTO_THREADID_current
+expected EVP_PKEY_set1_DSA, matched X509_check_trust
+expected EVP_PKEY_set1_EC_KEY, matched CRYPTO_lock
+expected EVP_PKEY_get1_EC_KEY, matched engine_unlocked_finish
+expected EVP_PKEY_set1_DH, matched sock_ctrl
+expected EVP_PKEY_get1_DH, matched X509_TRUST_cleanup
+expected EVP_PKEY_type, matched RSA_set_default_method
+expected EVP_PKEY_base_id, matched CRYPTO_remalloc
+expected EVP_PKEY_free, matched X509_NAME_get_index_by_OBJ
+expected EVP_PKEY_print_public, matched do_dsa_print
+expected EVP_PKEY_print_params, matched do_dsa_print
+expected EVP_CIPHER_param_to_asn1, matched OPENSSL_uni2asc
+expected EVP_CIPHER_set_asn1_iv, matched cms_cb
+expected EVP_CIPHER_asn1_to_param, matched CRYPTO_thread_id
+expected EVP_CIPHER_get_asn1_iv, matched BN_dec2bn
+expected EVP_CIPHER_type, matched CRYPTO_get_dynlock_value
+expected EVP_MD_size, matched CRYPTO_THREADID_set_callback
+expected EVP_MD_CTX_clear_flags, matched ENGINE_set_DH
+expected EVP_PBE_CipherInit, matched PEM_write_bio
+expected EVP_PBE_find, matched CRYPTO_get_dynlock_value
+expected EVP_PBE_alg_add_type, matched CRYPTO_get_dynlock_value
+expected pbe_cmp, matched CRYPTO_THREADID_set_callback
+expected EVP_PBE_alg_add, matched X509_PURPOSE_get_count
+expected PKCS5_v2_PBE_keyivgen, matched ASN1_object_size
+expected PKCS5_v2_PBKDF2_keyivgen, matched register_tm_clones
+expected EVP_PKEY_meth_find, matched BN_options
+expected EVP_PKEY_meth_get0_info, matched X509_ALGOR_get0
+expected EVP_PKEY_meth_free, matched ext_list_free
+expected int_ctx_new, matched CRYPTO_strdup
+expected EVP_PKEY_CTX_ctrl, matched BN_GF2m_mod
+expected EVP_PKEY_CTX_ctrl_str, matched ssl_parse_clienthello_use_srtp_ext
+expected EVP_PKEY_meth_set_init, matched register_tm_clones
+expected EVP_PKEY_meth_set_verify_recover, matched CRYPTO_new_ex_data
+expected EVP_PKEY_meth_set_verifyctx, matched BN_get_word
+expected EVP_PKEY_meth_set_encrypt, matched ASN1_TYPE_set
+expected EVP_PKEY_meth_set_ctrl, matched i2d_ASN1_BOOLEAN
+expected EVP_PKEY_sign_init, matched ASN1_primitive_free
+expected EVP_PKEY_sign, matched ssl_parse_serverhello_use_srtp_ext
+expected EVP_PKEY_verify_init, matched EVP_PKEY_decrypt
+expected EVP_PKEY_verify, matched X509_NAME_get_index_by_NID
+expected EVP_PKEY_verify_recover_init, matched bn_expand_internal
+expected EVP_PKEY_verify_recover, matched ERR_load_strings
+expected EVP_PKEY_encrypt_init, matched by_file_ctrl
+expected EVP_PKEY_decrypt_init, matched EVP_PKEY_sign_init
+expected EVP_PKEY_derive_init, matched des3_ctrl
+expected EVP_PKEY_derive, matched EVP_PKEY_derive_set_peer
+expected EVP_PKEY_paramgen_init, matched bn_expand_internal
+expected EVP_PKEY_paramgen, matched ssl_parse_clienthello_use_srtp_ext
+expected EVP_PKEY_keygen_init, matched ssl_parse_clienthello_use_srtp_ext
+expected EVP_PKEY_keygen, matched RSA_padding_check_X931
+expected EVP_PKEY_new_mac_key, matched CRYPTO_mem_leaks_fp
+expected EVP_DigestSignInit, matched CRYPTO_thread_id
+expected do_sigver_init, matched register_tm_clones
+expected EVP_DigestSignFinal, matched ssleay_rand_add
+expected EVP_DigestVerifyFinal, matched CRYPTO_THREADID_current
+expected rc4_hmac_md5_init_key, matched rc4_hmac_md5_ctrl
+expected rc4_hmac_md5_cipher, matched AES_wrap_key
+expected i2d_ASN1_OBJECT, matched X509V3_EXT_nconf_nid
+expected i2t_ASN1_OBJECT, matched open_console
+expected i2a_ASN1_OBJECT, matched ASN1_object_size
+expected d2i_ASN1_OBJECT, matched OPENSSL_init
+expected c2i_ASN1_OBJECT, matched ssleay_rand_bytes
+expected ASN1_OBJECT_new, matched c2i_ASN1_OBJECT
+expected ASN1_OBJECT_free, matched ssl3_record_sequence_update
+expected ASN1_OBJECT_create, matched CRYPTO_get_lock_name
+expected ASN1_INTEGER_dup, matched register_tm_clones
+expected ASN1_INTEGER_cmp, matched CRYPTO_THREADID_set_callback
+expected i2c_ASN1_INTEGER, matched OPENSSL_init
+expected c2i_ASN1_INTEGER, matched ASN1_ENUMERATED_set
+expected d2i_ASN1_UINTEGER, matched add_cert_dir
+expected ASN1_INTEGER_set, matched ASN1_ENUMERATED_set
+expected ASN1_INTEGER_get, matched ASN1_ENUMERATED_get
+expected BN_to_ASN1_INTEGER, matched ssl_cipher_strength_sort
+expected ASN1_INTEGER_to_BN, matched sock_write
+expected ASN1_TYPE_get, matched X509_ATTRIBUTE_get0_type
+expected ASN1_TYPE_cmp, matched UI_get_result_minsize
+expected ASN1_dup, matched UI_construct_prompt
+expected ASN1_item_dup, matched CRYPTO_dbg_malloc
+expected d2i_X509_ALGOR, matched open_console
+expected i2d_X509_ALGOR, matched app_info_LHASH_COMP
+expected X509_ALGOR_free, matched open_console
+expected X509_ALGOR_set0, matched X509_PURPOSE_get_by_sname
+expected X509_ALGOR_get0, matched register_tm_clones
+expected d2i_X509_SIG, matched DSA_get_ex_new_index
+expected i2d_X509_SIG, matched PEM_dek_info
+expected X509_SIG_new, matched ENGINE_up_ref
+expected i2d_X509_ATTRIBUTE, matched register_tm_clones
+expected X509_ATTRIBUTE_create, matched CRYPTO_set_ex_data_implementation
+expected bn_new, matched X509_PURPOSE_get_by_id
+expected bn_free, matched ERR_remove_state
+expected bn_c2i, matched CRYPTO_strdup
+expected long_c2i, matched ASN1_tag2bit
+expected long_i2c, matched CMAC_Init
+expected X509_NAME_ENTRY_free, matched engine_table_cleanup
+expected X509_NAME_ENTRY_dup, matched close_console
+expected x509_name_ex_new, matched X509_CRL_add0_revoked
+expected x509_name_ex_free, matched CRYPTO_thread_id
+expected x509_name_ex_d2i, matched tls12_get_hash
+expected x509_name_ex_i2d, matched CRYPTO_get_dynlock_value
+expected X509_NAME_set, matched CRYPTO_lock
+expected x509_name_canon, matched CRYPTO_get_dynlock_value
+expected i2d_name_canon, matched EVP_PKEY_asn1_find_str
+expected x509_name_encode, matched r2i_pci
+expected d2i_X509_CINF, matched ENGINE_get_ex_new_index
+expected i2d_X509, matched ENGINE_cmd_is_executable
+expected X509_get_ex_new_index, matched CRYPTO_mem_leaks_fp
+expected X509_get_ex_data, matched RAND_egd
+expected d2i_X509_AUX, matched ASN1_item_digest
+expected i2d_X509_AUX, matched close_console
+expected X509_CERT_AUX_free, matched engine_table_cleanup
+expected X509_alias_set1, matched dtls1_check_timeout_num
+expected X509_keyid_set1, matched CRYPTO_malloc
+expected X509_alias_get0, matched X509_PURPOSE_get_by_id
+expected X509_keyid_get0, matched X509_PURPOSE_get_by_id
+expected X509_add1_trust_object, matched ssl_parse_clienthello_use_srtp_ext
+expected X509_add1_reject_object, matched ssl_parse_serverhello_use_srtp_ext
+expected X509_trust_clear, matched CRYPTO_THREADID_current
+expected X509_reject_clear, matched __do_global_dtors_aux
+expected i2d_X509_CERT_PAIR, matched close_console
+expected X509_CERT_PAIR_free, matched engine_table_cleanup
+expected d2i_PrivateKey, matched CONF_load_fp
+expected d2i_AutoPrivateKey, matched v3_generic_extension
+expected ASN1_item_new, matched register_tm_clones
+expected ASN1_item_ex_new, matched app_info_LHASH_COMP
+expected asn1_item_ex_combine_new, matched idea_ecb_cipher
+expected ASN1_template_new, matched CRYPTO_get_dynlock_value
+expected ASN1_primitive_new, matched CRYPTO_get_dynlock_value
+expected asn1_item_clear, matched .__ctype_b_loc
+expected asn1_primitive_clear, matched CRYPTO_THREADID_set_callback
+expected asn1_item_combine_free, matched CRYPTO_get_dynlock_value
+expected ASN1_template_free, matched BIO_socket_ioctl
+expected ASN1_primitive_free, matched ssl_parse_clienthello_use_srtp_ext
+expected asn1_item_flags_i2d, matched bn_sub_words
+expected asn1_i2d_ex_primitive, matched bn_sub_words
+expected asn1_ex_i2c, matched register_tm_clones
+expected ASN1_tag2bit, matched register_tm_clones
+expected ASN1_item_d2i, matched ssl_cipher_apply_rule
+expected asn1_template_ex_d2i, matched CRYPTO_get_dynlock_value
+expected asn1_template_noexp_d2i, matched ASN1_item_ex_d2i
+expected asn1_find_end, matched OPENSSL_init
+expected asn1_collect, matched CRYPTO_set_locked_mem_functions
+expected collect_data, matched CRYPTO_get_dynlock_value
+expected asn1_set_choice_selector, matched register_tm_clones
+expected asn1_do_lock, matched CRYPTO_lock
+expected asn1_enc_init, matched CRYPTO_set_mem_ex_functions
+expected asn1_enc_free, matched register_tm_clones
+expected asn1_enc_save, matched X509_PURPOSE_get_by_sname
+expected asn1_enc_restore, matched register_tm_clones
+expected asn1_get_field_ptr, matched GENERAL_NAME_set0_value
+expected asn1_do_adb, matched tls1_md5_final_raw
+expected ASN1_INTEGER_new, matched engine_table_cleanup
+expected ASN1_INTEGER_free, matched SSL_CTX_set_ssl_version
+expected ASN1_ENUMERATED_free, matched engine_table_cleanup
+expected d2i_ASN1_BIT_STRING, matched ENGINE_get_ex_new_index
+expected i2d_ASN1_OCTET_STRING, matched open_console
+expected i2d_ASN1_UTF8STRING, matched UI_get0_result_string
+expected d2i_ASN1_T61STRING, matched open_console
+expected ASN1_T61STRING_new, matched ENGINE_up_ref
+expected d2i_ASN1_IA5STRING, matched OBJ_NAME_init
+expected i2d_ASN1_IA5STRING, matched ssleay_rand_add
+expected ASN1_IA5STRING_free, matched SSL_CTX_set_ssl_version
+expected ASN1_UTCTIME_new, matched engine_table_unregister
+expected d2i_ASN1_GENERALIZEDTIME, matched ASN1_item_i2d_bio
+expected d2i_ASN1_VISIBLESTRING, matched poll@@GLIBC_2.2.5
+expected ASN1_UNIVERSALSTRING_new, matched engine_table_cleanup
+expected i2d_ASN1_BMPSTRING, matched open_console
+expected ASN1_BMPSTRING_new, matched CRYPTO_THREADID_set_callback
+expected d2i_ASN1_TYPE, matched OBJ_NAME_init
+expected ASN1_TYPE_free, matched X509_add_ext
+expected ASN1_PRINTABLE_new, matched CRYPTO_get_ex_data_implementation
+expected d2i_DISPLAYTEXT, matched OBJ_NAME_init
+expected DISPLAYTEXT_free, matched engine_table_unregister
+expected DIRECTORYSTRING_free, matched register_tm_clones
+expected EVP_PKEY_asn1_get_count, matched CRYPTO_get_dynlock_value
+expected EVP_PKEY_asn1_get0, matched CRYPTO_get_lock_name
+expected EVP_PKEY_asn1_add0, matched X509_PURPOSE_get_by_sname
+expected EVP_PKEY_asn1_add_alias, matched EVP_CipherInit
+expected EVP_PKEY_asn1_new, matched EVP_CIPHER_CTX_cleanup
+expected EVP_PKEY_asn1_get0_info, matched register_tm_clones
+expected EVP_PKEY_asn1_free, matched CRYPTO_thread_id
+expected EVP_PKEY_asn1_set_public, matched EVP_PKEY_asn1_get0_info
+expected EVP_PKEY_asn1_set_ctrl, matched ASN1_TYPE_set
+expected X509_EXTENSION_new, matched ERR_free_strings
+expected ASN1_check_infinite_end, matched register_tm_clones
+expected ASN1_const_check_infinite_end, matched register_tm_clones
+expected ASN1_get_object, matched RC2_encrypt
+expected ASN1_put_object, matched SRP_create_verifier
+expected asn1_put_length, matched BN_GF2m_mod
+expected asn1_Finish, matched CRYPTO_THREADID_set_callback
+expected _asn1_Finish, matched register_tm_clones
+expected asn1_const_Finish, matched register_tm_clones
+expected asn1_GetSequence, matched RC4
+expected ASN1_STRING_copy, matched CRYPTO_get_dynlock_value
+expected ASN1_STRING_set, matched ssl_cipher_strength_sort
+expected ASN1_STRING_dup, matched BN_CTX_end
+expected ASN1_STRING_new, matched ASN1_STRING_type_new
+expected ASN1_STRING_free, matched policy_cache_free
+expected ASN1_STRING_set0, matched CRYPTO_THREADID_set_callback
+expected ASN1_STRING_type_new, matched ASN1_STRING_new
+expected ASN1_TYPE_set_octetstring, matched SSL_COMP_add_compression_method
+expected ASN1_TYPE_get_octetstring, matched ssl_parse_clienthello_use_srtp_ext
+expected ASN1_TYPE_get_int_octetstring, matched ssl23_get_cipher
+expected d2i_PBEPARAM, matched register_tm_clones
+expected PKCS5_pbe_set, matched OPENSSL_init
+expected i2d_PBE2PARAM, matched GENERAL_NAME_set0_value
+expected PKCS5_pbe2_set, matched dtls1_retransmit_message
+expected PKCS8_PRIV_KEY_INFO_new, matched engine_table_unregister
+expected PKCS8_PRIV_KEY_INFO_free, matched engine_table_cleanup
+expected PKCS8_pkey_set0, matched EVP_PKEY_asn1_find_str
+expected PKCS8_pkey_get0, matched sk_delete_ptr
+expected pkey_cb, matched CRYPTO_THREADID_set_callback
+expected PEM_def_callback, matched RSA_eay_public_decrypt
+expected PEM_ASN1_read, matched RSA_eay_public_encrypt
+expected PEM_bytes_read_bio, matched asn1_cb
+expected check_pem, matched X509_PURPOSE_cleanup
+expected PEM_do_header, matched CRYPTO_is_mem_check_on
+expected load_iv, matched sk_delete_ptr
+expected PEM_write, matched PEM_read_bio
+expected PEM_read, matched BIO_new_socket
+expected pem_check_suffix, matched X509_PURPOSE_get_by_sname
+expected PEM_write_bio_X509_REQ, matched DES_set_key
+expected PEM_write_X509_REQ, matched ERR_load_ERR_strings
+expected PEM_read_bio_X509_CRL, matched DSA_get_ex_new_index
+expected PEM_write_PKCS7, matched DES_set_key
+expected PEM_read_NETSCAPE_CERT_SEQUENCE, matched OBJ_NAME_init
+expected PEM_write_bio_NETSCAPE_CERT_SEQUENCE, matched OBJ_NAME_init
+expected PEM_read_bio_RSAPrivateKey, matched CRYPTO_strdup
+expected PEM_write_bio_RSAPrivateKey, matched ssl_cipher_apply_rule
+expected PEM_read_bio_RSAPublicKey, matched OBJ_NAME_init
+expected PEM_read_RSAPublicKey, matched DSA_get_ex_new_index
+expected PEM_write_bio_RSAPublicKey, matched OBJ_cleanup
+expected PEM_read_bio_RSA_PUBKEY, matched close_console
+expected PEM_read_bio_DSAPrivateKey, matched CRYPTO_get_dynlock_value
+expected PEM_write_DSAPrivateKey, matched ssl_cipher_apply_rule
+expected PEM_read_DSAPrivateKey, matched CRYPTO_remalloc
+expected PEM_read_DSAparams, matched ENGINE_get_ex_new_index
+expected PEM_write_bio_DSAparams, matched SSL_set_ex_data
+expected pkey_get_eckey, matched BIO_socket_ioctl
+expected PEM_write_ECPKParameters, matched DES_set_key
+expected PEM_write_EC_PUBKEY, matched CRYPTO_is_mem_check_on
+expected PEM_read_ECPrivateKey, matched CRYPTO_mem_leaks_fp
+expected PEM_write_DHparams, matched OBJ_cleanup
+expected PEM_read_X509, matched CRYPTO_dbg_malloc
+expected PEM_write_X509, matched ENGINE_register_DH
+expected PEM_read_X509_AUX, matched OBJ_NAME_init
+expected PEM_write_bio_X509_CERT_PAIR, matched ERR_remove_state
+expected PEM_ASN1_read_bio, matched X509_PURPOSE_get_by_id
+expected PEM_read_bio_PrivateKey, matched bn_sub_words
+expected PEM_write_bio_PrivateKey, matched ASN1_item_sign
+expected PEM_read_bio_Parameters, matched asn1_cb
+expected PEM_write_bio_Parameters, matched BN_GF2m_mod_arr
+expected PEM_read_PrivateKey, matched X509_check_trust
+expected PEM_write_PrivateKey, matched PEM_ASN1_read
+expected X509_STORE_set_default_paths, matched DES_decrypt3
+expected X509_STORE_load_locations, matched CRYPTO_mem_leaks_fp
+expected X509_issuer_and_serial_cmp, matched CRYPTO_get_lock_name
+expected X509_CRL_match, matched CMS_RecipientInfo_kekri_id_cmp
+expected X509_subject_name_hash, matched X509_issuer_name_hash
+expected X509_find_by_issuer_and_serial, matched CRYPTO_get_dynlock_value
+expected X509_find_by_subject, matched def_crl_lookup
+expected X509_get_pubkey, matched UI_method_set_writer
+expected X509_get0_pubkey_bitstr, matched OBJ_NAME_init
+expected X509_check_private_key, matched RSA_padding_check_X931
+expected X509_NAME_oneline, matched tls1_process_sigalgs
+expected check_chain_extensions, matched X509_verify_cert
+expected check_name_constraints, matched SSL_set_cipher_list
+expected X509_get_pubkey_parameters, matched X509_verify_cert
+expected X509_time_adj, matched register_tm_clones
+expected X509_gmtime_adj, matched CRYPTO_mem_leaks_fp
+expected X509_time_adj_ex, matched SSL_callback_ctrl
+expected X509_STORE_CTX_new, matched EVP_CipherInit
+expected X509_STORE_CTX_free, matched register_tm_clones
+expected X509_STORE_CTX_cleanup, matched ssl3_setup_write_buffer
+expected X509_STORE_CTX_init, matched CRYPTO_gcm128_setiv
+expected check_issued, matched BN_CTX_end
+expected check_revocation, matched CRYPTO_gcm128_decrypt_ctr32
+expected check_crl, matched ssl3_setup_write_buffer
+expected cert_crl, matched OPENSSL_asc2uni
+expected check_policy, matched i2d_ASN1_BOOLEAN
+expected get_issuer_sk, matched BIO_dup_chain
+expected X509_STORE_CTX_set_time, matched CRYPTO_mem_leaks_fp
+expected X509_STORE_CTX_set_default, matched register_tm_clones
+expected X509_STORE_CTX_set0_param, matched engine_table_select
+expected check_cert_time, matched SSL_set_cipher_list
+expected get_crl_delta, matched dtls1_set_message_header
+expected check_crl_time, matched ssl3_setup_write_buffer
+expected crl_crldp_check, matched CRYPTO_get_dynlock_value
+expected ERR_load_X509_strings, matched register_tm_clones
+expected X509v3_get_ext_count, matched register_tm_clones
+expected X509v3_get_ext_by_OBJ, matched CRYPTO_get_dynlock_value
+expected X509v3_get_ext_by_critical, matched X509at_get0_data_by_OBJ
+expected X509v3_get_ext, matched sock_free
+expected X509v3_delete_ext, matched CRYPTO_get_dynlock_value
+expected X509v3_add_ext, matched CRYPTO_get_dynlock_value
+expected X509_EXTENSION_create_by_NID, matched ssl_parse_clienthello_use_srtp_ext
+expected X509_EXTENSION_create_by_OBJ, matched X509_PURPOSE_get_by_id
+expected X509_EXTENSION_set_critical, matched BN_get_params
+expected X509_EXTENSION_set_data, matched EVP_PKEY_asn1_get0
+expected X509_EXTENSION_get_object, matched poll
+expected X509_EXTENSION_get_critical, matched CRYPTO_THREADID_set_callback
+expected X509_CRL_get_ext_count, matched ERR_release_err_state_table
+expected X509_CRL_get_ext, matched BN_get_word
+expected X509_CRL_add1_ext_i2d, matched sock_puts
+expected X509_get_ext_by_NID, matched CRYPTO_mem_leaks_fp
+expected X509_get_ext_d2i, matched CRYPTO_thread_id
+expected X509_REVOKED_delete_ext, matched int_err_get
+expected X509_certificate_type, matched CRYPTO_get_dynlock_value
+expected X509_LOOKUP_new, matched X509_STORE_add_crl
+expected X509_LOOKUP_free, matched register_tm_clones
+expected X509_LOOKUP_shutdown, matched register_tm_clones
+expected X509_LOOKUP_ctrl, matched __do_global_dtors_aux
+expected X509_LOOKUP_by_subject, matched CRYPTO_THREADID_set_callback
+expected X509_LOOKUP_by_fingerprint, matched CRYPTO_set_mem_debug_functions
+expected X509_LOOKUP_by_alias, matched CRYPTO_THREADID_set_callback
+expected X509_STORE_new, matched UI_dup_error_string
+expected x509_object_cmp, matched b64_puts
+expected X509_STORE_free, matched CRYPTO_thread_id
+expected cleanup, matched __do_global_dtors_aux
+expected X509_STORE_add_lookup, matched dtls1_retransmit_buffered_messages
+expected X509_OBJECT_retrieve_match, matched X509_PURPOSE_get_by_sname
+expected X509_OBJECT_free_contents, matched cleanup
+expected X509_STORE_add_crl, matched X509_OBJECT_up_ref_count
+expected X509_STORE_CTX_get1_issuer, matched rsa_get_blinding
+expected X509_STORE_set_flags, matched CRYPTO_mem_leaks_fp
+expected X509_STORE_set_purpose, matched CRYPTO_remalloc
+expected X509_verify, matched camellia_init_key
+expected X509_sign, matched dtls1_get_message_fragment
+expected X509_sign_ctx, matched OBJ_cleanup
+expected X509_REQ_sign, matched BIO_socket_ioctl
+expected X509_REQ_sign_ctx, matched CRYPTO_THREADID_set_callback
+expected X509_CRL_sign, matched ndef_suffix
+expected d2i_X509_fp, matched open_console
+expected d2i_X509_bio, matched OBJ_NAME_init
+expected i2d_X509_CRL_bio, matched PEM_write_bio_DSAPrivateKey
+expected i2d_PKCS7_fp, matched open_console
+expected d2i_X509_REQ_fp, matched BN_get_params
+expected i2d_X509_REQ_fp, matched ASN1_tag2bit
+expected d2i_RSAPrivateKey_fp, matched CRYPTO_THREADID_set_callback
+expected i2d_RSA_PUBKEY_fp, matched socket
+expected i2d_RSAPrivateKey_bio, matched PEM_dek_info
+expected d2i_RSA_PUBKEY_bio, matched int_err_get_next_lib
+expected i2d_RSAPublicKey_bio, matched CRYPTO_THREADID_set_callback
+expected d2i_EC_PUBKEY_bio, matched close_console
+expected i2d_ECPrivateKey_bio, matched CRYPTO_get_ex_data_implementation
+expected X509_pubkey_digest, matched CRYPTO_thread_id
+expected X509_digest, matched CRYPTO_dbg_malloc
+expected X509_CRL_digest, matched DH_set_default_method
+expected X509_REQ_digest, matched CRYPTO_THREADID_set_callback
+expected i2d_PKCS8_fp, matched CONF_get1_default_config_file
+expected d2i_PKCS8_bio, matched close_console
+expected i2d_PKCS8PrivateKeyInfo_fp, matched UI_get0_result_string
+expected i2d_PUBKEY_fp, matched engine_table_select
+expected d2i_PUBKEY_fp, matched ssleay_rand_cleanup
+expected i2d_PKCS8PrivateKeyInfo_bio, matched X509_PURPOSE_get0
+expected i2d_PUBKEY_bio, matched GENERAL_NAME_set0_value
+expected d2i_PUBKEY_bio, matched ERR_get_err_state_table
+expected X509_verify_cert_error_string, matched register_tm_clones
+expected X509_TRUST_set_default, matched null_write
+expected X509_check_trust, matched engine_table_select
+expected X509_TRUST_get_by_id, matched AES_wrap_key
+expected X509_TRUST_get0, matched CRYPTO_get_dynlock_value
+expected X509_TRUST_get_count, matched CRYPTO_get_dynlock_value
+expected X509_TRUST_add, matched X509V3_EXT_add_list
+expected X509_TRUST_cleanup, matched CRYPTO_get_dynlock_value
+expected trtable_free, matched CRYPTO_get_dynlock_value
+expected obj_trust, matched CRYPTO_get_dynlock_value
+expected trust_1oidany, matched SSL_set_purpose
+expected trust_1oid, matched X509_PURPOSE_get_by_id
+expected by_file_ctrl, matched PEM_get_EVP_CIPHER_INFO
+expected X509_load_cert_file, matched engine_unlocked_finish
+expected X509_load_crl_file, matched X509at_get0_data_by_OBJ
+expected X509_load_cert_crl_file, matched register_tm_clones
+expected new_dir, matched get_cert_by_subject
+expected free_dir, matched OBJ_sigid_free
+expected dir_ctrl, matched CRYPTO_mem_leaks_fp
+expected get_cert_by_subject, matched X509_PURPOSE_get_by_sname
+expected by_dir_hash_cmp, matched BN_get_params
+expected by_dir_entry_free, matched dtls1_retransmit_buffered_messages
+expected X509_VERIFY_PARAM_new, matched dtls1_get_timeout
+expected X509_VERIFY_PARAM_free, matched dtls1_get_timeout
+expected X509_VERIFY_PARAM_inherit, matched gcm_ghash_4bit
+expected X509_VERIFY_PARAM_set1_policies, matched X509_PURPOSE_get_by_sname
+expected X509_VERIFY_PARAM_set1_name, matched CRYPTO_thread_id
+expected X509_VERIFY_PARAM_set_flags, matched CRYPTO_set_locked_mem_functions
+expected X509_VERIFY_PARAM_add0_table, matched CRYPTO_lock
+expected X509_VERIFY_PARAM_table_cleanup, matched CRYPTO_THREADID_set_callback
+expected X509V3_EXT_add, matched X509V3_EXT_add_list
+expected X509V3_EXT_get_nid, matched register_tm_clones
+expected X509V3_EXT_get, matched X509_check_trust
+expected X509V3_EXT_d2i, matched CRYPTO_THREADID_set_callback
+expected X509V3_get_d2i, matched CRYPTO_strdup
+expected X509V3_add1_i2d, matched BN_CTX_end
+expected ERR_load_X509V3_strings, matched ERR_free_strings
+expected d2i_OTHERNAME, matched DSA_get_ex_new_index
+expected OTHERNAME_new, matched CRYPTO_THREADID_set_callback
+expected OTHERNAME_free, matched engine_table_unregister
+expected d2i_GENERAL_NAMES, matched OBJ_NAME_init
+expected GENERAL_NAME_cmp, matched register_tm_clones
+expected OTHERNAME_cmp, matched CRYPTO_thread_id
+expected GENERAL_NAME_set0_value, matched ssl_get_handshake_digest
+expected GENERAL_NAME_get0_value, matched CRYPTO_THREADID_set_callback
+expected GENERAL_NAME_set0_othername, matched close_console
+expected GENERAL_NAME_get0_otherName, matched i2d_PKCS8PrivateKey_bio
+expected i2v_GENERAL_NAMES, matched CRYPTO_get_dynlock_value
+expected v2i_subject_alt, matched CRYPTO_malloc
+expected v2i_issuer_alt, matched EC_POINT_point2hex
+expected i2v_GENERAL_NAME, matched asn1_parse2
+expected v2i_GENERAL_NAMES, matched CRYPTO_malloc
+expected v2i_GENERAL_NAME_ex, matched write_bio
+expected do_othername, matched X509_PURPOSE_cleanup
+expected copy_email, matched ssl_parse_clienthello_use_srtp_ext
+expected s2i_ASN1_OCTET_STRING, matched ssl_parse_clienthello_use_srtp_ext
+expected i2v_AUTHORITY_KEYID, matched CRYPTO_thread_id
+expected d2i_PKEY_USAGE_PERIOD, matched close_console
+expected i2d_PKEY_USAGE_PERIOD, matched ENGINE_cmd_is_executable
+expected PKEY_USAGE_PERIOD_new, matched ENGINE_get_prev
+expected i2s_ASN1_ENUMERATED_TABLE, matched sock_ctrl
+expected sxnet_v2i, matched CRYPTO_get_lock_name
+expected SXNETID_free, matched engine_table_cleanup
+expected i2d_SXNET, matched open_console
+expected SXNET_new, matched ENGINE_up_ref
+expected SXNET_free, matched register_tm_clones
+expected SXNET_add_id_asc, matched X509_NAME_add_entry
+expected SXNET_add_id_ulong, matched BN_GF2m_mod_solve_quad
+expected SXNET_get_id_INTEGER, matched CRYPTO_get_dynlock_value
+expected SXNET_get_id_asc, matched CRYPTO_get_dynlock_value
+expected SXNET_get_id_ulong, matched SSL_COMP_add_compression_method
+expected i2r_certpol, matched X509_ocspid_print
+expected i2d_CERTIFICATEPOLICIES, matched PEM_dek_info
+expected i2d_POLICYINFO, matched open_console
+expected POLICYINFO_new, matched engine_table_unregister
+expected POLICYINFO_free, matched engine_table_cleanup
+expected d2i_POLICYQUALINFO, matched DSA_get_ex_new_index
+expected i2d_POLICYQUALINFO, matched close_console
+expected d2i_USERNOTICE, matched ENGINE_cmd_is_executable
+expected i2d_USERNOTICE, matched EVP_rc4_40
+expected NOTICEREF_new, matched Camellia_ecb_encrypt
+expected X509_POLICY_NODE_print, matched X509_print_ex
+expected print_qualifiers, matched X509_signature_dump
+expected notice_section, matched r2i_certpol
+expected print_notice, matched X509_print_ex
+expected v2i_crld, matched v2i_POLICY_MAPPINGS
+expected i2r_crldp, matched BN_print
+expected i2d_DIST_POINT_NAME, matched open_console
+expected DIST_POINT_NAME_new, matched engine_table_cleanup
+expected i2d_DIST_POINT, matched close_console
+expected CRL_DIST_POINTS_new, matched engine_table_cleanup
+expected i2d_ISSUING_DIST_POINT, matched read_string
+expected ISSUING_DIST_POINT_free, matched engine_free_util
+expected v2i_idp, matched SSL_CTX_set_ssl_version
+expected DIST_POINT_set_dpname, matched engine_table_select
+expected set_dist_point_name, matched int_err_del
+expected set_reasons, matched CRYPTO_set_locked_mem_functions
+expected gnames_from_sectname, matched BIO_socket_nbio
+expected dpn_cb, matched pubkey_cb
+expected print_distpoint, matched ERR_print_errors
+expected print_reasons, matched X509_signature_dump
+expected print_gens, matched X509_signature_dump
+expected x509v3_cache_extensions, matched BN_CTX_end
+expected X509_PURPOSE_get0, matched CRYPTO_get_dynlock_value
+expected X509_PURPOSE_set, matched X509_check_trust
+expected X509_PURPOSE_get_by_sname, matched CRYPTO_get_dynlock_value
+expected X509_PURPOSE_add, matched EVP_PKEY_asn1_find_str
+expected xptable_free, matched ndef_suffix_free
+expected X509_supported_extension, matched CRYPTO_get_dynlock_value
+expected X509_check_ca, matched CRYPTO_cleanup_all_ex_data
+expected X509_check_issued, matched int_dup_ex_data
+expected X509_check_akid, matched BN_GF2m_arr2poly
+expected check_purpose_ssl_client, matched asn1_template_clear
+expected check_purpose_ssl_server, matched ASN1_UNIVERSALSTRING_to_string
+expected check_purpose_ns_ssl_server, matched CRYPTO_get_dynlock_value
+expected check_purpose_smime_sign, matched sock_free
+expected check_purpose_smime_encrypt, matched RAND_egd
+expected check_purpose_crl_sign, matched EVP_DecodeBlock
+expected ocsp_helper, matched register_tm_clones
+expected check_purpose_timestamp_sign, matched EVP_DecodeBlock
+expected purpose_smime, matched OPENSSL_init
+expected setup_dp, matched CRYPTO_get_dynlock_value
+expected v2i_AUTHORITY_INFO_ACCESS, matched CRYPTO_malloc
+expected d2i_ACCESS_DESCRIPTION, matched write_bio
+expected d2i_AUTHORITY_INFO_ACCESS, matched DSA_get_ex_new_index
+expected i2d_AUTHORITY_INFO_ACCESS, matched register_tm_clones
+expected i2r_ocsp_crlid, matched PEM_dek_info
+expected i2r_object, matched i2r_PKEY_USAGE_PERIOD
+expected d2i_ocsp_nonce, matched X509V3_EXT_add_list
+expected i2r_ocsp_nonce, matched i2r_PKEY_USAGE_PERIOD
+expected i2r_ocsp_serviceloc, matched do_i2r_name_constraints
+expected AUTHORITY_KEYID_new, matched ENGINE_get_prev
+expected v2i_POLICY_CONSTRAINTS, matched v2i_EXTENDED_KEY_USAGE
+expected POLICY_CONSTRAINTS_free, matched engine_table_cleanup
+expected v2i_NAME_CONSTRAINTS, matched X509_PURPOSE_cleanup
+expected NAME_CONSTRAINTS_check, matched bn_sub_words
+expected nc_match, matched ssl_parse_clienthello_use_srtp_ext
+expected do_i2r_name_constraints, matched X509_signature_dump
+expected print_nc_ipadd, matched EVP_EncodeBlock
+expected i2d_PROXY_CERT_INFO_EXTENSION, matched null_write
+expected r2i_pci, matched process_pci_value
+expected policy_cache_free, matched ENGINE_get_ECDSA
+expected policy_data_cmp, matched X509_PURPOSE_get_by_sname
+expected policy_data_free, matched X509_PURPOSE_cleanup
+expected policy_data_new, matched sock_ctrl
+expected policy_cache_set_mapping, matched X509_PURPOSE_cleanup
+expected X509_policy_tree_free, matched x509_name_canon
+expected exnode_free, matched cmac_key_free
+expected X509_policy_check, matched sock_ctrl
+expected tree_init, matched X509_policy_check
+expected tree_prune, matched CRYPTO_get_dynlock_value
+expected tree_link_matching_nodes, matched X509at_get_attr_by_OBJ
+expected tree_add_unmatched, matched CRYPTO_mem_leaks_cb
+expected X509_policy_tree_level_count, matched OBJ_NAME_init
+expected X509_policy_tree_get0_level, matched X509_EXTENSION_get_data
+expected X509_policy_tree_get0_user_policies, matched TXT_DB_insert
+expected X509_policy_level_node_count, matched CRYPTO_set_locked_mem_functions
+expected X509_policy_level_get0_node, matched CRYPTO_get_dynlock_value
+expected X509_policy_node_get0_qualifiers, matched register_tm_clones
+expected X509_policy_node_get0_parent, matched register_tm_clones
+expected ERR_load_CONF_strings, matched ERR_load_UI_strings
+expected i2d_PKCS7, matched CRYPTO_set_ex_data_implementation
+expected d2i_PKCS7_SIGNED, matched ASN1_item_i2d_bio
+expected i2d_PKCS7_SIGNED, matched ENGINE_set_default_ciphers
+expected i2d_PKCS7_SIGNER_INFO, matched CRYPTO_set_ex_data_implementation
+expected PKCS7_SIGNER_INFO_new, matched ASN1_tag2bit
+expected PKCS7_SIGNER_INFO_free, matched register_tm_clones
+expected PKCS7_ISSUER_AND_SERIAL_free, matched open_console
+expected d2i_PKCS7_ENVELOPE, matched close_console
+expected d2i_PKCS7_SIGN_ENVELOPE, matched DSA_get_ex_new_index
+expected i2d_PKCS7_ENCRYPT, matched open_console
+expected d2i_PKCS7_DIGEST, matched DSA_get_ex_new_index
+expected pk7_cb, matched BN_get_params
+expected si_cb, matched CRYPTO_get_dynlock_value
+expected PKCS7_content_new, matched CRYPTO_get_dynlock_value
+expected PKCS7_set_content, matched tls1_ec_curve_id2nid
+expected PKCS7_add_certificate, matched PKCS7_add_signer
+expected PKCS7_add_crl, matched CRYPTO_get_dynlock_value
+expected PKCS7_SIGNER_INFO_set, matched asn1_i2d_ex_primitive
+expected PKCS7_add_signature, matched register_tm_clones
+expected PKCS7_set_digest, matched PKCS7_set_type
+expected PKCS7_get_signer_info, matched ASN1_BIT_STRING_get_bit
+expected PKCS7_RECIP_INFO_get0_alg, matched register_tm_clones
+expected PKCS7_add_recipient, matched CRYPTO_remove_all_info
+expected PKCS7_cert_from_signer_info, matched append_ia5
+expected PKCS7_set_cipher, matched PKCS7_add_signer
+expected PKCS7_bio_add_digest, matched PKCS7_dataInit
+expected PKCS7_dataFinal, matched PKCS7_dataInit
+expected PKCS7_SIGNER_INFO_sign, matched ASN1_verify
+expected PKCS7_dataVerify, matched X509_STORE_get1_crls
+expected PKCS7_signatureVerify, matched PKCS7_dataFinal
+expected PKCS7_get_issuer_and_serial, matched CRYPTO_remalloc
+expected get_attribute, matched CRYPTO_get_dynlock_value
+expected PKCS7_set_signed_attributes, matched mem_gets
+expected PKCS7_set_attributes, matched X509_PURPOSE_get_by_sname
+expected add_attribute, matched ssl_parse_clienthello_use_srtp_ext
+expected PKCS7_get_smimecap, matched pkey_rsa_decrypt
+expected PKCS7_simple_smimecap, matched CMAC_Init
+expected PKCS7_add0_attrib_signing_time, matched CRYPTO_mem_leaks_fp
+expected PKCS7_add1_attrib_digest, matched CRYPTO_malloc
+expected PKCS12_x509crl2certbag, matched EVP_PKEY_cmp_parameters
+expected PKCS12_certbag2x509, matched CRYPTO_mem_leaks_fp
+expected PKCS12_certbag2x509crl, matched CRYPTO_get_dynlock_value
+expected ERR_load_PKCS12_strings, matched deregister_tm_clones
+expected PKCS8_decrypt, matched CRYPTO_THREADID_set_callback
+expected COMP_CTX_new, matched BN_init
+expected COMP_CTX_free, matched X509_PURPOSE_get_by_sname
+expected COMP_compress_block, matched CRYPTO_get_dynlock_value
+expected ERR_load_COMP_strings, matched ERR_get_string_table
+expected OCSP_SIGNATURE_new, matched ENGINE_up_ref
+expected OCSP_CERTID_new, matched CRYPTO_THREADID_set_callback
+expected OCSP_CERTID_free, matched SSL_CTX_set_ssl_version
+expected d2i_OCSP_REQUEST, matched EVP_aes_256_ctr
+expected OCSP_REQUEST_new, matched ENGINE_up_ref
+expected OCSP_RESPID_free, matched engine_table_cleanup
+expected i2d_OCSP_CERTSTATUS, matched register_tm_clones
+expected i2d_OCSP_SINGLERESP, matched open_console
+expected d2i_OCSP_RESPDATA, matched cms_SignedData_init_bio
+expected i2d_OCSP_RESPDATA, matched int_thread_get
+expected OCSP_RESPDATA_new, matched engine_table_cleanup
+expected OCSP_RESPDATA_free, matched CRYPTO_THREADID_set_callback
+expected d2i_OCSP_BASICRESP, matched close_console
+expected ERR_load_OCSP_strings, matched ERR_load_CMS_strings
+expected ERR_load_CMS_strings, matched ERR_free_strings
+expected pitem_new, matched pkey_cmac_ctrl
+expected pqueue_new, matched BN_GF2m_mod_mul
+expected pqueue_insert, matched CRYPTO_get_dynlock_value
+expected pqueue_pop, matched register_tm_clones
+expected pqueue_find, matched CRYPTO_get_add_lock_callback
+expected pqueue_next, matched CRYPTO_THREADID_set_callback
+expected pqueue_size, matched def_crl_lookup
+expected ERR_load_TS_strings, matched ERR_load_X509_strings
+expected SRP_Calc_u, matched X509V3_EXT_add_nconf_sk
+expected SRP_Calc_server_key, matched dtls1_retransmit_buffered_messages
+expected SRP_Calc_B, matched ssl_verify_cert_chain
+expected SRP_Calc_x, matched register_tm_clones
+expected SRP_Calc_A, matched SRP_Verify_B_mod_N
+expected SRP_Calc_client_key, matched ssl_bytes_to_cipher_list
+expected SRP_Verify_B_mod_N, matched pem_check_suffix
+expected SRP_VBASE_new, matched OBJ_add_sigid
+expected SRP_user_pwd_free, matched DSA_SIG_free
+expected SRP_VBASE_init, matched buffer_ctrl
+expected SRP_gN_place_bn, matched X509_PURPOSE_get_by_sname
+expected SRP_get_gN_by_id, matched X509_PURPOSE_get_by_sname
+expected SRP_user_pwd_set_ids, matched X509_PURPOSE_get_by_sname
+expected SRP_user_pwd_set_sv, matched X509V3_EXT_nconf_nid
+expected SRP_VBASE_get_by_user, matched CRYPTO_strdup
+expected SRP_create_verifier, matched register_tm_clones
+expected t_tob64, matched OPENSSL_init
+expected SRP_user_pwd_new, matched X509_policy_check
+expected pkey_cmac_init, matched register_tm_clones
+expected pkey_cmac_copy, matched register_tm_clones
+expected pkey_cmac_keygen, matched SXNET_add_id_asc
+expected pkey_cmac_ctrl, matched pkey_cmac_ctrl_str
+expected pkey_cmac_ctrl_str, matched CRYPTO_set_mem_debug_functions
+expected int_update, matched CRYPTO_set_mem_ex_functions
+expected ERR_load_OBJ_strings, matched ERR_get_string_table
+expected hmac_key_free, matched X509_NAME_set
+expected hmac_pkey_ctrl, matched ssl_get_handshake_digest
+expected old_hmac_decode, matched CRYPTO_lock
+expected old_hmac_encode, matched CRYPTO_get_dynlock_value
+expected pkey_hmac_init, matched pkey_hmac_copy
+expected pkey_hmac_copy, matched OBJ_NAME_init
+expected pkey_hmac_cleanup, matched dlfcn_pathbyaddr
+expected pkey_hmac_keygen, matched TXT_DB_insert
+expected pkey_hmac_ctrl, matched CRYPTO_get_dynlock_value
+expected pkey_hmac_ctrl_str, matched X509_PURPOSE_cleanup
+expected DES_set_odd_parity, matched OPENSSL_init
+expected DES_is_weak_key, matched register_tm_clones
+expected DES_set_key_checked, matched OPENSSL_init
+expected DES_key_sched, matched BN_get_params
+expected DES_ecb_encrypt, matched tls1_sha1_final_raw
+expected DES_ecb3_encrypt, matched ssl2_get_cipher_by_char
+expected DES_cfb64_encrypt, matched BIO_find_type
+expected DES_ede3_cfb64_encrypt, matched DES_ede3_ofb64_encrypt
+expected DES_cfb_encrypt, matched DES_ede3_cfb_encrypt
+expected DES_ofb64_encrypt, matched DES_ede3_ofb64_encrypt
+expected DES_decrypt3, matched DES_set_key_unchecked
+expected DES_ncbc_encrypt, matched ssl2_get_cipher_by_char
+expected DES_ede3_cbc_encrypt, matched ssl_create_cipher_list
+expected AES_set_decrypt_key, matched CRYPTO_mem_leaks_fp
+expected private_AES_set_decrypt_key, matched tls1_md5_final_raw
+expected AES_encrypt, matched Camellia_DecryptBlock_Rounds
+expected AES_decrypt, matched AES_encrypt
+expected AES_cbc_encrypt, matched CRYPTO_get_dynlock_value
+expected RC2_set_key, matched ASN1_ENUMERATED_set
+expected RC2_cbc_encrypt, matched RC2_ofb64_encrypt
+expected RC2_cfb64_encrypt, matched RC2_ofb64_encrypt
+expected RC2_ofb64_encrypt, matched idea_ofb64_encrypt
+expected RC4_set_key, matched CRYPTO_lock
+expected idea_cbc_encrypt, matched DES_ede3_cfb_encrypt
+expected idea_cfb64_encrypt, matched idea_ofb64_encrypt
+expected Camellia_ecb_encrypt, matched CRYPTO_THREADID_set_callback
+expected Camellia_ofb128_encrypt, matched CRYPTO_thread_id
+expected Camellia_cfb128_encrypt, matched dh_bn_mod_exp
+expected Camellia_cfb1_encrypt, matched SSL_set_ex_data
+expected private_Camellia_set_key, matched CRYPTO_THREADID_set_callback
+expected Camellia_cbc_encrypt, matched ec_GFp_simple_point_set_affine_coordinates
+expected SEED_ecb_encrypt, matched cms_cb
+expected SEED_cbc_encrypt, matched CRYPTO_get_mem_debug_functions
+expected CRYPTO_cbc128_encrypt, matched OPENSSL_cleanse
+expected CRYPTO_cbc128_decrypt, matched OPENSSL_cleanse
+expected CRYPTO_ctr128_encrypt, matched bn_sub_words
+expected CRYPTO_ctr128_encrypt_ctr32, matched OPENSSL_cleanse
+expected CRYPTO_cfb128_encrypt, matched BIO_find_type
+expected CRYPTO_cfb128_1_encrypt, matched OPENSSL_cleanse
+expected cfbr_encrypt_block, matched BN_lshift
+expected CRYPTO_cfb128_8_encrypt, matched CRYPTO_set_mem_debug_functions
+expected CRYPTO_ofb128_encrypt, matched register_tm_clones
+expected gcm_gmult_4bit, matched gcm_ghash_4bit
+expected CRYPTO_gcm128_aad, matched BUF_strlcat
+expected CRYPTO_gcm128_encrypt, matched X509_PURPOSE_get_by_id
+expected CRYPTO_gcm128_decrypt, matched CRYPTO_gcm128_encrypt
+expected CRYPTO_gcm128_encrypt_ctr32, matched CRYPTO_gcm128_decrypt
+expected CRYPTO_gcm128_decrypt_ctr32, matched CRYPTO_gcm128_encrypt
+expected CRYPTO_ccm128_aad, matched CRYPTO_set_locked_mem_functions
+expected CRYPTO_ccm128_encrypt, matched tls12_get_hash
+expected CRYPTO_ccm128_decrypt, matched OPENSSL_cleanse
+expected CRYPTO_ccm128_encrypt_ccm64, matched DES_ofb64_encrypt
+expected CRYPTO_ccm128_decrypt_ccm64, matched dtls1_get_message_header
+expected CRYPTO_ccm128_tag, matched SSLv2_client_method
+expected CRYPTO_xts128_encrypt, matched CRYPTO_cfb128_1_encrypt
+expected BN_add, matched DH_check_pub_key
+expected BN_usub, matched register_tm_clones
+expected BN_uadd, matched SSL_export_keying_material
+expected BN_sub, matched SSL_get_error
+expected BN_exp, matched BN_mod_exp_mont_word
+expected BN_mod_exp, matched ASN1_ENUMERATED_get
+expected BN_mod_exp_mont, matched CRYPTO_malloc
+expected BN_mod_exp_mont_consttime, matched ec_GFp_simple_oct2point
+expected MOD_EXP_CTIME_COPY_FROM_PREBUF, matched seed_ecb_cipher
+expected bn_sub_part_words, matched bn_sub_words
+expected bn_add_part_words, matched CRYPTO_set_locked_mem_functions
+expected bn_mul_recursive, matched BN_lshift
+expected bn_mul_part_recursive, matched cms_DigestedData_do_final
+expected bn_mul_low_recursive, matched bn_sqr_recursive
+expected bn_mul_low_normal, matched PEM_write_PUBKEY
+expected bn_mul_high, matched DES_cfb_encrypt
+expected BN_mul, matched SSL_get_error
+expected BN_mod_add, matched BIO_socket_ioctl
+expected BN_mod_add_quick, matched BN_set_params
+expected BN_mod_sub, matched CRYPTO_malloc
+expected BN_mod_sub_quick, matched X509V3_EXT_add_nconf_sk
+expected BN_mod_mul, matched EVP_PKEY_asn1_find_str
+expected BN_mod_sqr, matched RAND_pseudo_bytes
+expected BN_mod_lshift1, matched SXNET_add_id_asc
+expected BN_mod_lshift1_quick, matched SRP_check_known_gN_param
+expected BN_mod_lshift, matched X509V3_EXT_add_list
+expected BN_mod_lshift_quick, matched BN_GF2m_mod_mul
+expected BN_rand, matched int_err_del_item
+expected bnrand, matched register_tm_clones
+expected BN_rand_range, matched X509_OBJECT_retrieve_match
+expected bn_rand_range, matched X509_check_trust
+expected BN_BLINDING_new, matched BN_GF2m_mod_arr
+expected BN_BLINDING_free, matched register_tm_clones
+expected BN_BLINDING_update, matched X509_PURPOSE_get_by_id
+expected BN_BLINDING_create_param, matched ssl_bytes_to_cipher_list
+expected BN_BLINDING_convert_ex, matched BN_BLINDING_convert
+expected BN_BLINDING_invert, matched X509_PURPOSE_get_by_id
+expected BN_BLINDING_invert_ex, matched CRYPTO_THREADID_set_callback
+expected BN_BLINDING_set_thread_id, matched register_tm_clones
+expected BN_gcd, matched BN_kronecker
+expected BN_mod_inverse, matched register_tm_clones
+expected BN_mod_inverse_no_branch, matched BN_kronecker
+expected BN_generate_prime_ex, matched EVP_PKEY_asn1_find_str
+expected probable_prime, matched CRYPTO_ccm128_tag
+expected BN_is_prime_fasttest_ex, matched BN_kronecker
+expected ERR_load_BN_strings, matched ERR_free_strings
+expected bn_sqr_normal, matched dtls1_retransmit_buffered_messages
+expected bn_sqr_recursive, matched OPENSSL_asc2uni
+expected BN_RECP_CTX_new, matched BN_GF2m_mod_mul
+expected BN_RECP_CTX_free, matched DSO_flags
+expected BN_RECP_CTX_set, matched BN_GF2m_mod_mul
+expected BN_mod_mul_reciprocal, matched BN_GF2m_mod_div_arr
+expected BN_div_recp, matched CRYPTO_strdup
+expected BN_mod_mul_montgomery, matched BN_GF2m_mod_inv_arr
+expected BN_from_montgomery_word, matched BN_rshift1
+expected BN_MONT_CTX_init, matched dsa_sign_setup
+expected BN_MONT_CTX_free, matched X509_PURPOSE_get_count
+expected BN_MONT_CTX_set, matched BN_GF2m_mod_sqr_arr
+expected BN_MONT_CTX_copy, matched pem_check_suffix
+expected EC_GROUP_new_curve_GFp, matched BIO_socket_ioctl
+expected EC_GROUP_new_curve_GF2m, matched ec_GFp_simple_point_set_affine_coordinates
+expected ERR_load_EC_strings, matched ERR_load_PKCS12_strings
+expected EC_GROUP_get_basis_type, matched SSL_CTX_set_ssl_version
+expected EC_GROUP_get_trinomial_basis, matched RSA_padding_add_none
+expected EC_GROUP_get_pentanomial_basis, matched RSA_padding_check_X931
+expected X9_62_CHARACTERISTIC_TWO_free, matched engine_table_unregister
+expected ECPARAMETERS_new, matched engine_free_util
+expected ECPKPARAMETERS_new, matched write_string
+expected ECPKPARAMETERS_free, matched ENGINE_up_ref
+expected EC_PRIVATEKEY_new, matched register_tm_clones
+expected EC_PRIVATEKEY_free, matched engine_free_util
+expected d2i_ECPKParameters, matched ENGINE_up_ref
+expected i2d_ECPKParameters, matched ENGINE_up_ref
+expected d2i_ECParameters, matched X509_verify_cert
+expected o2i_ECPublicKey, matched RSA_padding_add_none
+expected i2o_ECPublicKey, matched RC2_encrypt
+expected ec_GF2m_simple_group_copy, matched CRYPTO_remalloc
+expected ec_GF2m_simple_group_set_curve, matched BN_mod_exp_mont_consttime
+expected ec_GF2m_simple_group_get_curve, matched pem_check_suffix
+expected ec_GF2m_simple_group_check_discriminant, matched X509_TRUST_set
+expected ec_GF2m_simple_point_clear_finish, matched dsa_sign_setup
+expected ec_GF2m_simple_point_copy, matched CRYPTO_strdup
+expected ec_GF2m_simple_point_set_affine_coordinates, matched CRYPTO_lock
+expected ec_GF2m_simple_point_get_affine_coordinates, matched CRYPTO_strdup
+expected ec_GF2m_simple_add, matched BN_GF2m_mod_exp_arr
+expected ec_GF2m_simple_invert, matched CRYPTO_get_dynlock_value
+expected ec_GF2m_simple_is_on_curve, matched policy_cache_find_data
+expected ec_GF2m_simple_cmp, matched BN_GF2m_mod_sqr_arr
+expected ec_GF2m_simple_make_affine, matched CRYPTO_strdup
+expected ec_GF2m_simple_points_make_affine, matched CRYPTO_get_dynlock_value
+expected ec_GF2m_simple_field_mul, matched sigx_cmp
+expected ec_GF2m_simple_mul, matched X509V3_EXT_nconf
+expected ec_GF2m_montgomery_point_multiply, matched ssl23_get_cipher
+expected gf2m_Madd, matched ec_GFp_simple_add
+expected gf2m_Mdouble, matched RSA_eay_mod_exp
+expected gf2m_Mxy, matched ec_GFp_simple_point_get_affine_coordinates
+expected eckey_pub_decode, matched eckey_priv_decode
+expected eckey_pub_encode, matched CRYPTO_THREADID_set_callback
+expected eckey_pub_cmp, matched register_tm_clones
+expected eckey_priv_decode, matched OBJ_bsearch_ssl_cipher_id
+expected eckey_priv_encode, matched CRYPTO_get_new_dynlockid
+expected eckey_priv_print, matched sock_ctrl
+expected int_ec_size, matched CRYPTO_mem_leaks_fp
+expected ec_bits, matched X509V3_EXT_add_list
+expected ec_missing_parameters, matched SSL_set_ex_data
+expected ec_copy_parameters, matched CRYPTO_thread_id
+expected ec_cmp_parameters, matched SSL_set_ex_data
+expected eckey_param_print, matched CRYPTO_thread_id
+expected ec_pkey_ctrl, matched OPENSSL_cleanse
+expected old_ec_priv_decode, matched eckey_type2param
+expected eckey_type2param, matched register_tm_clones
+expected eckey_param2type, matched DES_decrypt3
+expected do_EC_KEY_print, matched BN_GF2m_mod_mul
+expected pkey_ec_copy, matched sig_cb
+expected pkey_ec_cleanup, matched asn1_bio_puts
+expected pkey_ec_paramgen, matched SSL_get_error
+expected pkey_ec_keygen, matched BN_rand
+expected pkey_ec_sign, matched mem_puts
+expected pkey_ec_verify, matched ndef_suffix
+expected pkey_ec_derive, matched DH_size
+expected ECPKParameters_print_fp, matched ssl_init_wbio_buffer
+expected EC_KEY_print_fp, matched BIO_new_socket
+expected EC_KEY_print, matched X509_check_trust
+expected ECParameters_print_fp, matched SSL_use_RSAPrivateKey_file
+expected ECParameters_print, matched X509_check_trust
+expected ec_GFp_simple_set_compressed_coordinates, matched BN_GF2m_mod_solve_quad_arr
+expected ec_GF2m_simple_set_compressed_coordinates, matched X509_VERIFY_PARAM_lookup
+expected RSA_eay_public_encrypt, matched X509_OBJECT_retrieve_by_subject
+expected RSA_eay_private_decrypt, matched ec_GFp_simple_group_set_curve
+expected RSA_eay_finish, matched ENGINE_register_all_pkey_asn1_meths
+expected rsa_blinding_convert, matched b64_puts
+expected RSA_padding_add_PKCS1_type_1, matched RSA_padding_add_PKCS1_type_2
+expected RSA_padding_add_PKCS1_type_2, matched OPENSSL_asc2uni
+expected RSA_padding_check_SSLv23, matched ssl_parse_clienthello_use_srtp_ext
+expected PKCS1_MGF1, matched PKCS12_key_gen_uni
+expected RSA_padding_add_X931, matched i2d_ECPrivateKey
+expected rsa_pub_decode, matched rsa_priv_decode
+expected rsa_pub_encode, matched CRYPTO_thread_id
+expected rsa_pub_cmp, matched dtls1_retransmit_buffered_messages
+expected rsa_priv_print, matched app_info_LHASH_HASH
+expected int_rsa_size, matched X509_PURPOSE_get_by_sname
+expected rsa_sig_print, matched CRYPTO_get_dynlock_value
+expected int_rsa_free, matched fgets@@GLIBC_2.2.5
+expected rsa_pkey_ctrl, matched pkey_cmac_ctrl
+expected old_rsa_priv_decode, matched CRYPTO_mem_leaks_fp
+expected rsa_item_sign, matched ECDSA_verify
+expected do_rsa_print, matched register_tm_clones
+expected rsa_pss_decode, matched idea_cfb64_cipher
+expected rsa_pss_param_print, matched PEM_dek_info
+expected pkey_rsa_init, matched pkey_rsa_copy
+expected pkey_rsa_copy, matched dtls1_get_timeout
+expected pkey_rsa_cleanup, matched dtls1_retransmit_buffered_messages
+expected pkey_rsa_keygen, matched DH_size
+expected pkey_rsa_sign, matched ssl_cipher_get_evp
+expected pkey_rsa_verify, matched X509_PURPOSE_get_by_sname
+expected pkey_rsa_verifyrecover, matched CRYPTO_malloc
+expected pkey_rsa_encrypt, matched CRYPTO_get_lock_name
+expected pkey_rsa_decrypt, matched CRYPTO_mem_leaks_cb
+expected pkey_rsa_ctrl, matched pkey_cmac_ctrl
+expected pkey_rsa_ctrl_str, matched pkey_dsa_ctrl_str
+expected check_padding_md, matched X509_policy_tree_get0_level
+expected DSA_set_default_method, matched BN_options
+expected DSA_set_method, matched X509_policy_level_get0_node
+expected DSA_free, matched dsa_do_sign
+expected DSA_size, matched BN_bn2bin
+expected DSA_get_ex_new_index, matched register_tm_clones
+expected DSA_get_ex_data, matched CRYPTO_mem_leaks_fp
+expected DSA_dup_DH, matched X509_PURPOSE_get0
+expected ERR_load_DSA_strings, matched ERR_get_string_table
+expected dsa_pub_encode, matched CRYPTO_malloc
+expected dsa_pub_cmp, matched SSL_CTX_flush_sessions
+expected dsa_priv_decode, matched v3_generic_extension
+expected dsa_priv_encode, matched X509_check_trust
+expected dsa_bits, matched X509_TRUST_get0
+expected dsa_param_decode, matched PEM_write_bio
+expected dsa_missing_parameters, matched CRYPTO_THREADID_set_callback
+expected dsa_copy_parameters, matched SSL_has_matching_session_id
+expected dsa_cmp_parameters, matched dtls1_retransmit_buffered_messages
+expected dsa_sig_print, matched register_tm_clones
+expected int_dsa_free, matched X509_PURPOSE_get_by_sname
+expected dsa_pkey_ctrl, matched ssl_parse_serverhello_use_srtp_ext
+expected old_dsa_priv_decode, matched X509_get1_ocsp
+expected pkey_dsa_init, matched pkey_dh_copy
+expected pkey_dsa_copy, matched BN_GF2m_mod_sqr
+expected pkey_dsa_cleanup, matched cms_ri_cb
+expected pkey_dsa_keygen, matched bn_expand_internal
+expected pkey_dsa_sign, matched int_thread_get_item
+expected pkey_dsa_verify, matched dtls1_retransmit_buffered_messages
+expected ECDSA_set_default_method, matched register_tm_clones
+expected ECDSA_set_method, matched CRYPTO_thread_id
+expected ecdsa_check, matched CONF_dump_bio
+expected ecdsa_data_dup, matched register_tm_clones
+expected ecdsa_data_free, matched DH_free
+expected ECDSA_size, matched do_print_ex
+expected ECDSA_get_ex_new_index, matched RSA_get_ex_new_index
+expected ECDSA_get_ex_data, matched X509_check_trust
+expected d2i_ECDSA_SIG, matched app_info_LHASH_COMP
+expected i2d_ECDSA_SIG, matched EVP_CIPHER_nid
+expected ecdsa_do_sign, matched ecdsa_do_verify
+expected DHparams_print, matched BN_get_params
+expected do_dh_print, matched X509_STORE_get_by_subject
+expected dh_pub_decode, matched dir_ctrl
+expected dh_pub_encode, matched PEM_write_bio
+expected dh_pub_cmp, matched X509_check_akid
+expected dh_priv_decode, matched SSL_get_version
+expected dh_priv_encode, matched PEM_write_bio
+expected dh_private_print, matched GENERAL_NAME_set0_value
+expected int_dh_size, matched register_tm_clones
+expected dh_param_decode, matched a2i_GENERAL_NAME
+expected dh_param_encode, matched CRYPTO_mem_leaks_fp
+expected dh_copy_parameters, matched ASN1_ENUMERATED_set
+expected dh_cmp_parameters, matched dtls1_retransmit_buffered_messages
+expected update_buflen, matched long_i2c
+expected pkey_dh_init, matched pkey_dh_copy
+expected pkey_dh_copy, matched register_tm_clones
+expected pkey_dh_cleanup, matched BN_get_word
+expected pkey_dh_paramgen, matched X509_PURPOSE_get_by_sname
+expected pkey_dh_keygen, matched string_to_hex
+expected pkey_dh_derive, matched CRYPTO_THREADID_set_callback
+expected ECDH_get_default_method, matched ERR_get_err_state_table
+expected ECDH_set_method, matched sk_set
+expected ecdh_check, matched CRYPTO_THREADID_set_callback
+expected ecdh_data_dup, matched ssl2_ctx_ctrl
+expected ecdh_data_free, matched TXT_DB_insert
+expected ecdh_data_new, matched ssl3_setup_read_buffer
+expected ECDH_set_ex_data, matched CRYPTO_get_dynlock_value
+expected ERR_load_ECDH_strings, matched EVP_PKEY_add1_attr
+expected ERR_load_DSO_strings, matched ERR_get_string_table
+expected DSO_set_method, matched register_tm_clones
+expected DSO_up_ref, matched EVP_CIPHER_type
+expected DSO_ctrl, matched bn_expand_internal
+expected DSO_bind_var, matched EVP_CIPHER_type
+expected DSO_bind_func, matched X509_STORE_CTX_purpose_inherit
+expected DSO_set_name_converter, matched sk_table_cmp
+expected DSO_get_filename, matched register_tm_clones
+expected DSO_merge, matched CRYPTO_get_dynlock_value
+expected DSO_convert_filename, matched X509_STORE_add_crl
+expected DSO_get_loaded_filename, matched DSO_ctrl
+expected DSO_pathbyaddr, matched DSO_free
+expected DSO_global_lookup, matched .opendir
+expected DSO_METHOD_openssl, matched register_tm_clones
+expected engine_free_util, matched DSO_load
+expected ENGINE_free, matched CRYPTO_mem_leaks_fp
+expected engine_cleanup_add_first, matched CONF_module_add
+expected engine_cleanup_add_last, matched X509_REQ_extension_nid
+expected ENGINE_cleanup, matched CRYPTO_get_dynlock_value
+expected ENGINE_set_id, matched X509_STORE_CTX_purpose_inherit
+expected ENGINE_set_name, matched BN_get_word
+expected ENGINE_set_destroy_function, matched CRYPTO_get_add_lock_callback
+expected ENGINE_set_init_function, matched BN_GF2m_mod
+expected ENGINE_set_ctrl_function, matched register_tm_clones
+expected ENGINE_set_flags, matched X509_policy_check
+expected ENGINE_set_cmd_defns, matched register_tm_clones
+expected ENGINE_get_next, matched ENGINE_get_prev
+expected ENGINE_get_prev, matched ENGINE_finish
+expected ENGINE_add, matched ENGINE_init
+expected ENGINE_by_id, matched ENGINE_add
+expected ENGINE_up_ref, matched ENGINE_remove
+expected engine_list_cleanup, matched .__ctype_b_loc
+expected ENGINE_ctrl_cmd, matched ENGINE_finish
+expected ENGINE_set_table_flags, matched OBJ_NAME_init
+expected engine_table_register, matched CRYPTO_get_dynlock_value
+expected int_unregister_cb_LHASH_DOALL_ARG, matched ENGINE_get_ECDSA
+expected int_cleanup_cb_LHASH_DOALL, matched __do_global_dtors_aux
+expected engine_table_select, matched CRYPTO_remove_all_info
+expected ENGINE_unregister_DSA, matched close_console
+expected ENGINE_register_DSA, matched ENGINE_register_ECDSA
+expected ENGINE_register_all_DSA, matched X509_REQ_extension_nid
+expected ENGINE_set_default_DSA, matched CRYPTO_THREADID_set_callback
+expected ENGINE_register_ECDSA, matched ENGINE_register_DH
+expected ENGINE_set_default_ECDSA, matched engine_unregister_all_DH
+expected ENGINE_get_default_ECDSA, matched register_tm_clones
+expected ENGINE_register_ECDH, matched BIO_clear_flags
+expected ENGINE_set_default_ECDH, matched ENGINE_register_DH
+expected ENGINE_register_RAND, matched ENGINE_register_DH
+expected ENGINE_register_all_RAND, matched ENGINE_register_all_ECDH
+expected ENGINE_set_RAND, matched CRYPTO_mem_leaks_fp
+expected ENGINE_unregister_ciphers, matched engine_table_cleanup
+expected ENGINE_register_ciphers, matched X509_check_trust
+expected ENGINE_register_all_ciphers, matched register_tm_clones
+expected ENGINE_set_default_ciphers, matched do_esc_char
+expected ENGINE_get_cipher_engine, matched RAND_egd
+expected ENGINE_get_cipher, matched CRYPTO_mem_leaks_cb
+expected ENGINE_register_digests, matched BN_GF2m_mod
+expected engine_unregister_all_digests, matched engine_table_cleanup
+expected ENGINE_register_all_digests, matched BN_get_params
+expected ENGINE_set_default_digests, matched SSL_CTX_set_ssl_version
+expected ENGINE_get_digest_engine, matched open_console
+expected ENGINE_get_digest, matched DES_decrypt3
+expected ENGINE_set_digests, matched register_tm_clones
+expected ENGINE_register_pkey_meths, matched CRYPTO_THREADID_set_callback
+expected ENGINE_register_all_pkey_meths, matched SSL_CTX_set_ssl_version
+expected ENGINE_set_default_pkey_meths, matched CRYPTO_lock
+expected ENGINE_get_pkey_meth, matched s2i_ASN1_INTEGER
+expected engine_pkey_meths_free, matched dtls1_retransmit_buffered_messages
+expected ENGINE_unregister_pkey_asn1_meths, matched register_tm_clones
+expected ENGINE_register_pkey_asn1_meths, matched CRYPTO_get_dynlock_value
+expected ENGINE_register_all_pkey_asn1_meths, matched CRYPTO_THREADID_set_callback
+expected ENGINE_set_default_pkey_asn1_meths, matched TXT_DB_insert
+expected ENGINE_get_pkey_asn1_meth_engine, matched close_console
+expected ENGINE_get_pkey_asn1_meth, matched pkey_dsa_ctrl
+expected ENGINE_set_pkey_asn1_meths, matched register_tm_clones
+expected engine_pkey_asn1_meths_free, matched BN_set_word
+expected ENGINE_get_pkey_asn1_meth_str, matched RSA_eay_private_encrypt
+expected look_str_cb, matched AES_wrap_key
+expected ERR_load_BUF_strings, matched ERR_get_string_table
+expected null_puts, matched OBJ_NAME_init
+expected ssleay_rand_nopseudo_bytes, matched CRYPTO_lock
+expected ssleay_rand_bytes, matched ssleay_rand_add
+expected EVP_EncodeUpdate, matched OPENSSL_asc2uni
+expected EVP_EncodeBlock, matched sk_delete_ptr
+expected EVP_DecodeFinal, matched md_read
+expected EVP_set_pw_prompt, matched X509_PURPOSE_get_by_sname
+expected EVP_get_pw_prompt, matched OPENSSL_init
+expected EVP_BytesToKey, matched PKCS12_key_gen_uni
+expected md_write, matched CRYPTO_get_dynlock_value
+expected md_read, matched sock_puts
+expected md_gets, matched ENGINE_get_ECDSA
+expected md_ctrl, matched buffer_ctrl
+expected md_new, matched CRYPTO_THREADID_set_callback
+expected md_free, matched TXT_DB_insert
+expected md_callback_ctrl, matched CRYPTO_THREADID_set_callback
+expected BIO_set_cipher, matched CRYPTO_get_dynlock_value
+expected enc_write, matched X509_PURPOSE_get_by_sname
+expected enc_read, matched BN_get_word
+expected enc_ctrl, matched b64_ctrl
+expected enc_new, matched DH_set_ex_data
+expected EVP_PKCS82PKEY, matched CRYPTO_mem_leaks_fp
+expected EVP_PKEY2PKCS8, matched CRYPTO_mem_leaks_fp
+expected PKCS8_set_broken, matched CRYPTO_THREADID_set_callback
+expected EVP_PKEY_get_attr_by_NID, matched null_ctrl
+expected EVP_PKEY_add1_attr_by_OBJ, matched register_tm_clones
+expected EVP_PKEY_add1_attr_by_NID, matched CRYPTO_get_dynlock_value
+expected ASN1_BIT_STRING_set, matched X509_PURPOSE_get_by_sname
+expected i2c_ASN1_BIT_STRING, matched CRYPTO_get_dynlock_value
+expected c2i_ASN1_BIT_STRING, matched asn1_item_ex_combine_new
+expected ASN1_BIT_STRING_set_bit, matched CRYPTO_set_locked_mem_functions
+expected ASN1_BIT_STRING_get_bit, matched DH_size
+expected ASN1_BIT_STRING_check, matched CRYPTO_set_locked_mem_functions
+expected ASN1_UTCTIME_check, matched ASN1_GENERALIZEDTIME_check
+expected ASN1_UTCTIME_set_string, matched ssl_puts
+expected ASN1_UTCTIME_adj, matched CRYPTO_thread_id
+expected ASN1_GENERALIZEDTIME_set_string, matched EC_POINT_mul
+expected ASN1_GENERALIZEDTIME_adj, matched CRYPTO_get_dynlock_value
+expected d2i_ASN1_TIME, matched OBJ_NAME_init
+expected ASN1_TIME_free, matched register_tm_clones
+expected ASN1_TIME_adj, matched register_tm_clones
+expected ASN1_TIME_check, matched OBJ_cleanup
+expected ASN1_TIME_to_generalizedtime, matched CRYPTO_get_dynlock_value
+expected ASN1_TIME_set_string, matched sock_ctrl
+expected ASN1_d2i_bio, matched X509_STORE_get1_crls
+expected ASN1_item_d2i_bio, matched dtls1_retransmit_buffered_messages
+expected ASN1_item_d2i_fp, matched ENGINE_finish
+expected ASN1_i2d_fp, matched BIO_new_mem_buf
+expected ASN1_i2d_bio, matched X509_STORE_add_crl
+expected ASN1_item_i2d_fp, matched BIO_new_fp
+expected ASN1_item_i2d_bio, matched ASN1_seq_pack
+expected ASN1_ENUMERATED_set, matched BN_CTX_end
+expected ASN1_ENUMERATED_get, matched register_tm_clones
+expected BN_to_ASN1_ENUMERATED, matched ERR_add_error_vdata
+expected ASN1_ENUMERATED_to_BN, matched ASN1_INTEGER_to_BN
+expected ASN1_sign, matched CMS_SignerInfo_verify_content
+expected ASN1_item_sign_ctx, matched ASN1_item_sign
+expected ASN1_item_digest, matched ERR_print_errors_cb
+expected X509_NAME_print_ex, matched X509_PURPOSE_get_by_sname
+expected send_bio_chars, matched BN_print
+expected X509_NAME_print_ex_fp, matched X509_OBJECT_retrieve_match
+expected send_fp_chars, matched CRYPTO_get_dynlock_value
+expected ASN1_STRING_to_UTF8, matched CRYPTO_THREADID_set_callback
+expected do_buf, matched CRYPTO_get_dynlock_value
+expected do_hex_dump, matched X509_PURPOSE_get_by_id
+expected d2i_X509_VAL, matched OBJ_NAME_init
+expected d2i_X509_PUBKEY, matched ASN1_item_i2d_bio
+expected X509_PUBKEY_set, matched CRYPTO_destroy_dynlockid
+expected X509_PUBKEY_get, matched ssl3_setup_read_buffer
+expected d2i_PUBKEY, matched open_console
+expected i2d_PUBKEY, matched engine_table_select
+expected d2i_RSA_PUBKEY, matched int_thread_get_item
+expected i2d_RSA_PUBKEY, matched CRYPTO_thread_id
+expected d2i_DSA_PUBKEY, matched int_thread_del_item
+expected i2d_DSA_PUBKEY, matched CRYPTO_get_dynlock_value
+expected d2i_EC_PUBKEY, matched ec_GFp_nist_field_sqr
+expected i2d_EC_PUBKEY, matched X509_PUBKEY_get
+expected X509_PUBKEY_set0_param, matched CRYPTO_mem_leaks_cb
+expected X509_PUBKEY_get0_param, matched sk_delete_ptr
+expected pubkey_cb, matched CRYPTO_get_dynlock_value
+expected d2i_X509_REQ_INFO, matched DSA_get_ex_new_index
+expected X509_REQ_INFO_free, matched close_console
+expected i2d_X509_REQ, matched long_print
+expected rinf_cb, matched X509_OBJECT_retrieve_match
+expected d2i_X509_REVOKED, matched CMS_add1_signer
+expected i2d_X509_REVOKED, matched DSA_size
+expected X509_CRL_INFO_free, matched int_err_get_next_lib
+expected X509_CRL_new, matched engine_unlocked_finish
+expected X509_CRL_add0_revoked, matched X509_PURPOSE_get_by_sname
+expected X509_CRL_verify, matched register_tm_clones
+expected X509_CRL_get0_by_serial, matched CRYPTO_get_dynlock_value
+expected X509_CRL_METHOD_new, matched PEM_write_bio
+expected X509_CRL_set_meth_data, matched BN_GF2m_mod
+expected crl_cb, matched BN_GF2m_mod_arr
+expected crl_set_issuers, matched dtls1_retransmit_buffered_messages
+expected def_crl_lookup, matched CRYPTO_get_dynlock_value
+expected def_crl_verify, matched register_tm_clones
+expected X509_INFO_new, matched X509_policy_check
+expected X509_INFO_free, matched COMP_expand_block
+expected d2i_NETSCAPE_SPKAC, matched OBJ_NAME_init
+expected NETSCAPE_SPKAC_free, matched open_console
+expected NETSCAPE_CERT_SEQUENCE_free, matched engine_table_cleanup
+expected X509_print_fp, matched X509_print_ex_fp
+expected ASN1_TIME_print, matched ASN1_UTCTIME_print
+expected ASN1_STRING_print, matched BIO_indent
+expected X509_NAME_print, matched CRYPTO_thread_id
+expected X509_CERT_AUX_print, matched asn1_print_fsname
+expected ASN1_bn_print, matched ERR_print_errors
+expected ASN1_PCTX_set_cert_flags, matched register_tm_clones
+expected ASN1_PCTX_set_oid_flags, matched register_tm_clones
+expected asn1_item_print_ctx, matched ssl_cipher_apply_rule
+expected asn1_template_print_ctx, matched X509_print_ex
+expected asn1_print_fsname, matched X509_signature_dump
+expected asn1_print_oid_ctx, matched SSL_SESSION_print
+expected i2a_ASN1_INTEGER, matched ssl_puts
+expected i2a_ASN1_STRING, matched BN_print
+expected d2i_X509_PKEY, matched CONF_modules_load
+expected X509_PKEY_new, matched d2i_X509_PKEY
+expected X509_PKEY_free, matched TXT_DB_get_by_index
+expected ASN1_generate_nconf, matched ssleay_rand_bytes
+expected ASN1_generate_v3, matched ASN1_mbstring_ncopy
+expected parse_tagging, matched ssl_get_prev_session
+expected bitstr_cb, matched BN_get_word
+expected asn1_parse2, matched ssleay_rand_add
+expected ASN1_parse_dump, matched CRYPTO_mem_leaks_cb
+expected asn1_print_info, matched ASN1_put_object
+expected i2d_ASN1_bytes, matched CRYPTO_thread_id
+expected d2i_ASN1_bytes, matched asn1_cb
+expected asn1_collate_primitive, matched CRYPTO_ccm128_decrypt_ccm64
+expected ASN1_seq_unpack, matched SSL_CTX_set_srp_password
+expected ASN1_unpack_string, matched ssl3_get_finished
+expected ASN1_pack_string, matched SSL_COMP_add_compression_method
+expected ASN1_item_pack, matched CONF_load
+expected ASN1_item_unpack, matched DES_is_weak_key
+expected PEM_X509_INFO_read, matched ssl_init_wbio_buffer
+expected PEM_X509_INFO_write_bio, matched ENGINE_get_pkey_asn1_meth_str
+expected PEM_write_bio_PKCS8PrivateKey_nid, matched ASN1_GENERALIZEDTIME_adj
+expected PEM_write_bio_PKCS8PrivateKey, matched ssl_cipher_apply_rule
+expected i2d_PKCS8PrivateKey_nid_bio, matched ssl_cipher_apply_rule
+expected d2i_PKCS8PrivateKey_bio, matched CMAC_Init
+expected i2d_PKCS8PrivateKey_fp, matched ssl_cipher_apply_rule
+expected do_pk8pkey_fp, matched ssl_bytes_to_cipher_list
+expected i2d_PKCS8PrivateKey_nid_fp, matched ssl_cipher_apply_rule
+expected d2i_PKCS8PrivateKey_fp, matched i2d_PKCS8PrivateKey_nid_fp
+expected PEM_read_PKCS8_PRIV_KEY_INFO, matched ECDSA_get_ex_new_index
+expected PEM_write_PKCS8_PRIV_KEY_INFO, matched ENGINE_cmd_is_executable
+expected X509_NAME_get_text_by_OBJ, matched mem_read
+expected X509_NAME_get_index_by_OBJ, matched CRYPTO_get_lock_name
+expected X509_NAME_get_entry, matched OCSP_SERVICELOC_free
+expected X509_NAME_entry_count, matched CRYPTO_get_dynlock_value
+expected X509_NAME_get_index_by_NID, matched X509at_get_attr_by_NID
+expected X509_NAME_delete_entry, matched CRYPTO_get_lock_name
+expected X509_NAME_ENTRY_create_by_OBJ, matched X509_NAME_get_index_by_OBJ
+expected X509_NAME_add_entry, matched X509_PURPOSE_get_by_sname
+expected X509_NAME_add_entry_by_NID, matched CRYPTO_get_dynlock_value
+expected X509_NAME_ENTRY_create_by_NID, matched X509_ATTRIBUTE_set1_data
+expected X509_NAME_ENTRY_create_by_txt, matched X509_PURPOSE_cleanup
+expected X509_NAME_ENTRY_set_object, matched CONF_parse_list
+expected X509_NAME_ENTRY_set_data, matched X509_PURPOSE_get_by_sname
+expected X509at_get_attr_count, matched CRYPTO_get_lock_name
+expected X509at_get_attr_by_NID, matched X509_check_trust
+expected X509at_get_attr_by_OBJ, matched CRYPTO_get_dynlock_value
+expected X509at_get_attr, matched X509at_delete_attr
+expected X509at_delete_attr, matched CRYPTO_get_dynlock_value
+expected X509_ATTRIBUTE_create_by_OBJ, matched X509at_add1_attr_by_NID
+expected X509at_add1_attr_by_NID, matched X509_PURPOSE_get_by_id
+expected X509at_add1_attr_by_txt, matched cms_DigestedData_create
+expected X509_ATTRIBUTE_create_by_txt, matched CONF_parse_list
+expected X509at_get0_data_by_OBJ, matched ssl_parse_clienthello_use_srtp_ext
+expected X509_ATTRIBUTE_count, matched SSL_get_error
+expected X509_ATTRIBUTE_get0_data, matched PEM_write_bio
+expected X509_ATTRIBUTE_set1_data, matched EVP_PKEY_asn1_find_str
+expected X509_ATTRIBUTE_get0_object, matched CMS_signed_add1_attr_by_NID
+expected X509_ATTRIBUTE_get0_type, matched CRYPTO_get_dynlock_value
+expected v2i_BASIC_CONSTRAINTS, matched v2i_POLICY_MAPPINGS
+expected i2v_ASN1_BIT_STRING, matched TXT_DB_insert
+expected v2i_ASN1_BIT_STRING, matched a2i_ASN1_STRING
+expected v3_check_generic, matched X509V3_EXT_nconf
+expected do_ext_nconf, matched v2i_crld
+expected X509V3_EXT_nconf_nid, matched X509V3_EXT_nconf
+expected X509V3_EXT_i2d, matched CRYPTO_mem_leaks_fp
+expected X509V3_EXT_add_nconf_sk, matched sock_ctrl
+expected X509V3_EXT_add_nconf, matched BN_get_params
+expected X509V3_EXT_REQ_add_nconf, matched CRYPTO_THREADID_set_callback
+expected X509V3_get_string, matched CRYPTO_THREADID_set_callback
+expected X509V3_get_section, matched ENGINE_add
+expected X509V3_section_free, matched CMS_signed_add1_attr_by_NID
+expected X509V3_set_conf_lhash, matched register_tm_clones
+expected X509V3_EXT_add_conf, matched CRYPTO_thread_id
+expected generic_asn1, matched EVP_PKEY_asn1_find_str
+expected nconf_get_string, matched CRYPTO_THREADID_set_callback
+expected i2v_EXTENDED_KEY_USAGE, matched ASN1_template_free
+expected i2d_EXTENDED_KEY_USAGE, matched OBJ_NAME_init
+expected i2s_ASN1_IA5STRING, matched X509_PURPOSE_get_by_sname
+expected s2i_ASN1_IA5STRING, matched CRYPTO_get_new_dynlockid
+expected X509V3_EXT_val_prn, matched BN_print
+expected X509V3_EXT_print, matched dtls1_retransmit_message
+expected X509V3_EXT_print_fp, matched BN_mod_mul_reciprocal
+expected X509V3_add_value, matched X509_PURPOSE_get_by_sname
+expected X509V3_add_value_uchar, matched CRYPTO_THREADID_set_callback
+expected X509V3_conf_free, matched BN_GF2m_arr2poly
+expected X509V3_add_value_bool_nf, matched register_tm_clones
+expected i2s_ASN1_ENUMERATED, matched X509V3_EXT_add_list
+expected X509V3_get_value_int, matched X509V3_get_value_bool
+expected X509V3_parse_list, matched CRYPTO_gcm128_setiv
+expected strip_spaces, matched ssl_get_prev_session
+expected hex_to_string, matched ssl_parse_serverhello_use_srtp_ext
+expected name_cmp, matched BIO_indent
+expected get_email, matched BIO_socket_ioctl
+expected X509_get1_ocsp, matched ASN1_item_ex_i2d
+expected append_ia5, matched engine_table_select
+expected X509_REQ_get1_email, matched x509_name_canon
+expected a2i_IPADDRESS, matched ASN1_object_size
+expected a2i_IPADDRESS_NC, matched i2d_ASN1_BOOLEAN
+expected ipv4_from_asc, matched CRYPTO_set_mem_ex_functions
+expected X509V3_NAME_from_section, matched CRYPTO_get_dynlock_value
+expected sk_strcmp, matched SRP_get_default_gN
+expected ipv6_cb, matched CRYPTO_ccm128_tag
+expected tree_find_sk, matched CRYPTO_get_dynlock_value
+expected level_find_node, matched def_crl_lookup
+expected level_add_node, matched ssl_cipher_strength_sort
+expected policy_node_match, matched SSL_get_error
+expected CONF_set_nconf, matched CONF_load_bio
+expected CONF_load, matched CRYPTO_get_new_dynlockid
+expected CONF_load_bio, matched register_tm_clones
+expected CONF_load_fp, matched CRYPTO_get_new_dynlockid
+expected NCONF_load_bio, matched dlfcn_merger
+expected CONF_get_section, matched int_thread_del_item
+expected NCONF_get_section, matched NCONF_get_string
+expected CONF_get_string, matched CRYPTO_get_dynlock_value
+expected NCONF_get_string, matched CONF_get_string
+expected CONF_get_number, matched CRYPTO_THREADID_current
+expected NCONF_get_number_e, matched ASN1_GENERALIZEDTIME_print
+expected CONF_free, matched CRYPTO_THREADID_current
+expected NCONF_free_data, matched register_tm_clones
+expected CONF_dump_bio, matched CRYPTO_THREADID_set_callback
+expected NCONF_new, matched X509_check_trust
+expected NCONF_free, matched sock_free
+expected NCONF_load, matched register_tm_clones
+expected NCONF_load_fp, matched X509_load_cert_crl_file
+expected NCONF_dump_fp, matched dsa_priv_encode
+expected _CONF_get_section, matched _CONF_get_string
+expected _CONF_get_section_values, matched CRYPTO_thread_id
+expected _CONF_get_string, matched X509_PURPOSE_get_by_id
+expected _CONF_new_data, matched CRYPTO_THREADID_set_callback
+expected conf_value_LHASH_HASH, matched CRYPTO_lock
+expected value_free_hash_LHASH_DOALL_ARG, matched engine_table_register
+expected value_free_stack_LHASH_DOALL, matched CRYPTO_get_dynlock_value
+expected _CONF_new_section, matched engine_table_register
+expected def_create, matched OPENSSL_uni2asc
+expected def_init_default, matched register_tm_clones
+expected def_destroy, matched register_tm_clones
+expected def_destroy_data, matched int_update_0
+expected def_dump, matched engine_table_cleanup
+expected clear_comments, matched asn1_template_clear
+expected str_copy, matched CRYPTO_ccm128_decrypt_ccm64
+expected dump_value_LHASH_DOALL_ARG, matched do_esc_char
+expected def_init_WIN32, matched register_tm_clones
+expected CONF_modules_load, matched X509at_get0_data_by_OBJ
+expected module_run, matched X509V3_EXT_nconf
+expected CONF_modules_load_file, matched X509_PURPOSE_get0
+expected CONF_get1_default_config_file, matched b64_puts
+expected CONF_modules_finish, matched register_tm_clones
+expected module_free, matched OBJ_find_sigid_algs
+expected CONF_module_add, matched CRYPTO_mem_leaks_fp
+expected module_add, matched X509_PURPOSE_get_by_sname
+expected CONF_imodule_set_usr_data, matched register_tm_clones
+expected CONF_parse_list, matched X509_PURPOSE_cleanup
+expected TXT_DB_get_by_index, matched register_tm_clones
+expected TXT_DB_create_index, matched ASN1_item_ex_i2d
+expected TXT_DB_write, matched register_tm_clones
+expected TXT_DB_insert, matched CRYPTO_get_dynlock_value
+expected TXT_DB_free, matched asn1_template_clear
+expected PKCS12_item_pack_safebag, matched RSA_verify_ASN1_OCTET_STRING
+expected PKCS12_MAKE_SHKEYBAG, matched X509_ATTRIBUTE_set1_data
+expected PKCS12_pack_p7data, matched RSA_padding_check_X931
+expected PKCS12_pack_p7encdata, matched CRYPTO_get_new_dynlockid
+expected PKCS12_unpack_p7encdata, matched tls1_ec_nid2curve_id
+expected PKCS12_unpack_authsafes, matched CRYPTO_mem_leaks_fp
+expected d2i_PKCS12_MAC_DATA, matched open_console
+expected PKCS12_MAC_DATA_new, matched engine_table_cleanup
+expected PKCS12_BAGS_new, matched engine_free_util
+expected i2d_PKCS12_SAFEBAG, matched read_string
+expected PKCS12_SAFEBAG_free, matched engine_table_cleanup
+expected PKCS8_encrypt, matched dh_priv_decode
+expected UI_new_method, matched ssl_new
+expected UI_get_default_method, matched CRYPTO_THREADID_set_callback
+expected free_string, matched pkey_rsa_cleanup
+expected general_allocate_string, matched dtls1_retransmit_buffered_messages
+expected UI_dup_input_string, matched SSL_COMP_add_compression_method
+expected UI_dup_verify_string, matched ssl3_cert_verify_mac
+expected UI_add_input_boolean, matched dh_bn_mod_exp
+expected general_allocate_boolean, matched UI_set_result
+expected UI_dup_input_boolean, matched X509_PURPOSE_add
+expected UI_dup_info_string, matched CRYPTO_remalloc
+expected UI_dup_error_string, matched engine_table_select
+expected UI_construct_prompt, matched ERR_print_errors
+expected UI_get0_result, matched SSL_get_error
+expected UI_get0_result_string, matched BN_get_word
+expected UI_process, matched CRYPTO_get_dynlock_value
+expected UI_ctrl, matched X509_OBJECT_up_ref_count
+expected UI_get_ex_data, matched CRYPTO_mem_leaks_fp
+expected UI_set_default_method, matched register_tm_clones
+expected UI_set_method, matched CRYPTO_THREADID_set_callback
+expected UI_create_method, matched sig_cb
+expected UI_method_set_opener, matched CRYPTO_THREADID_set_callback
+expected UI_method_set_flusher, matched CRYPTO_get_mem_debug_options
+expected UI_method_set_closer, matched register_tm_clones
+expected UI_method_set_prompt_constructor, matched BN_clear_bit
+expected UI_method_get_writer, matched no_check
+expected UI_method_get_closer, matched BN_get_params
+expected UI_get_input_flags, matched BN_get_params
+expected UI_get0_output_string, matched get_error_values
+expected UI_get0_test_string, matched hmac_pkey_ctrl
+expected UI_get_result_minsize, matched CRYPTO_THREADID_set_callback
+expected general_allocate_prompt, matched X509_check_trust
+expected read_string, matched open_console
+expected CMS_SignedData_init, matched app_info_LHASH_COMP
+expected cms_signed_data_init, matched engine_unlocked_finish
+expected cms_SignerIdentifier_get0_signer_id, matched SSL_set_cipher_list
+expected cms_SignerIdentifier_cert_cmp, matched by_file_ctrl
+expected CMS_add1_signer, matched CRYPTO_get_new_dynlockid
+expected CMS_add_smimecap, matched CRYPTO_THREADID_set_callback
+expected CMS_get0_SignerInfos, matched CMS_add0_CertificateChoices
+expected CMS_get0_signers, matched CRYPTO_get_new_dynlockid
+expected CMS_SignerInfo_set1_signer_cert, matched CRYPTO_mem_leaks_fp
+expected CMS_SignerInfo_get0_signer_id, matched sk_delete
+expected CMS_set1_signers_certs, matched X509_TRUST_cleanup
+expected cms_SignedData_final, matched CRYPTO_get_dynlock_value
+expected cms_SignerInfo_content_sign, matched cms_DigestedData_do_final
+expected CMS_SignerInfo_verify, matched PEM_write_bio_PKCS8PrivateKey
+expected cms_SignedData_init_bio, matched tls1_ec_nid2curve_id
+expected CMS_SignerInfo_verify_content, matched cms_SignedData_final
+expected CMS_add_simple_smimecap, matched ssl_parse_clienthello_use_srtp_ext
+expected cms_get0_enveloped, matched pk7_cb
+expected CMS_get0_RecipientInfos, matched CRYPTO_get_dynlock_value
+expected CMS_RecipientInfo_ktri_get0_algs, matched CMS_EnvelopedData_create
+expected CMS_RecipientInfo_set0_pkey, matched register_tm_clones
+expected CMS_RecipientInfo_kekri_id_cmp, matched null_ctrl
+expected CMS_add0_recipient_key, matched OBJ_NAME_new_index
+expected CMS_RecipientInfo_kekri_get0_id, matched register_tm_clones
+expected CMS_RecipientInfo_decrypt, matched int_dup_ex_data
+expected cms_RecipientInfo_kekri_decrypt, matched CMS_add1_recipient_cert
+expected cms_EnvelopedData_init_bio, matched ec_GFp_nist_field_mul
+expected cms_RecipientInfo_ktri_encrypt, matched int_err_del_item
+expected cms_EncryptedContent_init, matched CRYPTO_mem_leaks_fp
+expected CMS_EncryptedData_set1_key, matched CMS_add1_recipient_cert
+expected CMS_RecipientInfo_set0_password, matched register_tm_clones
+expected cms_RecipientInfo_pwri_crypt, matched CMS_add0_recipient_password
+expected kek_wrap_key, matched OPENSSL_init
+expected kek_unwrap_key, matched b64_read
+expected CMAC_CTX_cleanup, matched CMAC_CTX_free
+expected CMAC_CTX_copy, matched i2d_ASN1_OBJECT
+expected CMAC_Init, matched OPENSSL_init
+expected make_kn, matched register_tm_clones
+expected CMAC_Update, matched i2v_POLICY_MAPPINGS
+expected CMAC_Final, matched CMAC_Update
+expected AES_wrap_key, matched OPENSSL_init
+expected Camellia_DecryptBlock, matched CRYPTO_get_dynlock_value
+expected BN_div, matched CRYPTO_malloc
+expected BN_GF2m_add, matched BN_lshift
+expected BN_GF2m_mod, matched EVP_PKEY_encrypt
+expected BN_GF2m_poly2arr, matched bn_mul_add_words
+expected BN_GF2m_mod_mul_arr, matched CRYPTO_malloc
+expected BN_GF2m_mod_sqr, matched BN_GF2m_mod_mul
+expected BN_GF2m_mod_inv_arr, matched X509_OBJECT_retrieve_match
+expected BN_GF2m_arr2poly, matched policy_cache_find_data
+expected BN_GF2m_mod_exp_arr, matched tree_find_sk
+expected BN_GF2m_mod_exp, matched BN_GF2m_mod_mul
+expected BN_GF2m_mod_sqrt_arr, matched BN_GF2m_mod_div_arr
+expected BN_GF2m_mod_sqrt, matched BN_GF2m_mod_mul
+expected BN_GF2m_mod_solve_quad_arr, matched BN_GF2m_mod_sqr_arr
+expected BN_GF2m_mod_solve_quad, matched BN_GF2m_mod_mul
+expected ec_GFp_mont_group_finish, matched ec_GFp_mont_group_copy
+expected ec_GFp_mont_group_clear_finish, matched ec_GFp_mont_group_copy
+expected ec_GFp_mont_group_set_curve, matched X509_PURPOSE_cleanup
+expected ec_GFp_mont_field_mul, matched CMS_EncryptedData_set1_key
+expected ec_GFp_mont_field_sqr, matched SSL_CTX_set_ex_data
+expected ec_GFp_mont_field_encode, matched ENGINE_set_default_DH
+expected ec_GFp_mont_field_decode, matched string_to_hex
+expected ec_GFp_mont_field_set_to_one, matched CRYPTO_malloc
+expected ec_GFp_nist_group_copy, matched engine_table_register
+expected ec_GFp_nist_group_set_curve, matched EVP_PKEY_asn1_find_str
+expected ec_GFp_nist_field_mul, matched X509_TRUST_set
+expected ec_GFp_nist_field_sqr, matched dh_cb
+expected EC_POINT_bn2point, matched register_tm_clones
+expected EC_POINT_point2hex, matched ssl_cipher_strength_sort
+expected EC_POINT_hex2point, matched SSL_CTX_set_verify_depth
+expected rsa_builtin_keygen, matched RSA_generate_key_ex
+expected RSA_verify_PKCS1_PSS_mgf1, matched RSA_padding_add_PKCS1_PSS_mgf1
+expected RSA_padding_add_PKCS1_PSS_mgf1, matched EVP_PKEY_asn1_find_str
+expected DSA_generate_parameters_ex, matched EVP_EncryptUpdate
+expected dh_builtin_genparams, matched X509_TRUST_set
+expected dlfcn_load, matched CRYPTO_get_new_dynlockid
+expected dlfcn_unload, matched CRYPTO_get_new_dynlockid
+expected dlfcn_merger, matched SSL_get1_session
+expected dlfcn_pathbyaddr, matched DES_options
+expected dlfcn_globallookup, matched CRYPTO_lock
+expected RAND_query_egd_bytes, matched CRYPTO_ccm128_decrypt
+expected RAND_egd_bytes, matched EVP_MD_CTX_clear_flags
+expected ERR_print_errors_cb, matched ERR_print_errors
+expected ASN1_UNIVERSALSTRING_to_string, matched register_tm_clones
+expected UTF8_putc, matched register_tm_clones
+expected traverse_string, matched CRYPTO_mem_leaks_cb
+expected cpy_univ, matched tls12_get_hash
+expected cpy_utf8, matched BN_get_params
+expected i2d_ASN1_BOOLEAN, matched bn_sub_words
+expected d2i_ASN1_BOOLEAN, matched X509_PURPOSE_set
+expected ASN1_STRING_set_default_mask, matched CRYPTO_THREADID_set_callback
+expected ASN1_STRING_TABLE_add, matched a2i_ASN1_STRING
+expected ASN1_STRING_TABLE_cleanup, matched engine_table_register
+expected st_free, matched register_tm_clones
+expected X509_to_X509_REQ, matched register_tm_clones
+expected X509_REQ_get_pubkey, matched X509_REQ_set_pubkey
+expected X509_REQ_check_private_key, matched CRYPTO_mem_leaks_fp
+expected X509_REQ_get_extensions, matched X509_OBJECT_retrieve_match
+expected X509_REQ_add_extensions_nid, matched OBJ_add_sigid
+expected X509_REQ_delete_attr, matched CRYPTO_get_lock_name
+expected X509_REQ_add1_attr_by_OBJ, matched CRYPTO_THREADID_set_callback
+expected X509_REQ_add1_attr_by_NID, matched X509_CRL_get_ext_count
+expected X509_REQ_set_version, matched CRYPTO_get_dynlock_value
+expected X509_REQ_set_subject_name, matched DES_is_weak_key
+expected X509_REQ_set_pubkey, matched CRYPTO_THREADID_set_callback
+expected i2d_CMS_ContentInfo, matched open_console
+expected CMS_ContentInfo_print_ctx, matched CRYPTO_remove_all_info
+expected cms_Data_create, matched ENGINE_up_ref
+expected CMS_set_detached, matched ASN1_TYPE_set1
+expected cms_content_bio, matched X509_check_trust
+expected CMS_get0_content, matched pk7_cb
+expected CMS_dataInit, matched RC2_encrypt
+expected CMS_dataFinal, matched CRYPTO_mem_leaks_fp
+expected CMS_get0_eContentType, matched BN_get_word
+expected cms_get0_econtent_type, matched CMS_get0_eContentType
+expected CMS_set1_eContentType, matched X509_NAME_get_index_by_OBJ
+expected CMS_is_detached, matched X509_PURPOSE_get_by_sname
+expected cms_DigestAlgorithm_find_ctx, matched cms_DigestAlgorithm_init_bio
+expected CMS_add0_CertificateChoices, matched CMS_get1_crls
+expected CMS_add0_cert, matched CRYPTO_get_dynlock_value
+expected CMS_add0_RevocationInfoChoice, matched BIO_get_port
+expected CMS_add0_crl, matched CRYPTO_THREADID_set_callback
+expected CMS_add1_crl, matched def_get_class
+expected CMS_get1_certs, matched CMS_get1_crls
+expected CMS_get1_crls, matched CRYPTO_destroy_dynlockid
+expected cms_si_cb, matched register_tm_clones
+expected cms_ri_cb, matched by_file_ctrl
+expected cms_cb, matched CRYPTO_get_dynlock_value
+expected CMS_signed_get_attr_by_OBJ, matched GENERAL_NAME_set0_value
+expected CMS_signed_delete_attr, matched int_err_get
+expected CMS_signed_add1_attr, matched engine_table_register
+expected CMS_signed_add1_attr_by_OBJ, matched CRYPTO_thread_id
+expected CMS_signed_add1_attr_by_txt, matched register_tm_clones
+expected CMS_unsigned_get_attr_count, matched register_tm_clones
+expected CMS_unsigned_get_attr_by_NID, matched X509_PURPOSE_get0
+expected CMS_unsigned_get_attr, matched register_tm_clones
+expected CMS_unsigned_add1_attr, matched X509_CRL_get_ext_count
+expected CMS_unsigned_add1_attr_by_OBJ, matched register_tm_clones
+expected CMS_stream, matched EVP_PKEY_set1_RSA
+expected PEM_read_bio_CMS, matched close_console
+expected PEM_read_CMS, matched DSA_get_ex_new_index
+expected SMIME_write_CMS, matched sock_ctrl
+expected cms_DigestedData_create, matched int_thread_del_item
+expected BN_nist_mod_192, matched register_tm_clones
+expected BN_nist_mod_224, matched BN_nist_mod_384
+expected ec_GFp_simple_group_copy, matched BN_GF2m_mod_inv_arr
+expected ec_GFp_simple_group_set_curve, matched ec_GFp_simple_oct2point
+expected ec_GFp_simple_group_get_curve, matched CRYPTO_set_mem_debug_functions
+expected ec_GFp_simple_group_get_degree, matched register_tm_clones
+expected ec_GFp_simple_point_init, matched ERR_get_state
+expected ec_GFp_simple_point_clear_finish, matched dsa_do_sign
+expected ec_GFp_simple_point_copy, matched CRYPTO_free_locked
+expected ec_GFp_simple_set_Jprojective_coordinates_GFp, matched dtls1_retransmit_message
+expected ec_GFp_simple_get_Jprojective_coordinates_GFp, matched file_puts
+expected ec_GFp_simple_point_get_affine_coordinates, matched BN_GF2m_mod_solve_quad_arr
+expected ec_GFp_simple_add, matched BN_div
+expected ec_GFp_simple_dbl, matched RSA_setup_blinding
+expected ec_GFp_simple_invert, matched X509_OBJECT_retrieve_match
+expected ec_GFp_simple_is_on_curve, matched RSA_eay_private_encrypt
+expected ec_GFp_simple_cmp, matched BN_GF2m_mod_solve_quad_arr
+expected ec_GFp_simple_make_affine, matched dtls1_retransmit_buffered_messages
+expected ec_GFp_simple_points_make_affine, matched BN_GF2m_mod_solve_quad_arr
+expected BIO_new_NDEF, matched r2i_pci
+expected ndef_prefix, matched CRYPTO_thread_id
+expected ndef_prefix_free, matched register_tm_clones
+expected ndef_suffix, matched register_tm_clones
+expected ndef_suffix_free, matched CRYPTO_get_dynlock_value
+expected i2d_ASN1_bio_stream, matched CRYPTO_lock
+expected B64_write_ASN1, matched ssl_init_wbio_buffer
+expected asn1_output_data, matched asn1_item_ex_combine_new
+expected SMIME_read_ASN1, matched X509_PURPOSE_get_by_sname
+expected mime_hdr_find, matched CRYPTO_get_dynlock_value
+expected mime_hdr_free, matched OBJ_sigid_free
+expected multi_split, matched X509_PURPOSE_get_by_sname
+expected mime_hdr_cmp, matched CRYPTO_THREADID_set_callback
+expected mime_hdr_new, matched X509_PURPOSE_get_by_sname
+expected mime_hdr_addparam, matched mime_hdr_new
+expected strip_end, matched X509V3_EXT_nconf_nid
+expected mime_param_free, matched CRYPTO_THREADID_set_callback
+expected b64_ctrl, matched BN_GF2m_mod_arr
+expected b64_free, matched ASN1_primitive_free
+expected b64_callback_ctrl, matched CRYPTO_THREADID_set_callback
+expected BIO_asn1_get_prefix, matched tls1_alert_code
+expected BIO_asn1_set_suffix, matched BIO_asn1_get_prefix
+expected asn1_bio_write, matched dtls1_retransmit_buffered_messages
+expected asn1_bio_gets, matched OBJ_NAME_init
+expected asn1_bio_ctrl, matched ssl_write
+expected asn1_bio_new, matched X509_STORE_CTX_set_purpose
+expected asn1_bio_free, matched CRYPTO_thread_id
+expected asn1_bio_callback_ctrl, matched CRYPTO_mem_leaks_fp
+expected asn1_bio_flush_ex, matched X509_check_trust
+expected asn1_bio_init, matched SSL_get_version
