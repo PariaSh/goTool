@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	asm2vec2 "github.com/lingt-xyz/goTool/asm2vec"
 	"github.com/lingt-xyz/goTool/csv"
 	"github.com/lingt-xyz/goTool/csv/fn2fn"
 	shrink2 "github.com/lingt-xyz/goTool/csv/shrink"
@@ -29,6 +30,7 @@ var (
 	matrix      bool
 	matrixLSTM  bool
 	input       string
+	asm2vec     bool
 )
 
 func init() {
@@ -70,6 +72,9 @@ func init() {
 	flag.BoolVar(&matrixLSTM, "matrixLSTM", false, "log matrix")
 	flag.StringVar(&input, "input", "", "input file name")
 	flag.Parse()
+
+	// asm2vec evaluation
+	flag.BoolVar(&asm2vec, "asm2vec", false, "evaluate asm2vec")
 }
 
 func main() {
@@ -95,6 +100,8 @@ func main() {
 		matrix2.Matrix(input)
 	} else if matrixLSTM {
 		matrix2.MatrixLSTM(input)
+	} else if asm2vec {
+		asm2vec2.Evaluate(input)
 	}
 
 }

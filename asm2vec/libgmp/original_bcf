@@ -1,0 +1,606 @@
+did not find a match: 6
+matched expected: 101
+matched_more_than_05: 59
+matched unexpected: 432
+----------------------------------------------------------------did not find a match------------------------------------------------------------------
+__gmpz_cdiv_q_ui
+__gmpz_popcount
+__gmpq_equal
+__gmpn_toom33_mul
+__gmpn_toom6h_mul
+gmp_snprintf_final
+----------------------------------------------------------------matched expected------------------------------------------------------------------
+__gmp_extract_double 0.8731220612403966
+__gmpf_set_str 0.8726828097333091
+__gmpf_set_d 0.9185395814702952
+__gmpf_init_set 0.9173234904922074
+__gmpf_eq 0.8629015229684268
+__gmpf_out_str 0.904936784729306
+__gmpz_abs 0.8973103695142947
+__gmpz_add 0.7166388985342721
+mpz_smallkdc_bin_uiui 0.8024761197989217
+__gmpz_cmpabs_d 0.8937495188014488
+__gmpz_2fac_ui 0.7314448188044479
+__gmpz_si_kronecker 0.8760879567265393
+__gmpz_millerrabin 0.7783304554734647
+__gmpz_out_raw 0.9460129709962293
+__gmpz_random 0.9164951363510374
+__gmpz_remove 0.8617451067722285
+__gmpq_abs 0.8954331708467503
+__gmpq_aors 0.77570759246247
+__gmpn_cnd_add_n 0.8926296083140374
+__gmpn_cnd_sub_n 0.8839133334647803
+__gmpn_mul_1 0.9198300868877849
+__gmpn_add_err1_n 0.9356716723227356
+__gmpn_add_err2_n 0.8744030870870059
+__gmpn_divexact_1 0.8947245169407025
+__gmpn_divrem_1 0.8974306775239793
+__gmpn_divrem_2 0.9093872556736319
+__gmpn_mod_34lsub1 0.9107839397343006
+__gmpn_dump 0.8282606057227038
+__gmpn_mod_1s_3p 0.8763052217021339
+__gmpn_mod_1s_4p 0.9173925084282639
+__gmpn_mul_basecase 0.9315786338872923
+__gmpn_toom42_mulmid 0.6661577498223398
+__gmpn_random2 0.6612566677586377
+__gmpn_rootrem 0.854986986966346
+mpn_rootrem_internal 0.8057796751467377
+__gmpn_sqrtrem 0.70530375754998
+mpn_sb_get_str 0.8632675233470296
+__gmpn_set_str 0.9230659744517807
+__gmpn_bc_set_str 0.7536927782270222
+__gmpn_set_str_compute_powtab 0.9048037429386914
+__gmpn_popcount 0.8788478676807616
+__gmpn_perfect_power_p 0.8403523930949226
+is_kth_power 0.7690586329357448
+__gmpn_gcd_1 0.9168116680797509
+__gmpn_hgcd 0.9201440039431332
+__gmpn_hgcd2_jacobi 0.7600805019134423
+__gmpn_hgcd_jacobi 0.7092176998838037
+mpn_dc_mullo_n 0.7842534897345332
+__gmpn_toom44_mul 0.7582250039541684
+__gmpn_toom8h_mul 0.7896197985498278
+__gmpn_toom8_sqr 0.7534256825682378
+__gmpn_toom4_sqr 0.7297829047581597
+__gmpn_toom_eval_pm1 0.8422344372901558
+__gmpn_toom_eval_pm2exp 0.790646381773752
+__gmpn_toom_interpolate_7pts 0.803607726156659
+__gmpn_toom_interpolate_12pts 0.8404242483283647
+__gmpn_toom_interpolate_16pts 0.6720739045056594
+__gmpn_div_qr_1 0.8438703173452808
+__gmpn_div_qr_2n_pi1 0.8550121141810976
+__gmpn_div_qr_2u_pi1 0.795459927615853
+__gmpn_sbpi1_div_q 0.8330333564571439
+__gmpn_sbpi1_div_qr 0.8324456980777474
+mpn_mu_div_qr2 0.7930598256515266
+__gmpn_preinv_mu_div_qr 0.8730801792482192
+__gmpn_pi1_bdiv_q_1 0.9541649361367679
+__gmpn_sbpi1_bdiv_qr 0.7654094401928875
+__gmpn_bdiv_q 0.9235859981440278
+__gmpn_broot_invm1 0.7694039270932346
+__gmpn_bsqrt 0.8486030456025729
+__gmpn_bdiv_dbm1c 0.9243791809359571
+__gmpn_redc_2 0.8767078070525595
+__gmpn_powm 0.7406980488911936
+__gmpn_sec_powm 0.7661043803390183
+__gmpn_sec_div_r 0.9085078428756767
+__gmpn_sec_pi1_div_qr 0.7803375902021086
+__gmpn_sec_pi1_div_r 0.8513759124025104
+__gmpn_sec_invert 0.7603938693367708
+__gmpn_remove 0.822197076840823
+__gmpn_and_n 0.970095254458484
+__gmpn_andn_n 0.9345105376332471
+__gmpn_sec_tabselect 0.91337589491854
+__gmpn_addmul_2 0.9174550250362189
+__gmpn_addlsh1_n 0.936593464509866
+__gmpn_rsh1add_n 0.9648609585200786
+__gmpn_rsh1sub_n 0.8882951089886852
+__gmpn_addlsh2_n 0.8840340217060865
+__gmpn_addlsh_n 0.945687279660961
+__gmpn_rsblsh_n 0.9031831964106808
+__gmpn_add_n_sub_n 0.8022967544567718
+__gmp_doprnt 0.6646670543240867
+__gmp_doprnt_mpf2 0.7716725434521775
+__gmp_doprnt_integer 0.9025534051865476
+gmp_fprintf_reps 0.8751321379068794
+gmp_snprintf_format 0.8296550764687352
+gmp_asprintf_format 0.834614829196651
+__gmp_doscan 0.8349204614631518
+randget_lc 0.8629314365509863
+__gmp_mt_recalc_buffer 0.8398577741817154
+__gmp_randget_mt 0.7739559722894411
+__gmp_randiset_mt 0.8444563969759581
+randseed_mt 0.7360526314156091
+----------------------------------------------------------------number of blocks >= 1.5------------------------------------------------------------------
+__gmp_extract_double 0.8731220612403966
+__gmpf_set_str 0.8726828097333091
+__gmpf_init_set 0.9173234904922074
+__gmpf_out_str 0.904936784729306
+__gmpz_abs 0.8973103695142947
+__gmpz_add 0.7166388985342721
+mpz_smallkdc_bin_uiui 0.8024761197989217
+__gmpz_2fac_ui 0.7314448188044479
+__gmpz_millerrabin 0.7783304554734647
+__gmpz_out_raw 0.9460129709962293
+__gmpz_random 0.9164951363510374
+__gmpz_remove 0.8617451067722285
+__gmpq_abs 0.8954331708467503
+__gmpq_aors 0.77570759246247
+__gmpn_dump 0.8282606057227038
+__gmpn_toom42_mulmid 0.6661577498223398
+__gmpn_random2 0.6612566677586377
+__gmpn_rootrem 0.854986986966346
+mpn_rootrem_internal 0.8057796751467377
+__gmpn_sqrtrem 0.70530375754998
+mpn_sb_get_str 0.8632675233470296
+__gmpn_set_str 0.9230659744517807
+__gmpn_bc_set_str 0.7536927782270222
+__gmpn_perfect_power_p 0.8403523930949226
+is_kth_power 0.7690586329357448
+__gmpn_hgcd 0.9201440039431332
+__gmpn_hgcd2_jacobi 0.7600805019134423
+mpn_dc_mullo_n 0.7842534897345332
+__gmpn_toom44_mul 0.7582250039541684
+__gmpn_toom8h_mul 0.7896197985498278
+__gmpn_toom8_sqr 0.7534256825682378
+__gmpn_toom4_sqr 0.7297829047581597
+__gmpn_toom_eval_pm2exp 0.790646381773752
+__gmpn_toom_interpolate_7pts 0.803607726156659
+__gmpn_div_qr_1 0.8438703173452808
+__gmpn_sbpi1_div_q 0.8330333564571439
+__gmpn_sbpi1_div_qr 0.8324456980777474
+__gmpn_preinv_mu_div_qr 0.8730801792482192
+__gmpn_bdiv_q 0.9235859981440278
+__gmpn_broot_invm1 0.7694039270932346
+__gmpn_bsqrt 0.8486030456025729
+__gmpn_redc_2 0.8767078070525595
+__gmpn_powm 0.7406980488911936
+__gmpn_sec_powm 0.7661043803390183
+__gmpn_sec_div_r 0.9085078428756767
+__gmpn_sec_pi1_div_qr 0.7803375902021086
+__gmpn_sec_pi1_div_r 0.8513759124025104
+__gmpn_sec_invert 0.7603938693367708
+__gmpn_add_n_sub_n 0.8022967544567718
+__gmp_doprnt 0.6646670543240867
+__gmp_doprnt_mpf2 0.7716725434521775
+__gmp_doprnt_integer 0.9025534051865476
+gmp_snprintf_format 0.8296550764687352
+gmp_asprintf_format 0.834614829196651
+__gmp_doscan 0.8349204614631518
+randget_lc 0.8629314365509863
+__gmp_mt_recalc_buffer 0.8398577741817154
+__gmp_randget_mt 0.7739559722894411
+randseed_mt 0.7360526314156091
+----------------------------------------------------------------matched unexpected------------------------------------------------------------------
+expected __do_global_dtors_aux, matched __gmp_vscanf
+expected __gmp_assert_header, matched unget
+expected __gmp_default_allocate, matched get
+expected __gmp_default_reallocate, matched gmp_sprintf_reps
+expected __gmp_get_memory_functions, matched get
+expected __gmp_nextprime, matched __gmpz_set_str
+expected __gmp_primesieve, matched __gmpz_import
+expected first_block_primesieve, matched __gmpn_mod_1_1p_cps
+expected __gmp_tmp_reentrant_alloc, matched __gmpq_get_str
+expected __gmpf_init2, matched __gmpz_random
+expected __gmpf_inits, matched __gmp_asprintf
+expected __gmpf_set_z, matched __gmpf_dump
+expected __gmpf_clear, matched __gmpn_add_n_sub_n
+expected __gmpf_clears, matched __gmp_snprintf
+expected __gmpf_get_str, matched __gmpf_dump
+expected mpn_pow_1_highpart, matched __gmpf_eq
+expected __gmpf_reldiff, matched __gmpn_zero
+expected __gmpf_sqrt, matched __gmp_assert_header
+expected __gmpf_random2, matched __gmpz_random
+expected __gmpf_inp_str, matched __gmpf_dump
+expected __gmpf_add, matched hgcd_jacobi_hook
+expected __gmpf_add_ui, matched __gmpn_sec_powm
+expected __gmpf_sub, matched __gmpf_eq
+expected __gmpf_sub_ui, matched __gmpz_kronecker_si
+expected __gmpf_mul, matched __gmpf_init_set
+expected __gmpf_mul_ui, matched __gmpf_dump
+expected __gmpf_div, matched __gmpf_eq
+expected __gmpf_div_ui, matched __gmpn_sec_sub_1
+expected __gmpf_cmp, matched __gmpn_mu_div_qr_choose_in
+expected __gmpf_cmp_d, matched jacobi_hook
+expected __gmpf_cmp_ui, matched __gmpn_bsqrtinv
+expected __gmpf_cmp_si, matched __gmpn_sizeinbase
+expected __gmpf_mul_2exp, matched __gmpz_cfdiv_q_2exp
+expected __gmpf_div_2exp, matched __gmpf_eq
+expected __gmpf_neg, matched __gmpz_realloc
+expected __gmpf_set_q, matched __gmp_asprintf_reps
+expected __gmpf_get_d_2exp, matched get
+expected __gmpf_set_default_prec, matched __gmpz_random
+expected __gmpf_set_prec, matched __gmpf_random2
+expected __gmpf_ui_div, matched __gmpf_get_str
+expected __gmpf_sqrt_ui, matched __gmpf_set_str
+expected __gmpf_ceil, matched get
+expected __gmpf_ceil_or_floor, matched __gmpz_congruent_p
+expected __gmpf_trunc, matched gmp_sprintf_reps
+expected __gmpf_pow_ui, matched __gmpf_dump
+expected __gmpf_urandomb, matched __gmpn_get_str
+expected __gmpf_swap, matched __gmpn_rsblsh1_n
+expected __gmpf_fits_sint_p, matched __gmpn_zero
+expected __gmpf_fits_slong_p, matched __gmpn_add_n_sub_n
+expected __gmpf_fits_sshort_p, matched __gmpn_zero
+expected __gmpf_fits_uint_p, matched __gmpq_set_si
+expected __gmpf_fits_ulong_p, matched __gmp_asprintf_final
+expected __gmpf_fits_ushort_p, matched fprintf
+expected __gmpf_get_si, matched __gmpz_fits_slong_p
+expected __gmpf_get_ui, matched gmp_sprintf_reps
+expected __gmpf_integer_p, matched __gmpz_realloc
+expected __gmpz_add_ui, matched hgcd_jacobi_hook
+expected __gmpz_aorsmul, matched __gmpn_bc_set_str
+expected __gmpz_aorsmul_1, matched __gmpz_remove
+expected __gmpz_and, matched hgcd_jacobi_hook
+expected __gmpz_array_init, matched __gmpq_get_str
+expected __gmpz_bin_ui, matched __gmpf_dump
+expected __gmpz_bin_uiui, matched __gmpq_get_str
+expected mpz_smallk_bin_uiui, matched __gmpf_dump
+expected mpz_goetgheluck_bin_uiui, matched __gmp_randget_mt
+expected mpz_bdiv_bin_uiui, matched __gmpn_sqrlo_basecase
+expected __gmpz_cdiv_q, matched __gmpz_remove
+expected __gmpz_cdiv_qr, matched __gmpz_remove
+expected __gmpz_cdiv_qr_ui, matched __gmpz_fdiv_ui
+expected __gmpz_cdiv_r, matched __gmpf_dump
+expected __gmpz_cdiv_r_ui, matched __gmpn_get_str
+expected __gmpz_cdiv_ui, matched __gmpq_cmp_ui
+expected __gmpz_cdiv_q_2exp, matched __gmpq_get_str
+expected __gmpz_cfdiv_q_2exp, matched __gmpn_bc_set_str
+expected __gmpz_cfdiv_r_2exp, matched __gmpz_remove
+expected __gmpz_fdiv_r_2exp, matched __gmpq_get_str
+expected __gmpz_clear, matched __gmp_asprintf_final
+expected __gmpz_clears, matched __gmp_snprintf
+expected __gmpz_clrbit, matched __gmpz_random
+expected __gmpz_cmp, matched __gmpf_set
+expected __gmpz_cmp_d, matched __gmp_asprintf
+expected __gmpz_cmp_si, matched get
+expected __gmpz_cmp_ui, matched __gmpq_get_str
+expected __gmpz_cmpabs, matched __gmpz_kronecker_si
+expected __gmpz_cmpabs_ui, matched __gmpz_fits_slong_p
+expected __gmpz_com, matched hgcd_jacobi_hook
+expected __gmpz_combit, matched __gmpn_bsqrt
+expected __gmpz_congruent_p, matched __gmpn_set_str
+expected __gmpz_congruent_2exp_p, matched __gmpf_set
+expected __gmpz_congruent_ui_p, matched __gmpf_eq
+expected __gmpz_divexact, matched __gmpz_remove
+expected __gmpz_divexact_gcd, matched __gmpf_init_set_str
+expected mpz_divexact_by5, matched __gmpz_random
+expected __gmpz_divexact_ui, matched __gmpf_dump
+expected __gmpz_divisible_p, matched step_0
+expected __gmpz_divisible_ui_p, matched __gmpz_remove
+expected __gmpz_divisible_2exp_p, matched __gmpz_divisible_ui_p
+expected __gmpz_export, matched __gmpf_dump
+expected __gmpz_mfac_uiui, matched __gmpn_div_qr_1
+expected __gmpz_fac_ui, matched __gmpz_2fac_ui
+expected __gmpz_oddfac_1, matched __gmpn_zero
+expected __gmpz_prodlimbs, matched __gmpf_dump
+expected __gmpz_fdiv_q_ui, matched __gmpn_get_str
+expected __gmpz_fdiv_qr, matched __gmpz_out_str
+expected __gmpz_fdiv_qr_ui, matched __gmpz_tdiv_qr_ui
+expected __gmpz_fdiv_r, matched redcify
+expected __gmpz_fdiv_r_ui, matched __gmpn_random
+expected __gmpz_fdiv_q, matched __gmpn_sqrlo_basecase
+expected __gmpz_fdiv_ui, matched __gmpn_get_str
+expected __gmpz_fib_ui, matched __gmpn_mulmid
+expected __gmpz_fib2_ui, matched __gmpq_abs
+expected __gmpz_fits_sint_p, matched get
+expected __gmpz_fits_slong_p, matched get
+expected __gmpz_fits_sshort_p, matched get
+expected __gmpz_fits_uint_p, matched __gmpz_fits_slong_p
+expected __gmpz_fits_ulong_p, matched get
+expected __gmpz_fits_ushort_p, matched __gmpz_fits_slong_p
+expected __gmpz_gcd, matched __gmpf_eq
+expected __gmpz_gcd_ui, matched __gmpn_mulmod_bnm1_next_size
+expected __gmpz_gcdext, matched __gmpf_set_str
+expected __gmpz_get_d, matched __gmpf_set
+expected __gmpz_get_d_2exp, matched __gmpz_random
+expected __gmpz_get_si, matched __gmpf_dump
+expected __gmpz_get_str, matched __gmpf_set_str
+expected __gmpz_getlimbn, matched __gmpn_invertappr
+expected __gmpz_hamdist, matched __gmpf_dump
+expected __gmpz_import, matched is_kth_power
+expected __gmpz_init, matched __gmpq_get_str
+expected __gmpz_inits, matched __gmp_doscan
+expected __gmpz_inp_raw, matched __gmpf_eq
+expected __gmpz_inp_str, matched unget
+expected __gmpz_inp_str_nowhite, matched __gmpq_get_str
+expected __gmpz_invert, matched __gmpz_remove
+expected __gmpz_ior, matched __gmpz_congruent_p
+expected __gmpz_init_set, matched __gmpf_init_set
+expected __gmpz_init_set_si, matched __gmpq_get_str
+expected __gmpz_init_set_ui, matched __gmp_asprintf_final
+expected __gmpz_jacobi, matched __gmpf_eq
+expected __gmpz_ui_kronecker, matched get
+expected __gmpz_kronecker_si, matched __gmpf_dump
+expected __gmpz_kronecker_ui, matched __gmpn_get_str
+expected __gmpz_lcm, matched __gmpn_mu_divappr_q_itch
+expected __gmpz_lcm_ui, matched __gmpf_dump
+expected __gmpz_limbs_modify, matched __gmpn_bsqrt
+expected __gmpz_limbs_write, matched get
+expected __gmpz_lucnum_ui, matched __gmpf_dump
+expected __gmpz_lucnum2_ui, matched __gmpz_remove
+expected __gmpz_mod, matched __gmpf_out_str
+expected __gmpz_mul, matched gmp_obstack_memory
+expected __gmpz_mul_2exp, matched __gmpn_mu_divappr_q_choose_in
+expected __gmpz_mul_si, matched __gmp_assert_header
+expected __gmpz_mul_ui, matched __gmpn_get_str
+expected __gmpz_n_pow_ui, matched __gmpf_set_str
+expected __gmpz_neg, matched gmp_obstack_memory
+expected __gmpz_nextprime, matched __gmpn_sqrlo_basecase
+expected __gmpz_out_str, matched __gmpf_set_str
+expected __gmpz_pow_ui, matched __gmpf_dump
+expected __gmpz_powm, matched hgcd_jacobi_hook
+expected __gmpz_powm_sec, matched __gmpz_urandomm
+expected __gmpz_powm_ui, matched __gmpz_remove
+expected reduce, matched __gmpz_congruent_ui_p
+expected mod, matched gmp_asprintf_format
+expected __gmpz_primorial_ui, matched __gmpn_bc_set_str
+expected __gmpz_probab_prime_p, matched __gmpz_remove
+expected __gmpz_random2, matched __gmpq_get_str
+expected __gmpz_realloc, matched __gmpq_get_str
+expected __gmpz_realloc2, matched __gmpz_random
+expected __gmpz_root, matched __gmpf_dump
+expected __gmpz_rootrem, matched __gmpf_set_str
+expected __gmpz_rrandomb, matched __gmpf_random2
+expected __gmpz_scan0, matched get
+expected __gmpz_scan1, matched __gmpn_mu_div_qr_choose_in
+expected __gmpz_set, matched __gmpz_random
+expected __gmpz_set_d, matched __gmpz_cmpabs_d
+expected __gmpz_set_f, matched __gmpn_bsqrt
+expected __gmpz_set_si, matched __gmpn_bdiv_q
+expected __gmpz_set_str, matched __gmpf_set_str
+expected __gmpz_setbit, matched __gmpn_get_str
+expected __gmpz_sizeinbase, matched __gmpn_sizeinbase
+expected __gmpz_sqrt, matched __gmpf_dump
+expected __gmpz_sqrtrem, matched __gmpn_sqrlo_basecase
+expected __gmpz_sub, matched __gmpn_gcdext_hook
+expected __gmpz_sub_ui, matched __gmpz_congruent_p
+expected __gmpz_swap, matched __gmpn_bc_set_str
+expected __gmpz_tdiv_ui, matched __gmpn_matrix22_mul_itch
+expected __gmpz_tdiv_q, matched __gmpf_eq
+expected __gmpz_tdiv_q_2exp, matched __gmpf_abs
+expected __gmpz_tdiv_q_ui, matched __gmpz_remove
+expected __gmpz_tdiv_qr, matched __gmpz_remove
+expected __gmpz_tdiv_qr_ui, matched __gmpf_dump
+expected __gmpz_tdiv_r, matched __gmpn_sqrlo_basecase
+expected __gmpz_tdiv_r_2exp, matched __gmpf_eq
+expected __gmpz_tdiv_r_ui, matched __gmpf_dump
+expected __gmpz_tstbit, matched __gmpz_cmpabs
+expected __gmpz_ui_pow_ui, matched __gmpf_dump
+expected __gmpz_ui_sub, matched __gmpn_mulmod_bnm1
+expected __gmpz_urandomb, matched __gmpz_remove
+expected __gmpz_urandomm, matched __gmpf_eq
+expected __gmpz_xor, matched __gmpn_bc_set_str
+expected __gmpq_add, matched __gmp_asprintf_final
+expected __gmpq_canonicalize, matched __gmpf_set_str
+expected __gmpq_clears, matched __gmp_doscan
+expected __gmpq_cmp, matched __gmpn_bc_set_str
+expected mpq_cmp_numden, matched __gmpf_eq
+expected __gmpq_cmp_si, matched __gmp_randseed_ui
+expected __gmpq_cmp_ui, matched step_0
+expected __gmpq_div, matched __gmpq_aors
+expected __gmpq_get_d, matched __gmpz_kronecker_si
+expected __gmpq_get_den, matched __gmpf_dump
+expected __gmpq_get_num, matched __gmpn_hgcd_reduce_itch
+expected __gmpq_get_str, matched __gmpf_dump
+expected __gmpq_init, matched __gmpq_get_str
+expected __gmpq_inits, matched __gmp_snprintf
+expected __gmpq_inp_str, matched __gmpf_dump
+expected __gmpq_inv, matched __gmpz_remove
+expected mord_2exp, matched __gmpz_remove
+expected __gmpq_div_2exp, matched __gmpz_remove
+expected __gmpq_mul, matched __gmpn_mulmid
+expected __gmpq_neg, matched __gmpq_abs
+expected __gmpq_out_str, matched __gmpz_inp_str_nowhite
+expected __gmpq_set, matched __gmpq_abs
+expected __gmpq_set_den, matched __gmpq_abs
+expected __gmpq_set_num, matched __gmpq_get_num
+expected __gmpq_set_si, matched get
+expected __gmpq_set_str, matched __gmpq_get_str
+expected __gmpq_set_ui, matched get
+expected __gmpq_set_z, matched __gmpn_hgcd_reduce_itch
+expected __gmpq_set_d, matched __gmp_asprintf
+expected __gmpq_set_f, matched __gmpn_bc_set_str
+expected __gmpq_swap, matched __gmpz_realloc
+expected __gmpn_add, matched __gmpf_dump
+expected __gmpn_add_1, matched __gmpz_kronecker_si
+expected __gmpn_add_n, matched __gmpn_add_nc
+expected __gmpn_sub, matched __gmpn_bc_set_str
+expected __gmpn_sub_1, matched __gmpn_bdiv_qr
+expected __gmpn_sub_n, matched __gmpn_add_nc
+expected __gmpn_cnd_swap, matched __gmpn_sqr_diag_addlsh1
+expected __gmpn_neg, matched __gmpn_invert_limb
+expected __gmpn_com, matched gmp_sprintf_reps
+expected __gmpn_addmul_1, matched __gmpn_mul_1
+expected __gmpn_submul_1, matched __gmpn_mul_1
+expected __gmpn_sub_err1_n, matched __gmpn_add_err1_n
+expected __gmpn_sub_err2_n, matched __gmpn_add_err2_n
+expected __gmpn_lshift, matched __gmpn_iorn_n
+expected __gmpn_rshift, matched __gmpz_scan1
+expected __gmpn_divisible_p, matched __gmpn_bc_set_str
+expected __gmpn_divrem, matched __gmpz_out_str
+expected __gmpn_fib2_ui, matched __gmpz_congruent_ui_p
+expected __gmpn_mod_1, matched __gmpn_bc_set_str
+expected __gmpn_preinv_mod_1, matched __gmpn_bdiv_qr
+expected __gmpn_mod_1_1p, matched __gmpn_divrem_2
+expected __gmpn_mod_1s_2p, matched __gmpn_mod_1s_4p
+expected __gmpn_mod_1s_3p_cps, matched __gmpn_div_qr_2
+expected __gmpn_lshiftc, matched __gmpz_scan0
+expected __gmpn_mul, matched __gmpn_zero
+expected __gmpn_fft_best_k, matched __gmpn_divexact_1
+expected __gmpn_mul_fft, matched __gmpz_congruent_ui_p
+expected mpn_mul_fft_decompose, matched __gmpn_bc_set_str
+expected mpn_mul_fft_internal, matched __gmpn_mulmod_bnm1
+expected mpn_fft_mul_2exp_modF, matched __gmpn_bc_set_str
+expected mpn_fft_fft, matched mpn_mul_fft_decompose
+expected mpn_fft_mul_modF_K, matched __gmpn_mul_fft
+expected mpn_fft_fftinv, matched __gmpn_dcpi1_bdiv_q_n
+expected __gmpn_mul_n, matched __gmpn_add_n_sub_n
+expected __gmpn_sqr, matched __gmpz_remove
+expected __gmpn_nussbaumer_mul, matched __gmpn_sqrlo_basecase
+expected __gmpn_mulmid_basecase, matched __gmpn_mul_basecase
+expected __gmpn_mulmid_n, matched __gmpn_gcd
+expected __gmpn_mulmid, matched __gmpf_out_str
+expected __gmpn_random, matched __gmpz_random
+expected __gmpn_pow_1, matched __gmpn_dcpi1_bdiv_q_n
+expected mpn_dc_sqrt, matched __gmpf_set_str
+expected mpn_dc_sqrtrem, matched __gmpf_dump
+expected mpn_divappr_q, matched mpn_bc_invertappr
+expected mpn_sqrtrem2, matched mpn_dc_sqrtrem
+expected __gmpn_sizeinbase, matched gmp_sprintf_reps
+expected __gmpn_get_str, matched __gmpz_congruent_ui_p
+expected mpn_dc_get_str, matched __gmpn_sqrlo
+expected __gmpn_dc_set_str, matched __gmpn_get_str
+expected __gmpn_scan0, matched step_0
+expected __gmpn_hamdist, matched __gmpn_popcount
+expected __gmpn_zero_p, matched get
+expected __gmpn_perfect_square_p, matched step_0
+expected perfpow, matched __gmpn_fft_best_k
+expected pow_equals, matched __gmpn_zero
+expected __gmpn_gcd, matched __gmpn_sqrlo_basecase
+expected __gmpn_gcdext_1, matched __gmpn_bdiv_qr
+expected __gmpn_gcdext, matched __gmpn_gcd
+expected hgcd_mul_matrix_vector, matched __gmpn_bc_set_str
+expected __gmpn_gcd_subdiv_step, matched __gmpz_congruent_p
+expected __gmpn_gcdext_hook, matched __gmp_doprnt_mpf2
+expected __gmpn_gcdext_lehmer_n, matched __gmpq_get_str
+expected __gmpn_div_q, matched __gmpn_divisible_p
+expected __gmpn_tdiv_qr, matched __gmpz_congruent_ui_p
+expected __gmpn_jacobi_base, matched __gmpz_sizeinbase
+expected __gmpn_jacobi_2, matched __gmp_mt_recalc_buffer
+expected __gmpn_jacobi_n, matched __gmpn_sqrlo_basecase
+expected jacobi_hook, matched __gmpn_bdiv_q_1
+expected __gmpn_get_d, matched __gmpf_cmp_d
+expected __gmpn_matrix22_mul_itch, matched __gmpn_add_n_sub_n
+expected __gmpn_matrix22_mul_strassen, matched __gmpn_preinv_mu_divappr_q
+expected add_signed_n, matched __gmpf_eq
+expected __gmpn_matrix22_mul, matched __gmpn_mu_div_qr
+expected __gmpn_hgcd_matrix_update_q, matched __gmp_doprnt_integer
+expected __gmpn_hgcd_matrix_mul, matched __gmpf_eq
+expected __gmpn_hgcd_matrix_adjust, matched mpn_mul_fft_decompose
+expected __gmpn_hgcd2, matched __gmpf_dump
+expected div2, matched __gmpn_sec_tabselect
+expected __gmpn_hgcd_step, matched __gmpz_kronecker_si
+expected hgcd_hook, matched .init_proc
+expected __gmpn_hgcd_reduce_itch, matched __gmp_randinit_lc_2exp
+expected __gmpn_hgcd_reduce, matched __gmpn_dcpi1_bdiv_q_n
+expected hgcd_matrix_apply, matched __gmpz_congruent_ui_p
+expected submul, matched __gmpf_set_str
+expected __gmpn_hgcd_itch, matched __gmp_asprintf_final
+expected __gmpn_hgcd_appr_itch, matched get
+expected __gmpn_hgcd_appr, matched __gmpf_dump
+expected hgcd_jacobi_step, matched __gmpz_import
+expected hgcd_jacobi_hook, matched __gmpn_bc_set_str
+expected __gmpn_mullo_n, matched mpn_sb_get_str
+expected __gmpn_mullo_basecase, matched __gmpn_mul_2
+expected __gmpn_sqrlo, matched __gmp_vfprintf
+expected mpn_dc_sqrlo, matched __gmp_randinit_lc_2exp_size
+expected __gmpn_sqrlo_basecase, matched get
+expected __gmpn_toom22_mul, matched __gmpn_hgcd_appr
+expected __gmpn_toom32_mul, matched __gmpn_sub
+expected __gmpn_toom42_mul, matched __gmpz_congruent_ui_p
+expected __gmpn_toom52_mul, matched __gmpn_toom63_mul
+expected __gmpn_toom62_mul, matched __gmpn_bc_set_str
+expected __gmpn_toom43_mul, matched mpn_mul_fft_internal
+expected __gmpn_toom53_mul, matched __gmpf_set_str
+expected __gmpn_toom54_mul, matched mpn_mul_fft_internal
+expected __gmpn_toom63_mul, matched __gmpn_neg
+expected abs_sub_add_n, matched __gmpq_get_str
+expected __gmpn_toom_couple_handling, matched __gmpn_toom_eval_pm1
+expected __gmpn_toom2_sqr, matched __gmpn_dump
+expected __gmpn_toom3_sqr, matched __gmpn_preinv_mu_divappr_q
+expected __gmpn_toom_eval_dgr3_pm1, matched __gmpn_toom_eval_dgr3_pm2
+expected __gmpn_toom_eval_dgr3_pm2, matched __gmpn_bc_set_str
+expected __gmpn_toom_eval_pm2, matched __gmpn_bc_set_str
+expected __gmpn_toom_eval_pm2rexp, matched __gmpf_dump
+expected __gmpn_toom_interpolate_5pts, matched __gmpn_bc_set_str
+expected __gmpn_toom_interpolate_6pts, matched __gmpn_preinv_mu_divappr_q
+expected __gmpn_toom_interpolate_8pts, matched __gmpn_toom_interpolate_16pts
+expected __gmpn_ni_invertappr, matched __gmpz_congruent_ui_p
+expected mpn_bc_invertappr, matched __gmpn_invert
+expected __gmpn_invertappr, matched __gmp_randinit_mt_noseed
+expected __gmpn_invert, matched __gmpn_bc_set_str
+expected __gmpn_binvert, matched __gmpn_bc_set_str
+expected __gmpn_bc_mulmod_bnm1, matched __gmpn_bc_set_str
+expected __gmpn_mulmod_bnm1, matched __gmpn_preinv_mu_div_qr
+expected __gmpn_mulmod_bnm1_next_size, matched __gmp_vprintf
+expected __gmpn_sqrmod_bnm1, matched hgcd_jacobi_hook
+expected __gmpn_sqrmod_bnm1_next_size, matched get
+expected __gmpn_div_qr_1n_pi1, matched __gmpn_div_qr_2n_pi1
+expected __gmpn_div_qr_2, matched __gmpn_divrem_2
+expected __gmpn_sbpi1_divappr_q, matched __gmpn_addlsh2_n
+expected __gmpn_dcpi1_div_q, matched __gmpf_set_str
+expected __gmpn_dcpi1_div_qr_n, matched __gmpn_toom_interpolate_7pts
+expected __gmpn_dcpi1_div_qr, matched __gmpn_bc_set_str
+expected __gmpn_dcpi1_divappr_q_n, matched __gmpn_bc_set_str
+expected __gmpn_dcpi1_divappr_q, matched __gmpf_get_str
+expected __gmpn_mu_div_qr, matched __gmpn_preinv_mu_divappr_q
+expected __gmpn_mu_div_qr_choose_in, matched get
+expected __gmpn_mu_div_qr_itch, matched __gmpz_congruent_ui_p
+expected __gmpn_preinv_mu_div_qr_itch, matched __gmpn_add_n_sub_n
+expected __gmpn_mu_divappr_q, matched __gmpn_toom_interpolate_8pts
+expected __gmpn_mu_divappr_q_choose_in, matched get
+expected __gmpn_preinv_mu_divappr_q, matched __gmpn_mu_bdiv_q
+expected __gmpn_mu_divappr_q_itch, matched __gmpn_mu_div_qr_choose_in
+expected __gmpn_mu_div_q, matched __gmp_doscan
+expected __gmpn_mu_div_q_itch, matched __gmp_asprintf_final
+expected __gmpn_sbpi1_bdiv_q, matched __gmpn_dcpi1_bdiv_q_n
+expected __gmpn_dcpi1_bdiv_q_n, matched __gmpn_bc_set_str
+expected __gmpn_dcpi1_bdiv_q, matched gmp_snprintf_reps
+expected __gmpn_dcpi1_bdiv_qr_n, matched __gmpq_get_str
+expected __gmpn_dcpi1_bdiv_qr, matched __gmpf_set_str
+expected __gmpn_mu_bdiv_q, matched __gmpn_gcdext_lehmer_n
+expected __gmpn_mu_bdiv_q_itch, matched __gmpn_add_n_sub_n
+expected __gmpn_mu_bdiv_qr, matched __gmpn_mu_bdiv_q
+expected __gmpn_mu_bdiv_qr_itch, matched __gmpf_init_set_str
+expected __gmpn_bdiv_qr, matched __gmpn_bdiv_q
+expected __gmpn_broot, matched __gmpz_out_str
+expected __gmpn_brootinv, matched __gmpn_broot_invm1
+expected __gmpn_bsqrtinv, matched __gmpz_set_str
+expected __gmpn_divexact, matched __gmpz_remove
+expected __gmpn_redc_n, matched __gmpn_sqrlo_basecase
+expected redcify, matched __gmpf_set_str
+expected __gmpn_powlo, matched __gmpn_zero
+expected __gmpn_sec_sqr, matched __gmpz_random
+expected __gmpn_sec_div_qr, matched __gmpn_toom6_sqr
+expected __gmpn_sec_add_1, matched fprintf
+expected __gmpn_sec_sub_1, matched __gmp_nextprime
+expected __gmpn_trialdiv, matched __gmp_asprintf_reps
+expected mpn_bdiv_qr_wrap, matched __gmpz_out_str
+expected __gmpn_nand_n, matched __gmpn_andn_n
+expected __gmpn_ior_n, matched __gmpn_andn_n
+expected __gmpn_iorn_n, matched gmp_sprintf_reps
+expected __gmpn_nior_n, matched __gmpn_com
+expected __gmpn_xor_n, matched __gmpn_nand_n
+expected __gmpn_xnor_n, matched __gmp_vsprintf
+expected __gmpn_copyi, matched __gmpn_copyd
+expected __gmpn_copyd, matched __gmpz_primorial_ui
+expected __gmpn_mul_2, matched __gmpn_addmul_2
+expected __gmpn_sublsh1_n, matched __gmpn_addlsh1_n
+expected __gmpn_rsblsh1_n, matched __gmpn_addlsh1_n
+expected __gmpn_rsblsh2_n, matched __gmpn_addlsh2_n
+expected __gmpn_addaddmul_1msb0, matched __gmpn_addmul_1
+expected __gmp_asprintf_memory, matched __gmpq_get_str
+expected __gmp_asprintf_reps, matched __gmpq_get_str
+expected __gmp_asprintf_final, matched __gmpq_get_str
+expected __gmp_fprintf, matched __gmp_asprintf
+expected __gmp_printf, matched __gmpn_add_n_sub_n
+expected __gmp_snprintf, matched __gmp_asprintf
+expected gmp_snprintf_memory, matched __gmpn_get_str
+expected gmp_snprintf_reps, matched __gmpn_bdiv_q
+expected __gmp_sprintf, matched __gmp_sscanf
+expected gmp_sprintf_memory, matched __gmpn_bc_set_str
+expected __gmp_sscanf, matched __gmp_asprintf
+expected scan, matched __gmp_fprintf
+expected unget, matched get
+expected __gmp_vfscanf, matched __gmpn_bdiv_q
+expected __gmp_randinit, matched __gmp_sscanf
+expected __gmp_randclear, matched __gmpn_bc_set_str
+expected __gmp_randinit_lc_2exp_size, matched step_0
+expected __gmp_randinit_lc_2exp, matched __gmp_asprintf_final
+expected randseed_lc, matched __gmpn_zero
+expected randiset_lc, matched gmp_snprintf_format
+expected lc, matched __gmpz_congruent_ui_p
+expected mangle_seed, matched randseed_mt
+expected __gmp_urandomb_ui, matched __gmpn_get_str
+expected __gmp_urandomm_ui, matched __gmp_asprintf_reps
