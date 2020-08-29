@@ -2,7 +2,7 @@ package asm2vec
 
 import "testing"
 
-const Asm2vecTestFolder = "/Users/ling/git/goTool/asm2vec/zlib"
+const Asm2vecTestFolder = "/Users/ling/git/goTool/asm2vec/OpenSSL"
 
 func TestEvaluateAverage(t *testing.T) {
 	EvaluateAverage(Asm2vecTestFolder)
