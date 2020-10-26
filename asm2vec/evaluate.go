@@ -40,13 +40,13 @@ func Evaluate(input string) map[string]EvaluateResult {
 	resultMap := make(map[string]EvaluateResult)
 	for k, v := range logMap {
 		ss := strings.Split(k, ComparisonSeparator)
-		TP := v.matched
-		FP := v.wrongMatch
+		TP := v.matched // this is a match, and it's true
+		FP := v.wrongMatch // there is a match, but it's false
 		FN := 0
-		for _, targetName := range v.noMatchFns {
+		for _, targetName := range v.noMatchFns { // there is no match
 			fns := fnMap[ss[0]]
 			for _, sourceFn := range fns {
-				if targetName == sourceFn.name {
+				if targetName == sourceFn.name {// but it's false
 					if sourceFn.noBasicBlock >= 5 {
 						FN += 1
 					}
